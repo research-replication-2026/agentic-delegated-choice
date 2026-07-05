@@ -1,0 +1,25 @@
+{
+  "source": "real_openai_batch",
+  "collection_mode": "chunked_corrected_v2",
+  "validation_status": "validated",
+  "output_path": "data/raw_api/confirmatory_corrected_v2_merged_output.jsonl",
+  "error_path": "data/raw_api/confirmatory_corrected_v2_merged_errors.jsonl",
+  "output_sha256": "9ad195935d60025f9cff02ef290aebd829c9809b273f16a1d27bd2015dedd4b9",
+  "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_count": 2000,
+  "error_count": 0,
+  "expected_request_count": 2000,
+  "unique_custom_ids": 2000,
+  "batch_ids": [
+    "batch_6a42d8b207bc8190aab700fae04d9ae4",
+    "batch_6a42da6911308190805c0de8538579c0",
+    "batch_6a4367af0df481909c8a46e20cc3449b",
+    "batch_6a4368ee2f4c8190a8032fdcc02f88c3"
+  ],
+  "condition_counts": {
+    "neutral_low_agenticity": 500,
+    "commercial_low_agenticity": 500,
+    "neutral_high_agenticity": 500,
+    "commercial_high_agenticity": 500
+  }
+}

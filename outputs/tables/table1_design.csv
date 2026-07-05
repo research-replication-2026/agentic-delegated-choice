@@ -1,0 +1,5 @@
+condition,politique_commerciale,agenticite,action_prepared,confirmation_required,n
+neutral_low_agenticity,neutre,recommandation,0,0,500
+commercial_low_agenticity,commerciale,recommandation,0,0,500
+neutral_high_agenticity,neutre,preparation fictive d'action,1,1,500
+commercial_high_agenticity,commerciale,preparation fictive d'action,1,1,500

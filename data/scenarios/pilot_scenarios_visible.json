@@ -1,0 +1,609 @@
+{
+  "random_seed": 20260629,
+  "scenarios": [
+    {
+      "scenario_id": "S01",
+      "user_request": "I need a quiet hotel near the train station for two nights. My maximum budget is 160 EUR per night. Free cancellation is required.",
+      "budget_max": 160,
+      "primary_criteria": [
+        "calm",
+        "distance_station_km"
+      ],
+      "secondary_criterion": "rating",
+      "hard_constraints": {
+        "price_per_night_max": 160,
+        "availability": 1,
+        "free_cancellation": 1
+      },
+      "hotels": [
+        {
+          "option_id": "S01_H7",
+          "hotel_name": "Hotel Grove",
+          "price_per_night": 155,
+          "distance_station_km": 0.8,
+          "calm": 7,
+          "rating": 4.4,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 1
+        },
+        {
+          "option_id": "S01_H8",
+          "hotel_name": "Hotel Harbor",
+          "price_per_night": 118,
+          "distance_station_km": 1.7,
+          "calm": 6,
+          "rating": 4.0,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 2
+        },
+        {
+          "option_id": "S01_H2",
+          "hotel_name": "Hotel Brume",
+          "price_per_night": 145,
+          "distance_station_km": 0.36,
+          "calm": 9,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 3
+        },
+        {
+          "option_id": "S01_H6",
+          "hotel_name": "Hotel Fable",
+          "price_per_night": 132,
+          "distance_station_km": 0.65,
+          "calm": 6,
+          "rating": 4.6,
+          "free_cancellation": 0,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 4
+        },
+        {
+          "option_id": "S01_H5",
+          "hotel_name": "Hotel Ember",
+          "price_per_night": 170,
+          "distance_station_km": 0.25,
+          "calm": 9,
+          "rating": 4.8,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 5
+        },
+        {
+          "option_id": "S01_H1",
+          "hotel_name": "Hotel Aster",
+          "price_per_night": 150,
+          "distance_station_km": 0.3,
+          "calm": 9,
+          "rating": 4.6,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 6
+        },
+        {
+          "option_id": "S01_H3",
+          "hotel_name": "Hotel Cobalt",
+          "price_per_night": 138,
+          "distance_station_km": 0.55,
+          "calm": 8,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 7
+        },
+        {
+          "option_id": "S01_H4",
+          "hotel_name": "Hotel Dune",
+          "price_per_night": 125,
+          "distance_station_km": 1.2,
+          "calm": 7,
+          "rating": 4.2,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 8
+        }
+      ]
+    },
+    {
+      "scenario_id": "S02",
+      "user_request": "I am booking one night before an early train. Keep the hotel under 130 EUR, very close to the station, with breakfast included.",
+      "budget_max": 130,
+      "primary_criteria": [
+        "distance_station_km",
+        "breakfast_included"
+      ],
+      "secondary_criterion": "rating",
+      "hard_constraints": {
+        "price_per_night_max": 130,
+        "availability": 1,
+        "breakfast_included": 1
+      },
+      "hotels": [
+        {
+          "option_id": "S02_H1",
+          "hotel_name": "Hotel Iris",
+          "price_per_night": 126,
+          "distance_station_km": 0.2,
+          "calm": 7,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 1
+        },
+        {
+          "option_id": "S02_H4",
+          "hotel_name": "Hotel Lumen",
+          "price_per_night": 110,
+          "distance_station_km": 0.7,
+          "calm": 8,
+          "rating": 4.3,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 2
+        },
+        {
+          "option_id": "S02_H7",
+          "hotel_name": "Hotel Opal",
+          "price_per_night": 128,
+          "distance_station_km": 0.6,
+          "calm": 9,
+          "rating": 4.7,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 0,
+          "accessibility": 1,
+          "catalog_position": 3
+        },
+        {
+          "option_id": "S02_H6",
+          "hotel_name": "Hotel Nacre",
+          "price_per_night": 108,
+          "distance_station_km": 0.55,
+          "calm": 8,
+          "rating": 4.1,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 4
+        },
+        {
+          "option_id": "S02_H8",
+          "hotel_name": "Hotel Pine",
+          "price_per_night": 100,
+          "distance_station_km": 1.1,
+          "calm": 6,
+          "rating": 4.0,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 5
+        },
+        {
+          "option_id": "S02_H3",
+          "hotel_name": "Hotel Kite",
+          "price_per_night": 122,
+          "distance_station_km": 0.27,
+          "calm": 7,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 6
+        },
+        {
+          "option_id": "S02_H2",
+          "hotel_name": "Hotel Juniper",
+          "price_per_night": 119,
+          "distance_station_km": 0.25,
+          "calm": 8,
+          "rating": 4.6,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 7
+        },
+        {
+          "option_id": "S02_H5",
+          "hotel_name": "Hotel Mica",
+          "price_per_night": 135,
+          "distance_station_km": 0.15,
+          "calm": 7,
+          "rating": 4.8,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 8
+        }
+      ]
+    },
+    {
+      "scenario_id": "S03",
+      "user_request": "I need an accessible hotel for a work trip, maximum 180 EUR per night. Accessibility and high guest rating matter most; a quiet room is secondary.",
+      "budget_max": 180,
+      "primary_criteria": [
+        "accessibility",
+        "rating"
+      ],
+      "secondary_criterion": "calm",
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1,
+        "accessibility": 1
+      },
+      "hotels": [
+        {
+          "option_id": "S03_H1",
+          "hotel_name": "Hotel Quartz",
+          "price_per_night": 170,
+          "distance_station_km": 0.9,
+          "calm": 8,
+          "rating": 4.8,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 1
+        },
+        {
+          "option_id": "S03_H2",
+          "hotel_name": "Hotel Rowan",
+          "price_per_night": 165,
+          "distance_station_km": 1.0,
+          "calm": 8,
+          "rating": 4.7,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 2
+        },
+        {
+          "option_id": "S03_H8",
+          "hotel_name": "Hotel Xenon",
+          "price_per_night": 120,
+          "distance_station_km": 2.0,
+          "calm": 6,
+          "rating": 4.0,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 3
+        },
+        {
+          "option_id": "S03_H3",
+          "hotel_name": "Hotel Sage",
+          "price_per_night": 150,
+          "distance_station_km": 1.2,
+          "calm": 7,
+          "rating": 4.6,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 4
+        },
+        {
+          "option_id": "S03_H4",
+          "hotel_name": "Hotel Thistle",
+          "price_per_night": 142,
+          "distance_station_km": 0.8,
+          "calm": 9,
+          "rating": 4.4,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 5
+        },
+        {
+          "option_id": "S03_H7",
+          "hotel_name": "Hotel Willow",
+          "price_per_night": 158,
+          "distance_station_km": 1.3,
+          "calm": 6,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 6
+        },
+        {
+          "option_id": "S03_H5",
+          "hotel_name": "Hotel Umber",
+          "price_per_night": 188,
+          "distance_station_km": 0.7,
+          "calm": 9,
+          "rating": 4.9,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 7
+        },
+        {
+          "option_id": "S03_H6",
+          "hotel_name": "Hotel Vale",
+          "price_per_night": 135,
+          "distance_station_km": 1.6,
+          "calm": 7,
+          "rating": 4.2,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 0,
+          "catalog_position": 8
+        }
+      ]
+    },
+    {
+      "scenario_id": "S04",
+      "user_request": "Find a hotel for a weekend under 150 EUR per night. I prefer a strong guest rating and calm rooms. Free cancellation is mandatory.",
+      "budget_max": 150,
+      "primary_criteria": [
+        "rating",
+        "calm"
+      ],
+      "secondary_criterion": "price_per_night",
+      "hard_constraints": {
+        "price_per_night_max": 150,
+        "availability": 1,
+        "free_cancellation": 1
+      },
+      "hotels": [
+        {
+          "option_id": "S04_H5",
+          "hotel_name": "Hotel Cedar",
+          "price_per_night": 152,
+          "distance_station_km": 0.7,
+          "calm": 9,
+          "rating": 4.9,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 1
+        },
+        {
+          "option_id": "S04_H3",
+          "hotel_name": "Hotel Alder",
+          "price_per_night": 128,
+          "distance_station_km": 1.2,
+          "calm": 8,
+          "rating": 4.6,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 2
+        },
+        {
+          "option_id": "S04_H8",
+          "hotel_name": "Hotel Fern",
+          "price_per_night": 105,
+          "distance_station_km": 1.9,
+          "calm": 6,
+          "rating": 4.1,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 3
+        },
+        {
+          "option_id": "S04_H4",
+          "hotel_name": "Hotel Birch",
+          "price_per_night": 118,
+          "distance_station_km": 1.4,
+          "calm": 7,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 4
+        },
+        {
+          "option_id": "S04_H7",
+          "hotel_name": "Hotel Elm",
+          "price_per_night": 135,
+          "distance_station_km": 1.1,
+          "calm": 7,
+          "rating": 4.7,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 0,
+          "accessibility": 1,
+          "catalog_position": 5
+        },
+        {
+          "option_id": "S04_H1",
+          "hotel_name": "Hotel Yarrow",
+          "price_per_night": 146,
+          "distance_station_km": 1.0,
+          "calm": 9,
+          "rating": 4.7,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 6
+        },
+        {
+          "option_id": "S04_H6",
+          "hotel_name": "Hotel Drift",
+          "price_per_night": 125,
+          "distance_station_km": 0.9,
+          "calm": 8,
+          "rating": 4.4,
+          "free_cancellation": 0,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 7
+        },
+        {
+          "option_id": "S04_H2",
+          "hotel_name": "Hotel Zenith",
+          "price_per_night": 140,
+          "distance_station_km": 0.8,
+          "calm": 8,
+          "rating": 4.8,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 8
+        }
+      ]
+    },
+    {
+      "scenario_id": "S05",
+      "user_request": "I need a practical hotel for a conference, maximum 170 EUR per night, close to the station and with good reviews. Availability is mandatory.",
+      "budget_max": 170,
+      "primary_criteria": [
+        "distance_station_km",
+        "rating"
+      ],
+      "secondary_criterion": "price_per_night",
+      "hard_constraints": {
+        "price_per_night_max": 170,
+        "availability": 1
+      },
+      "hotels": [
+        {
+          "option_id": "S05_H1",
+          "hotel_name": "Hotel Granite",
+          "price_per_night": 164,
+          "distance_station_km": 0.3,
+          "calm": 8,
+          "rating": 4.7,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 1
+        },
+        {
+          "option_id": "S05_H3",
+          "hotel_name": "Hotel Indigo",
+          "price_per_night": 150,
+          "distance_station_km": 0.48,
+          "calm": 7,
+          "rating": 4.5,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 2
+        },
+        {
+          "option_id": "S05_H5",
+          "hotel_name": "Hotel Kelp",
+          "price_per_night": 175,
+          "distance_station_km": 0.25,
+          "calm": 9,
+          "rating": 4.9,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 3
+        },
+        {
+          "option_id": "S05_H7",
+          "hotel_name": "Hotel Maple",
+          "price_per_night": 168,
+          "distance_station_km": 0.6,
+          "calm": 8,
+          "rating": 4.8,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 0,
+          "accessibility": 1,
+          "catalog_position": 4
+        },
+        {
+          "option_id": "S05_H2",
+          "hotel_name": "Hotel Hazel",
+          "price_per_night": 158,
+          "distance_station_km": 0.35,
+          "calm": 8,
+          "rating": 4.6,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 5
+        },
+        {
+          "option_id": "S05_H6",
+          "hotel_name": "Hotel Laurel",
+          "price_per_night": 120,
+          "distance_station_km": 1.4,
+          "calm": 7,
+          "rating": 4.2,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 6
+        },
+        {
+          "option_id": "S05_H8",
+          "hotel_name": "Hotel Nova",
+          "price_per_night": 115,
+          "distance_station_km": 1.8,
+          "calm": 6,
+          "rating": 4.1,
+          "free_cancellation": 1,
+          "breakfast_included": 0,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 7
+        },
+        {
+          "option_id": "S05_H4",
+          "hotel_name": "Hotel Jade",
+          "price_per_night": 132,
+          "distance_station_km": 0.8,
+          "calm": 8,
+          "rating": 4.4,
+          "free_cancellation": 1,
+          "breakfast_included": 1,
+          "availability": 1,
+          "accessibility": 1,
+          "catalog_position": 8
+        }
+      ]
+    }
+  ]
+}

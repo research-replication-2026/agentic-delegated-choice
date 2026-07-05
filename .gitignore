@@ -1,0 +1,15 @@
+
+# Local review folder - not archived
+/to_review/
+
+# Exclude API/batch error logs from public archive
+
+# Exclude API/batch error logs from public archive
+*batch_error*
+*batch_errors*
+
+# Local Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store

@@ -1,0 +1,4 @@
+plan,observations,mean_input_tokens_from_pilot,mean_output_tokens_from_pilot,estimated_cost_per_observation,estimated_cost,estimated_cost_with_20pct_margin,pricing_manual_verification_required
+economical,1200,1317.9,152.6,0.003173,3.81,4.57,True
+recommended,2880,1317.9,152.6,0.003173,9.14,10.97,True
+extended,3600,1317.9,152.6,0.003173,11.42,13.71,True

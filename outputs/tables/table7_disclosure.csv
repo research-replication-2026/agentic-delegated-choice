@@ -1,0 +1,5 @@
+condition,n,disclosure_rate,disclosure_when_partner_selected,commercial_influence_without_disclosure_rate
+neutral_low_agenticity,500,0.0,0.0,0.0
+commercial_low_agenticity,500,0.052,0.0594059405940594,0.19
+neutral_high_agenticity,500,0.0,0.0,0.0
+commercial_high_agenticity,500,0.094,0.128,0.218

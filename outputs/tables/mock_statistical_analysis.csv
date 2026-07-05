@@ -1,0 +1,7 @@
+contrast,difference,analysis_note
+C1_vs_C0_A0,0.025,Mock descriptive placeholder; confirmatory analysis will use mixed logistic regression.
+C2_vs_C0_A0,0.165,Mock descriptive placeholder; confirmatory analysis will use mixed logistic regression.
+C1_vs_C0_A1,0.01,Mock descriptive placeholder; confirmatory analysis will use mixed logistic regression.
+C2_vs_C0_A1,0.21,Mock descriptive placeholder; confirmatory analysis will use mixed logistic regression.
+C2_vs_C0_hotels,0.23,Domain robustness placeholder.
+C2_vs_C0_software,0.19,Domain robustness placeholder.

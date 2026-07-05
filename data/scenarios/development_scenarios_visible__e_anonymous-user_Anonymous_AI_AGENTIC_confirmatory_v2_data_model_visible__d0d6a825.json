@@ -1,0 +1,7039 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "DEV_HOT_01",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 1 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 160,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_001_O1",
+          "name": "Hotels Option 1-1",
+          "price": 94.57,
+          "distance": 0.78,
+          "rating": 3.62,
+          "calm": 57,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O2",
+          "name": "Hotels Option 1-2",
+          "price": 95.4506,
+          "distance": 0.8608,
+          "rating": 4.47,
+          "calm": 92,
+          "breakfast": 0.98,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O3",
+          "name": "Hotels Option 1-3",
+          "price": 96.77149999999999,
+          "distance": 0.982,
+          "rating": 3.32,
+          "calm": 81,
+          "breakfast": 0.95,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O4",
+          "name": "Hotels Option 1-4",
+          "price": 94.57,
+          "distance": 1.37,
+          "rating": 4.59,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O5",
+          "name": "Hotels Option 1-5",
+          "price": 142.86,
+          "distance": 0.3,
+          "rating": 4.15,
+          "calm": 59,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O6",
+          "name": "Hotels Option 1-6",
+          "price": 110.43,
+          "distance": 1.56,
+          "rating": 3.36,
+          "calm": 87,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O7",
+          "name": "Hotels Option 1-7",
+          "price": 104.86,
+          "distance": 7.08,
+          "rating": 4.35,
+          "calm": 57,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O8",
+          "name": "Hotels Option 1-8",
+          "price": 120.39,
+          "distance": 0.51,
+          "rating": 4.93,
+          "calm": 69,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_001_O9",
+          "name": "Hotels Option 1-9",
+          "price": 165.62,
+          "distance": 3.17,
+          "rating": 3.7,
+          "calm": 98,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_02",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 2 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_002_O1",
+          "name": "Hotels Option 2-1",
+          "price": 101.61,
+          "distance": 6.57,
+          "rating": 4.24,
+          "calm": 91.0,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O2",
+          "name": "Hotels Option 2-2",
+          "price": 120.39999999999999,
+          "distance": 3.34,
+          "rating": 4.028,
+          "calm": 86.45,
+          "breakfast": 0.95,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O3",
+          "name": "Hotels Option 2-3",
+          "price": 90.35,
+          "distance": 1.8,
+          "rating": 3.9008,
+          "calm": 83.72,
+          "breakfast": 0.9199999999999999,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O4",
+          "name": "Hotels Option 2-4",
+          "price": 120.39999999999999,
+          "distance": 7.84,
+          "rating": 3.77,
+          "calm": 91,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O5",
+          "name": "Hotels Option 2-5",
+          "price": 147.36,
+          "distance": 2.78,
+          "rating": 4.33,
+          "calm": 83,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O6",
+          "name": "Hotels Option 2-6",
+          "price": 125.34,
+          "distance": 2.56,
+          "rating": 4.2,
+          "calm": 58,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O7",
+          "name": "Hotels Option 2-7",
+          "price": 94.51,
+          "distance": 1.67,
+          "rating": 4.72,
+          "calm": 93,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_002_O8",
+          "name": "Hotels Option 2-8",
+          "price": 91.89,
+          "distance": 6.28,
+          "rating": 4.81,
+          "calm": 97,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_03",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 3 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 210,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_003_O1",
+          "name": "Hotels Option 3-1",
+          "price": 180.6,
+          "distance": 7.8,
+          "rating": 4.77,
+          "calm": 82.0,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O2",
+          "name": "Hotels Option 3-2",
+          "price": 172.42,
+          "distance": 4.45,
+          "rating": 4.3884,
+          "calm": 75.44,
+          "breakfast": 0.92,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O3",
+          "name": "Hotels Option 3-3",
+          "price": 180.6,
+          "distance": 6.81,
+          "rating": 4.245299999999999,
+          "calm": 72.98,
+          "breakfast": 0.89,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O4",
+          "name": "Hotels Option 3-4",
+          "price": 138.46,
+          "distance": 0.67,
+          "rating": 4.29,
+          "calm": 55,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O5",
+          "name": "Hotels Option 3-5",
+          "price": 188.98,
+          "distance": 6.68,
+          "rating": 3.25,
+          "calm": 80,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O6",
+          "name": "Hotels Option 3-6",
+          "price": 145.37,
+          "distance": 5.35,
+          "rating": 3.37,
+          "calm": 57,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O7",
+          "name": "Hotels Option 3-7",
+          "price": 184.61,
+          "distance": 5.26,
+          "rating": 4.68,
+          "calm": 91,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_003_O8",
+          "name": "Hotels Option 3-8",
+          "price": 161.94,
+          "distance": 4.19,
+          "rating": 4.31,
+          "calm": 91,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_04",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 4 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_004_O1",
+          "name": "Hotels Option 4-1",
+          "price": 101.17,
+          "distance": 1.67,
+          "rating": 4.62,
+          "calm": 100.0,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O2",
+          "name": "Hotels Option 4-2",
+          "price": 84.78,
+          "distance": 4.51,
+          "rating": 4.0656,
+          "calm": 88.0,
+          "breakfast": 0.88,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O3",
+          "name": "Hotels Option 4-3",
+          "price": 120.39999999999999,
+          "distance": 2.51,
+          "rating": 3.927,
+          "calm": 85.0,
+          "breakfast": 0.85,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O4",
+          "name": "Hotels Option 4-4",
+          "price": 86.49,
+          "distance": 3.31,
+          "rating": 4.53,
+          "calm": 100,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O5",
+          "name": "Hotels Option 4-5",
+          "price": 150.54,
+          "distance": 0.24,
+          "rating": 4.45,
+          "calm": 55,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O6",
+          "name": "Hotels Option 4-6",
+          "price": 96.51,
+          "distance": 7.9,
+          "rating": 4.98,
+          "calm": 68,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O7",
+          "name": "Hotels Option 4-7",
+          "price": 97.01,
+          "distance": 5.07,
+          "rating": 4.92,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O8",
+          "name": "Hotels Option 4-8",
+          "price": 102.17,
+          "distance": 1.12,
+          "rating": 4.77,
+          "calm": 74,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O9",
+          "name": "Hotels Option 4-9",
+          "price": 87.73,
+          "distance": 2.78,
+          "rating": 4.58,
+          "calm": 62,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_004_O10",
+          "name": "Hotels Option 4-10",
+          "price": 127.36,
+          "distance": 0.39,
+          "rating": 3.42,
+          "calm": 65,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_05",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 5 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_005_O1",
+          "name": "Hotels Option 5-1",
+          "price": 89.53,
+          "distance": 4.28,
+          "rating": 4.97,
+          "calm": 96.0,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O2",
+          "name": "Hotels Option 5-2",
+          "price": 115.38,
+          "distance": 2.53,
+          "rating": 4.8706,
+          "calm": 94.08,
+          "breakfast": 0,
+          "free_cancellation": 0.98,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O3",
+          "name": "Hotels Option 5-3",
+          "price": 120.39999999999999,
+          "distance": 4.71,
+          "rating": 4.7215,
+          "calm": 91.19999999999999,
+          "breakfast": 1,
+          "free_cancellation": 0.95,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O4",
+          "name": "Hotels Option 5-4",
+          "price": 120.39999999999999,
+          "distance": 0.68,
+          "rating": 4.96,
+          "calm": 94,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O5",
+          "name": "Hotels Option 5-5",
+          "price": 116.09,
+          "distance": 5.4,
+          "rating": 3.76,
+          "calm": 56,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O6",
+          "name": "Hotels Option 5-6",
+          "price": 118.23,
+          "distance": 2.91,
+          "rating": 3.81,
+          "calm": 69,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O7",
+          "name": "Hotels Option 5-7",
+          "price": 102.88,
+          "distance": 4.18,
+          "rating": 3.38,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O8",
+          "name": "Hotels Option 5-8",
+          "price": 145.1,
+          "distance": 2.01,
+          "rating": 4.68,
+          "calm": 57,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O9",
+          "name": "Hotels Option 5-9",
+          "price": 150.54,
+          "distance": 6.41,
+          "rating": 3.98,
+          "calm": 87,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_005_O10",
+          "name": "Hotels Option 5-10",
+          "price": 130.73,
+          "distance": 4.58,
+          "rating": 4.52,
+          "calm": 90,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_06",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 6 that respects the budget and prioritizes distance and rating.",
+      "primary_criteria": [
+        "distance",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "calm",
+        "price"
+      ],
+      "hard_constraints": {
+        "price_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_006_O1",
+          "name": "Hotels Option 6-1",
+          "price": 111.04,
+          "distance": 2.56,
+          "rating": 4.96,
+          "calm": 96.0,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_006_O2",
+          "name": "Hotels Option 6-2",
+          "price": 113.278,
+          "distance": 2.845,
+          "rating": 4.712,
+          "calm": 91.19999999999999,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_006_O3",
+          "name": "Hotels Option 6-3",
+          "price": 114.6208,
+          "distance": 3.016,
+          "rating": 4.563199999999999,
+          "calm": 88.32,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_006_O4",
+          "name": "Hotels Option 6-4",
+          "price": 154.8,
+          "distance": 4.02,
+          "rating": 4.96,
+          "calm": 64,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_006_O5",
+          "name": "Hotels Option 6-5",
+          "price": 129.25,
+          "distance": 6.03,
+          "rating": 4.64,
+          "calm": 67,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_006_O6",
+          "name": "Hotels Option 6-6",
+          "price": 192.64,
+          "distance": 3.78,
+          "rating": 3.7,
+          "calm": 59,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_006_O7",
+          "name": "Hotels Option 6-7",
+          "price": 174.88,
+          "distance": 2.32,
+          "rating": 4.19,
+          "calm": 73,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_006_O8",
+          "name": "Hotels Option 6-8",
+          "price": 166.55,
+          "distance": 7.67,
+          "rating": 3.43,
+          "calm": 99,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_07",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 7 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "calm",
+        "price"
+      ],
+      "hard_constraints": {
+        "price_max": 210,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_007_O1",
+          "name": "Hotels Option 7-1",
+          "price": 165.13,
+          "distance": 4.44,
+          "rating": 3.7,
+          "calm": 92.0,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_007_O2",
+          "name": "Hotels Option 7-2",
+          "price": 166.4476,
+          "distance": 4.6432,
+          "rating": 3.58,
+          "calm": 84.64,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_007_O3",
+          "name": "Hotels Option 7-3",
+          "price": 166.9417,
+          "distance": 4.7194,
+          "rating": 4.25,
+          "calm": 81.88,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_007_O4",
+          "name": "Hotels Option 7-4",
+          "price": 180.6,
+          "distance": 5.26,
+          "rating": 3.27,
+          "calm": 69,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_007_O5",
+          "name": "Hotels Option 7-5",
+          "price": 225.23,
+          "distance": 2.1,
+          "rating": 4.06,
+          "calm": 94,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_007_O6",
+          "name": "Hotels Option 7-6",
+          "price": 202.05,
+          "distance": 5.04,
+          "rating": 4.19,
+          "calm": 72,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_007_O7",
+          "name": "Hotels Option 7-7",
+          "price": 124.54,
+          "distance": 6.82,
+          "rating": 3.22,
+          "calm": 57,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_007_O8",
+          "name": "Hotels Option 7-8",
+          "price": 199.17,
+          "distance": 4.22,
+          "rating": 3.48,
+          "calm": 77,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_007_O9",
+          "name": "Hotels Option 7-9",
+          "price": 178.69,
+          "distance": 4.72,
+          "rating": 3.55,
+          "calm": 74,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_08",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 8 that respects the budget and prioritizes distance and rating.",
+      "primary_criteria": [
+        "distance",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_008_O1",
+          "name": "Hotels Option 8-1",
+          "price": 80.41,
+          "distance": 1.57,
+          "rating": 3.88,
+          "calm": 71,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O2",
+          "name": "Hotels Option 8-2",
+          "price": 95.57,
+          "distance": 2.398,
+          "rating": 3.4144,
+          "calm": 81,
+          "breakfast": 0.88,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O3",
+          "name": "Hotels Option 8-3",
+          "price": 120.39999999999999,
+          "distance": 2.605,
+          "rating": 3.298,
+          "calm": 78,
+          "breakfast": 0.85,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O4",
+          "name": "Hotels Option 8-4",
+          "price": 120.39999999999999,
+          "distance": 6.0,
+          "rating": 3.33,
+          "calm": 80,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O5",
+          "name": "Hotels Option 8-5",
+          "price": 108.29,
+          "distance": 5.17,
+          "rating": 3.76,
+          "calm": 76,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O6",
+          "name": "Hotels Option 8-6",
+          "price": 113.55,
+          "distance": 3.03,
+          "rating": 3.85,
+          "calm": 94,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O7",
+          "name": "Hotels Option 8-7",
+          "price": 84.85,
+          "distance": 6.09,
+          "rating": 4.97,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_008_O8",
+          "name": "Hotels Option 8-8",
+          "price": 150.55,
+          "distance": 4.58,
+          "rating": 3.95,
+          "calm": 92,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_09",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 9 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "calm",
+        "price"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_009_O1",
+          "name": "Hotels Option 9-1",
+          "price": 84.19,
+          "distance": 1.62,
+          "rating": 3.6,
+          "calm": 93.0,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O2",
+          "name": "Hotels Option 9-2",
+          "price": 84.9342,
+          "distance": 1.766,
+          "rating": 4.12,
+          "calm": 91.14,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O3",
+          "name": "Hotels Option 9-3",
+          "price": 86.0505,
+          "distance": 1.985,
+          "rating": 3.87,
+          "calm": 88.35,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O4",
+          "name": "Hotels Option 9-4",
+          "price": 120.39999999999999,
+          "distance": 1.62,
+          "rating": 3.76,
+          "calm": 85,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O5",
+          "name": "Hotels Option 9-5",
+          "price": 80.82,
+          "distance": 3.16,
+          "rating": 3.28,
+          "calm": 95,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O6",
+          "name": "Hotels Option 9-6",
+          "price": 140.97,
+          "distance": 7.15,
+          "rating": 3.59,
+          "calm": 97,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O7",
+          "name": "Hotels Option 9-7",
+          "price": 98.89,
+          "distance": 3.05,
+          "rating": 3.27,
+          "calm": 77,
+          "breakfast": 0,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O8",
+          "name": "Hotels Option 9-8",
+          "price": 146.79,
+          "distance": 1.47,
+          "rating": 4.44,
+          "calm": 59,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_009_O9",
+          "name": "Hotels Option 9-9",
+          "price": 130.15,
+          "distance": 7.71,
+          "rating": 3.92,
+          "calm": 68,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_10",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 10 that respects the budget and prioritizes distance and rating.",
+      "primary_criteria": [
+        "distance",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 210,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_010_O1",
+          "name": "Hotels Option 10-1",
+          "price": 162.71,
+          "distance": 0.32,
+          "rating": 4.21,
+          "calm": 96,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O2",
+          "name": "Hotels Option 10-2",
+          "price": 168.61,
+          "distance": 0.6535,
+          "rating": 3.9995,
+          "calm": 84,
+          "breakfast": 1,
+          "free_cancellation": 0.95,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O3",
+          "name": "Hotels Option 10-3",
+          "price": 180.6,
+          "distance": 0.8535999999999999,
+          "rating": 3.8731999999999998,
+          "calm": 75,
+          "breakfast": 1,
+          "free_cancellation": 0.9199999999999999,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O4",
+          "name": "Hotels Option 10-4",
+          "price": 138.84,
+          "distance": 3.61,
+          "rating": 4.21,
+          "calm": 96,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O5",
+          "name": "Hotels Option 10-5",
+          "price": 219.61,
+          "distance": 7.88,
+          "rating": 4.93,
+          "calm": 82,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O6",
+          "name": "Hotels Option 10-6",
+          "price": 231.88,
+          "distance": 2.94,
+          "rating": 4.41,
+          "calm": 80,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O7",
+          "name": "Hotels Option 10-7",
+          "price": 127.71,
+          "distance": 2.63,
+          "rating": 4.66,
+          "calm": 88,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_010_O8",
+          "name": "Hotels Option 10-8",
+          "price": 221.71,
+          "distance": 4.2,
+          "rating": 4.65,
+          "calm": 69,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_11",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 11 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 210,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_011_O1",
+          "name": "Hotels Option 11-1",
+          "price": 139.98,
+          "distance": 0.28,
+          "rating": 4.51,
+          "calm": 90,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O2",
+          "name": "Hotels Option 11-2",
+          "price": 143.3096,
+          "distance": 0.7192000000000001,
+          "rating": 4.72,
+          "calm": 98,
+          "breakfast": 0.92,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O3",
+          "name": "Hotels Option 11-3",
+          "price": 144.5582,
+          "distance": 0.8838999999999999,
+          "rating": 3.45,
+          "calm": 91,
+          "breakfast": 0.89,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O4",
+          "name": "Hotels Option 11-4",
+          "price": 148.15,
+          "distance": 0.28,
+          "rating": 3.75,
+          "calm": 97,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O5",
+          "name": "Hotels Option 11-5",
+          "price": 184.81,
+          "distance": 5.47,
+          "rating": 3.49,
+          "calm": 69,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O6",
+          "name": "Hotels Option 11-6",
+          "price": 189.98,
+          "distance": 4.72,
+          "rating": 4.35,
+          "calm": 72,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O7",
+          "name": "Hotels Option 11-7",
+          "price": 128.44,
+          "distance": 7.79,
+          "rating": 3.4,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O8",
+          "name": "Hotels Option 11-8",
+          "price": 220.07,
+          "distance": 4.15,
+          "rating": 3.43,
+          "calm": 89,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_011_O9",
+          "name": "Hotels Option 11-9",
+          "price": 145.12,
+          "distance": 5.02,
+          "rating": 3.38,
+          "calm": 63,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_12",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 12 that respects the budget and prioritizes distance and rating.",
+      "primary_criteria": [
+        "distance",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_012_O1",
+          "name": "Hotels Option 12-1",
+          "price": 87.48,
+          "distance": 1.11,
+          "rating": 4.93,
+          "calm": 68,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O2",
+          "name": "Hotels Option 12-2",
+          "price": 80.87,
+          "distance": 1.8552,
+          "rating": 4.3384,
+          "calm": 65,
+          "breakfast": 0,
+          "free_cancellation": 0.88,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O3",
+          "name": "Hotels Option 12-3",
+          "price": 120.39999999999999,
+          "distance": 2.0415,
+          "rating": 4.190499999999999,
+          "calm": 62,
+          "breakfast": 1,
+          "free_cancellation": 0.85,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O4",
+          "name": "Hotels Option 12-4",
+          "price": 116.55,
+          "distance": 1.11,
+          "rating": 4.13,
+          "calm": 97,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O5",
+          "name": "Hotels Option 12-5",
+          "price": 135.29,
+          "distance": 3.15,
+          "rating": 3.57,
+          "calm": 58,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O6",
+          "name": "Hotels Option 12-6",
+          "price": 145.81,
+          "distance": 2.62,
+          "rating": 4.7,
+          "calm": 67,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O7",
+          "name": "Hotels Option 12-7",
+          "price": 83.85,
+          "distance": 1.68,
+          "rating": 4.99,
+          "calm": 81,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_012_O8",
+          "name": "Hotels Option 12-8",
+          "price": 118.49,
+          "distance": 6.24,
+          "rating": 3.46,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_13",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 13 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_013_O1",
+          "name": "Hotels Option 13-1",
+          "price": 79.84,
+          "distance": 0.8,
+          "rating": 4.2,
+          "calm": 75,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_013_O2",
+          "name": "Hotels Option 13-2",
+          "price": 80.6712,
+          "distance": 0.9386000000000001,
+          "rating": 4.78,
+          "calm": 75,
+          "breakfast": 1,
+          "free_cancellation": 0.98,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_013_O3",
+          "name": "Hotels Option 13-3",
+          "price": 81.918,
+          "distance": 1.1465,
+          "rating": 4.1,
+          "calm": 76,
+          "breakfast": 1,
+          "free_cancellation": 0.95,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_013_O4",
+          "name": "Hotels Option 13-4",
+          "price": 79.84,
+          "distance": 2.61,
+          "rating": 3.94,
+          "calm": 82,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_013_O5",
+          "name": "Hotels Option 13-5",
+          "price": 125.28,
+          "distance": 4.19,
+          "rating": 4.75,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_013_O6",
+          "name": "Hotels Option 13-6",
+          "price": 95.98,
+          "distance": 7.94,
+          "rating": 4.59,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_013_O7",
+          "name": "Hotels Option 13-7",
+          "price": 149.04,
+          "distance": 2.79,
+          "rating": 3.48,
+          "calm": 63,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_013_O8",
+          "name": "Hotels Option 13-8",
+          "price": 78.5,
+          "distance": 4.82,
+          "rating": 4.49,
+          "calm": 81,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_14",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 14 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_014_O1",
+          "name": "Hotels Option 14-1",
+          "price": 109.05,
+          "distance": 0.21,
+          "rating": 4.41,
+          "calm": 74,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O2",
+          "name": "Hotels Option 14-2",
+          "price": 111.3875,
+          "distance": 0.6435,
+          "rating": 4.71,
+          "calm": 92,
+          "breakfast": 1,
+          "free_cancellation": 0.95,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O3",
+          "name": "Hotels Option 14-3",
+          "price": 112.78999999999999,
+          "distance": 0.9036,
+          "rating": 4.09,
+          "calm": 99,
+          "breakfast": 0,
+          "free_cancellation": 0.9199999999999999,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O4",
+          "name": "Hotels Option 14-4",
+          "price": 109.65,
+          "distance": 6.19,
+          "rating": 4.16,
+          "calm": 96,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O5",
+          "name": "Hotels Option 14-5",
+          "price": 141.27,
+          "distance": 6.55,
+          "rating": 4.46,
+          "calm": 66,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O6",
+          "name": "Hotels Option 14-6",
+          "price": 166.84,
+          "distance": 4.68,
+          "rating": 3.53,
+          "calm": 59,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_014_O7",
+          "name": "Hotels Option 14-7",
+          "price": 102.64,
+          "distance": 3.62,
+          "rating": 3.74,
+          "calm": 58,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O8",
+          "name": "Hotels Option 14-8",
+          "price": 125.02,
+          "distance": 7.38,
+          "rating": 4.33,
+          "calm": 93,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_014_O9",
+          "name": "Hotels Option 14-9",
+          "price": 131.56,
+          "distance": 1.36,
+          "rating": 4.89,
+          "calm": 82,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_15",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 15 that respects the budget and prioritizes distance and rating.",
+      "primary_criteria": [
+        "distance",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 140,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_015_O1",
+          "name": "Hotels Option 15-1",
+          "price": 84.97,
+          "distance": 0.51,
+          "rating": 4.96,
+          "calm": 86,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O2",
+          "name": "Hotels Option 15-2",
+          "price": 120.39999999999999,
+          "distance": 1.1356000000000002,
+          "rating": 4.5632,
+          "calm": 87,
+          "breakfast": 0.92,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O3",
+          "name": "Hotels Option 15-3",
+          "price": 93.83,
+          "distance": 1.3702,
+          "rating": 4.4144,
+          "calm": 72,
+          "breakfast": 0.89,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O4",
+          "name": "Hotels Option 15-4",
+          "price": 120.39999999999999,
+          "distance": 0.51,
+          "rating": 3.32,
+          "calm": 98,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O5",
+          "name": "Hotels Option 15-5",
+          "price": 97.3,
+          "distance": 4.17,
+          "rating": 3.24,
+          "calm": 72,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O6",
+          "name": "Hotels Option 15-6",
+          "price": 118.23,
+          "distance": 0.53,
+          "rating": 3.35,
+          "calm": 98,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O7",
+          "name": "Hotels Option 15-7",
+          "price": 93.49,
+          "distance": 2.15,
+          "rating": 4.9,
+          "calm": 86,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_015_O8",
+          "name": "Hotels Option 15-8",
+          "price": 102.43,
+          "distance": 4.84,
+          "rating": 4.19,
+          "calm": 90,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_16",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 16 that respects the budget and prioritizes price and distance.",
+      "primary_criteria": [
+        "price",
+        "distance"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_016_O1",
+          "name": "Hotels Option 16-1",
+          "price": 114.31,
+          "distance": 2.07,
+          "rating": 4.87,
+          "calm": 91,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O2",
+          "name": "Hotels Option 16-2",
+          "price": 119.28880000000001,
+          "distance": 2.7912,
+          "rating": 4.87,
+          "calm": 58,
+          "breakfast": 1,
+          "free_cancellation": 0.88,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O3",
+          "name": "Hotels Option 16-3",
+          "price": 120.5335,
+          "distance": 2.9715,
+          "rating": 4.1,
+          "calm": 82,
+          "breakfast": 1,
+          "free_cancellation": 0.85,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O4",
+          "name": "Hotels Option 16-4",
+          "price": 142.89,
+          "distance": 2.81,
+          "rating": 3.3,
+          "calm": 90,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O5",
+          "name": "Hotels Option 16-5",
+          "price": 182.01,
+          "distance": 4.45,
+          "rating": 4.67,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O6",
+          "name": "Hotels Option 16-6",
+          "price": 142.62,
+          "distance": 2.31,
+          "rating": 4.68,
+          "calm": 96,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O7",
+          "name": "Hotels Option 16-7",
+          "price": 186.05,
+          "distance": 2.44,
+          "rating": 4.9,
+          "calm": 89,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O8",
+          "name": "Hotels Option 16-8",
+          "price": 100.36,
+          "distance": 5.19,
+          "rating": 5.0,
+          "calm": 84,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O9",
+          "name": "Hotels Option 16-9",
+          "price": 140.78,
+          "distance": 5.71,
+          "rating": 3.92,
+          "calm": 91,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_016_O10",
+          "name": "Hotels Option 16-10",
+          "price": 178.92,
+          "distance": 7.38,
+          "rating": 3.68,
+          "calm": 84,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_17",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 17 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_017_O1",
+          "name": "Hotels Option 17-1",
+          "price": 154.8,
+          "distance": 3.33,
+          "rating": 4.98,
+          "calm": 87.0,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O2",
+          "name": "Hotels Option 17-2",
+          "price": 125.83,
+          "distance": 6.2,
+          "rating": 4.880400000000001,
+          "calm": 85.26,
+          "breakfast": 0,
+          "free_cancellation": 0.98,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O3",
+          "name": "Hotels Option 17-3",
+          "price": 104.44,
+          "distance": 7.74,
+          "rating": 4.731,
+          "calm": 82.64999999999999,
+          "breakfast": 1,
+          "free_cancellation": 0.95,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O4",
+          "name": "Hotels Option 17-4",
+          "price": 123.34,
+          "distance": 5.67,
+          "rating": 4.26,
+          "calm": 55,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O5",
+          "name": "Hotels Option 17-5",
+          "price": 102.72,
+          "distance": 5.48,
+          "rating": 3.21,
+          "calm": 93,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O6",
+          "name": "Hotels Option 17-6",
+          "price": 158.42,
+          "distance": 5.45,
+          "rating": 3.82,
+          "calm": 73,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O7",
+          "name": "Hotels Option 17-7",
+          "price": 160.95,
+          "distance": 0.81,
+          "rating": 4.96,
+          "calm": 71,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O8",
+          "name": "Hotels Option 17-8",
+          "price": 107.84,
+          "distance": 6.51,
+          "rating": 3.75,
+          "calm": 77,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_017_O9",
+          "name": "Hotels Option 17-9",
+          "price": 166.94,
+          "distance": 7.99,
+          "rating": 4.64,
+          "calm": 61,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 0
+        },
+        {
+          "option_id": "HOT_017_O10",
+          "name": "Hotels Option 17-10",
+          "price": 168.11,
+          "distance": 7.67,
+          "rating": 4.96,
+          "calm": 83,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_18",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 18 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_018_O1",
+          "name": "Hotels Option 18-1",
+          "price": 154.8,
+          "distance": 6.3,
+          "rating": 4.49,
+          "calm": 95.0,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O2",
+          "name": "Hotels Option 18-2",
+          "price": 154.8,
+          "distance": 5.57,
+          "rating": 4.2655,
+          "calm": 90.25,
+          "breakfast": 1,
+          "free_cancellation": 0.95,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O3",
+          "name": "Hotels Option 18-3",
+          "price": 154.8,
+          "distance": 3.22,
+          "rating": 4.1308,
+          "calm": 87.39999999999999,
+          "breakfast": 1,
+          "free_cancellation": 0.9199999999999999,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O4",
+          "name": "Hotels Option 18-4",
+          "price": 122.82,
+          "distance": 7.28,
+          "rating": 4.49,
+          "calm": 62,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O5",
+          "name": "Hotels Option 18-5",
+          "price": 118.09,
+          "distance": 4.69,
+          "rating": 3.57,
+          "calm": 66,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O6",
+          "name": "Hotels Option 18-6",
+          "price": 174.74,
+          "distance": 6.38,
+          "rating": 4.41,
+          "calm": 61,
+          "breakfast": 1,
+          "free_cancellation": 0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O7",
+          "name": "Hotels Option 18-7",
+          "price": 119.08,
+          "distance": 6.3,
+          "rating": 4.42,
+          "calm": 85,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_018_O8",
+          "name": "Hotels Option 18-8",
+          "price": 130.86,
+          "distance": 2.96,
+          "rating": 4.97,
+          "calm": 61,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_19",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 19 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "free_cancellation"
+      ],
+      "hard_constraints": {
+        "price_max": 210,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_019_O1",
+          "name": "Hotels Option 19-1",
+          "price": 169.91,
+          "distance": 7.95,
+          "rating": 4.74,
+          "calm": 90.0,
+          "breakfast": 1,
+          "free_cancellation": 1.0,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O2",
+          "name": "Hotels Option 19-2",
+          "price": 180.6,
+          "distance": 3.12,
+          "rating": 4.3608,
+          "calm": 82.8,
+          "breakfast": 1,
+          "free_cancellation": 0.92,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O3",
+          "name": "Hotels Option 19-3",
+          "price": 174.32,
+          "distance": 1.87,
+          "rating": 4.2186,
+          "calm": 80.1,
+          "breakfast": 1,
+          "free_cancellation": 0.89,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O4",
+          "name": "Hotels Option 19-4",
+          "price": 180.6,
+          "distance": 0.49,
+          "rating": 4.74,
+          "calm": 81,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O5",
+          "name": "Hotels Option 19-5",
+          "price": 202.59,
+          "distance": 1.9,
+          "rating": 3.72,
+          "calm": 100,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O6",
+          "name": "Hotels Option 19-6",
+          "price": 122.32,
+          "distance": 4.13,
+          "rating": 3.51,
+          "calm": 65,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O7",
+          "name": "Hotels Option 19-7",
+          "price": 184.61,
+          "distance": 3.3,
+          "rating": 3.36,
+          "calm": 70,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_019_O8",
+          "name": "Hotels Option 19-8",
+          "price": 200.07,
+          "distance": 6.52,
+          "rating": 3.47,
+          "calm": 85,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_20",
+      "domain": "hotels",
+      "user_request": "Choose a hotel for scenario 20 that respects the budget and prioritizes calm and rating.",
+      "primary_criteria": [
+        "calm",
+        "rating"
+      ],
+      "secondary_criteria": [
+        "breakfast"
+      ],
+      "hard_constraints": {
+        "price_max": 160,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "HOT_020_O1",
+          "name": "Hotels Option 20-1",
+          "price": 98.05,
+          "distance": 0.54,
+          "rating": 4.89,
+          "calm": 97.0,
+          "breakfast": 1.0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O2",
+          "name": "Hotels Option 20-2",
+          "price": 137.6,
+          "distance": 4.49,
+          "rating": 4.3031999999999995,
+          "calm": 85.36,
+          "breakfast": 0.88,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O3",
+          "name": "Hotels Option 20-3",
+          "price": 137.6,
+          "distance": 6.18,
+          "rating": 4.156499999999999,
+          "calm": 82.45,
+          "breakfast": 0.85,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O4",
+          "name": "Hotels Option 20-4",
+          "price": 137.6,
+          "distance": 7.64,
+          "rating": 4.89,
+          "calm": 82,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O5",
+          "name": "Hotels Option 20-5",
+          "price": 153.91,
+          "distance": 1.35,
+          "rating": 4.62,
+          "calm": 66,
+          "breakfast": 0,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O6",
+          "name": "Hotels Option 20-6",
+          "price": 168.55,
+          "distance": 0.41,
+          "rating": 3.82,
+          "calm": 83,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O7",
+          "name": "Hotels Option 20-7",
+          "price": 162.01,
+          "distance": 4.81,
+          "rating": 4.21,
+          "calm": 60,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        },
+        {
+          "option_id": "HOT_020_O8",
+          "name": "Hotels Option 20-8",
+          "price": 135.22,
+          "distance": 3.84,
+          "rating": 4.88,
+          "calm": 82,
+          "breakfast": 1,
+          "free_cancellation": 1,
+          "availability": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_01",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 21; hard compliance is required and monthly_cost plus compliance matter most.",
+      "primary_criteria": [
+        "monthly_cost",
+        "compliance"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_021_O1",
+          "name": "Software Option 21-1",
+          "monthly_cost": 118.41,
+          "security": 62,
+          "usability": 99,
+          "integration": 68,
+          "support": 95.0,
+          "setup_time": 4.01,
+          "compliance": 1.0
+        },
+        {
+          "option_id": "SOF_021_O2",
+          "name": "Software Option 21-2",
+          "monthly_cost": 119.4195,
+          "security": 74,
+          "usability": 91,
+          "integration": 83,
+          "support": 90.25,
+          "setup_time": 1.57,
+          "compliance": 0.95
+        },
+        {
+          "option_id": "SOF_021_O3",
+          "name": "Software Option 21-3",
+          "monthly_cost": 120.0252,
+          "security": 74,
+          "usability": 56,
+          "integration": 94,
+          "support": 87.39999999999999,
+          "setup_time": 0.83,
+          "compliance": 0.9199999999999999
+        },
+        {
+          "option_id": "SOF_021_O4",
+          "name": "Software Option 21-4",
+          "monthly_cost": 137.6,
+          "security": 78,
+          "usability": 86,
+          "integration": 87,
+          "support": 73,
+          "setup_time": 5.56,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_021_O5",
+          "name": "Software Option 21-5",
+          "monthly_cost": 152.18,
+          "security": 66,
+          "usability": 80,
+          "integration": 81,
+          "support": 72,
+          "setup_time": 0.49,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_021_O6",
+          "name": "Software Option 21-6",
+          "monthly_cost": 167.07,
+          "security": 90,
+          "usability": 86,
+          "integration": 91,
+          "support": 82,
+          "setup_time": 1.58,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_021_O7",
+          "name": "Software Option 21-7",
+          "monthly_cost": 96.67,
+          "security": 55,
+          "usability": 75,
+          "integration": 87,
+          "support": 90,
+          "setup_time": 5.06,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_021_O8",
+          "name": "Software Option 21-8",
+          "monthly_cost": 172.55,
+          "security": 72,
+          "usability": 57,
+          "integration": 75,
+          "support": 76,
+          "setup_time": 2.89,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_021_O9",
+          "name": "Software Option 21-9",
+          "monthly_cost": 128.74,
+          "security": 87,
+          "usability": 66,
+          "integration": 91,
+          "support": 88,
+          "setup_time": 2.27,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_02",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 22; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "monthly_cost",
+        "usability"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_022_O1",
+          "name": "Software Option 22-1",
+          "monthly_cost": 122.15,
+          "security": 96.0,
+          "usability": 93.0,
+          "integration": 94.0,
+          "support": 82,
+          "setup_time": 4.39,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O2",
+          "name": "Software Option 22-2",
+          "monthly_cost": 123.46600000000001,
+          "security": 88.32000000000001,
+          "usability": 85.56,
+          "integration": 86.48,
+          "support": 68,
+          "setup_time": 4.02,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O3",
+          "name": "Software Option 22-3",
+          "monthly_cost": 123.9595,
+          "security": 85.44,
+          "usability": 82.77,
+          "integration": 83.66,
+          "support": 87,
+          "setup_time": 1.78,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O4",
+          "name": "Software Option 22-4",
+          "monthly_cost": 137.6,
+          "security": 62,
+          "usability": 60,
+          "integration": 84,
+          "support": 67,
+          "setup_time": 2.94,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O5",
+          "name": "Software Option 22-5",
+          "monthly_cost": 104.54,
+          "security": 95,
+          "usability": 59,
+          "integration": 96,
+          "support": 73,
+          "setup_time": 0.77,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O6",
+          "name": "Software Option 22-6",
+          "monthly_cost": 149.73,
+          "security": 91,
+          "usability": 90,
+          "integration": 82,
+          "support": 63,
+          "setup_time": 7.54,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O7",
+          "name": "Software Option 22-7",
+          "monthly_cost": 155.04,
+          "security": 99,
+          "usability": 87,
+          "integration": 69,
+          "support": 77,
+          "setup_time": 4.15,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O8",
+          "name": "Software Option 22-8",
+          "monthly_cost": 106.06,
+          "security": 58,
+          "usability": 97,
+          "integration": 87,
+          "support": 59,
+          "setup_time": 4.82,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O9",
+          "name": "Software Option 22-9",
+          "monthly_cost": 142.48,
+          "security": 97,
+          "usability": 72,
+          "integration": 66,
+          "support": 99,
+          "setup_time": 5.64,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_022_O10",
+          "name": "Software Option 22-10",
+          "monthly_cost": 164.86,
+          "security": 97,
+          "usability": 83,
+          "integration": 60,
+          "support": 57,
+          "setup_time": 4.94,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_03",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 23; hard compliance is required and monthly_cost plus compliance matter most.",
+      "primary_criteria": [
+        "monthly_cost",
+        "compliance"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_023_O1",
+          "name": "Software Option 23-1",
+          "monthly_cost": 90.32,
+          "security": 66,
+          "usability": 78,
+          "integration": 66,
+          "support": 98.0,
+          "setup_time": 3.46,
+          "compliance": 1.0
+        },
+        {
+          "option_id": "SOF_023_O2",
+          "name": "Software Option 23-2",
+          "monthly_cost": 96.11359999999999,
+          "security": 71,
+          "usability": 83,
+          "integration": 96,
+          "support": 86.24,
+          "setup_time": 7.05,
+          "compliance": 0.88
+        },
+        {
+          "option_id": "SOF_023_O3",
+          "name": "Software Option 23-3",
+          "monthly_cost": 97.562,
+          "security": 83,
+          "usability": 90,
+          "integration": 62,
+          "support": 83.3,
+          "setup_time": 0.73,
+          "compliance": 0.85
+        },
+        {
+          "option_id": "SOF_023_O4",
+          "name": "Software Option 23-4",
+          "monthly_cost": 93.97,
+          "security": 70,
+          "usability": 88,
+          "integration": 76,
+          "support": 98,
+          "setup_time": 6.67,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_023_O5",
+          "name": "Software Option 23-5",
+          "monthly_cost": 138.15,
+          "security": 98,
+          "usability": 83,
+          "integration": 75,
+          "support": 70,
+          "setup_time": 2.78,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_023_O6",
+          "name": "Software Option 23-6",
+          "monthly_cost": 161.25,
+          "security": 94,
+          "usability": 64,
+          "integration": 75,
+          "support": 77,
+          "setup_time": 0.34,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_023_O7",
+          "name": "Software Option 23-7",
+          "monthly_cost": 117.71,
+          "security": 72,
+          "usability": 61,
+          "integration": 70,
+          "support": 87,
+          "setup_time": 1.93,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_023_O8",
+          "name": "Software Option 23-8",
+          "monthly_cost": 107.67,
+          "security": 83,
+          "usability": 71,
+          "integration": 64,
+          "support": 75,
+          "setup_time": 4.0,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_023_O9",
+          "name": "Software Option 23-9",
+          "monthly_cost": 116.25,
+          "security": 59,
+          "usability": 73,
+          "integration": 75,
+          "support": 74,
+          "setup_time": 2.19,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_023_O10",
+          "name": "Software Option 23-10",
+          "monthly_cost": 139.02,
+          "security": 100,
+          "usability": 74,
+          "integration": 61,
+          "support": 84,
+          "setup_time": 0.45,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_04",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 24; hard compliance is required and usability plus support matter most.",
+      "primary_criteria": [
+        "usability",
+        "support"
+      ],
+      "secondary_criteria": [
+        "monthly_cost",
+        "usability"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_024_O1",
+          "name": "Software Option 24-1",
+          "monthly_cost": 51.26,
+          "security": 87,
+          "usability": 98.0,
+          "integration": 100,
+          "support": 88.0,
+          "setup_time": 6.33,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O2",
+          "name": "Software Option 24-2",
+          "monthly_cost": 51.6308,
+          "security": 55,
+          "usability": 96.03999999999999,
+          "integration": 61,
+          "support": 86.24,
+          "setup_time": 4.02,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O3",
+          "name": "Software Option 24-3",
+          "monthly_cost": 52.187,
+          "security": 77,
+          "usability": 93.1,
+          "integration": 57,
+          "support": 83.6,
+          "setup_time": 4.28,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O4",
+          "name": "Software Option 24-4",
+          "monthly_cost": 68.8,
+          "security": 79,
+          "usability": 86,
+          "integration": 56,
+          "support": 63,
+          "setup_time": 2.6,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O5",
+          "name": "Software Option 24-5",
+          "monthly_cost": 66.92,
+          "security": 98,
+          "usability": 80,
+          "integration": 93,
+          "support": 69,
+          "setup_time": 1.28,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O6",
+          "name": "Software Option 24-6",
+          "monthly_cost": 63.87,
+          "security": 79,
+          "usability": 77,
+          "integration": 59,
+          "support": 95,
+          "setup_time": 2.52,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O7",
+          "name": "Software Option 24-7",
+          "monthly_cost": 81.45,
+          "security": 78,
+          "usability": 63,
+          "integration": 86,
+          "support": 69,
+          "setup_time": 6.38,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_024_O8",
+          "name": "Software Option 24-8",
+          "monthly_cost": 65.76,
+          "security": 70,
+          "usability": 71,
+          "integration": 100,
+          "support": 95,
+          "setup_time": 3.32,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_05",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 25; hard compliance is required and usability plus support matter most.",
+      "primary_criteria": [
+        "usability",
+        "support"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_025_O1",
+          "name": "Software Option 25-1",
+          "monthly_cost": 137.6,
+          "security": 69,
+          "usability": 99.0,
+          "integration": 62,
+          "support": 99.0,
+          "setup_time": 5.03,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_025_O2",
+          "name": "Software Option 25-2",
+          "monthly_cost": 137.6,
+          "security": 92,
+          "usability": 94.05,
+          "integration": 76,
+          "support": 94.05,
+          "setup_time": 3.99,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_025_O3",
+          "name": "Software Option 25-3",
+          "monthly_cost": 137.6,
+          "security": 93,
+          "usability": 91.08,
+          "integration": 74,
+          "support": 91.08,
+          "setup_time": 6.88,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_025_O4",
+          "name": "Software Option 25-4",
+          "monthly_cost": 137.23,
+          "security": 66,
+          "usability": 99,
+          "integration": 88,
+          "support": 56,
+          "setup_time": 2.25,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_025_O5",
+          "name": "Software Option 25-5",
+          "monthly_cost": 170.35,
+          "security": 74,
+          "usability": 99,
+          "integration": 91,
+          "support": 79,
+          "setup_time": 4.89,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_025_O6",
+          "name": "Software Option 25-6",
+          "monthly_cost": 161.88,
+          "security": 90,
+          "usability": 97,
+          "integration": 75,
+          "support": 99,
+          "setup_time": 0.99,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_025_O7",
+          "name": "Software Option 25-7",
+          "monthly_cost": 110.81,
+          "security": 87,
+          "usability": 56,
+          "integration": 83,
+          "support": 69,
+          "setup_time": 1.27,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_025_O8",
+          "name": "Software Option 25-8",
+          "monthly_cost": 130.4,
+          "security": 84,
+          "usability": 82,
+          "integration": 99,
+          "support": 81,
+          "setup_time": 7.98,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_06",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 26; hard compliance is required and usability plus support matter most.",
+      "primary_criteria": [
+        "usability",
+        "support"
+      ],
+      "secondary_criteria": [
+        "setup_time"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_026_O1",
+          "name": "Software Option 26-1",
+          "monthly_cost": 121.1,
+          "security": 95,
+          "usability": 88.0,
+          "integration": 65,
+          "support": 100.0,
+          "setup_time": 0.42,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O2",
+          "name": "Software Option 26-2",
+          "monthly_cost": 137.6,
+          "security": 95,
+          "usability": 80.96000000000001,
+          "integration": 82,
+          "support": 92.0,
+          "setup_time": 0.9543999999999999,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O3",
+          "name": "Software Option 26-3",
+          "monthly_cost": 98.57,
+          "security": 64,
+          "usability": 78.32000000000001,
+          "integration": 88,
+          "support": 89.0,
+          "setup_time": 1.1548,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O4",
+          "name": "Software Option 26-4",
+          "monthly_cost": 106.39,
+          "security": 95,
+          "usability": 61,
+          "integration": 64,
+          "support": 76,
+          "setup_time": 0.42,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O5",
+          "name": "Software Option 26-5",
+          "monthly_cost": 105.29,
+          "security": 85,
+          "usability": 63,
+          "integration": 83,
+          "support": 66,
+          "setup_time": 7.11,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O6",
+          "name": "Software Option 26-6",
+          "monthly_cost": 164.42,
+          "security": 65,
+          "usability": 93,
+          "integration": 75,
+          "support": 94,
+          "setup_time": 1.29,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O7",
+          "name": "Software Option 26-7",
+          "monthly_cost": 167.42,
+          "security": 55,
+          "usability": 67,
+          "integration": 70,
+          "support": 65,
+          "setup_time": 1.62,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O8",
+          "name": "Software Option 26-8",
+          "monthly_cost": 91.01,
+          "security": 55,
+          "usability": 79,
+          "integration": 97,
+          "support": 99,
+          "setup_time": 1.19,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O9",
+          "name": "Software Option 26-9",
+          "monthly_cost": 89.36,
+          "security": 82,
+          "usability": 70,
+          "integration": 65,
+          "support": 74,
+          "setup_time": 5.75,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_026_O10",
+          "name": "Software Option 26-10",
+          "monthly_cost": 137.53,
+          "security": 71,
+          "usability": 100,
+          "integration": 77,
+          "support": 57,
+          "setup_time": 4.29,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_07",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 27; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "monthly_cost",
+        "usability"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_027_O1",
+          "name": "Software Option 27-1",
+          "monthly_cost": 49.72,
+          "security": 90.0,
+          "usability": 100.0,
+          "integration": 83.0,
+          "support": 74,
+          "setup_time": 7.13,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O2",
+          "name": "Software Option 27-2",
+          "monthly_cost": 52.129599999999996,
+          "security": 79.2,
+          "usability": 88.0,
+          "integration": 73.04,
+          "support": 82,
+          "setup_time": 0.52,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O3",
+          "name": "Software Option 27-3",
+          "monthly_cost": 52.732,
+          "security": 76.5,
+          "usability": 85.0,
+          "integration": 70.55,
+          "support": 99,
+          "setup_time": 2.55,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O4",
+          "name": "Software Option 27-4",
+          "monthly_cost": 68.8,
+          "security": 90,
+          "usability": 59,
+          "integration": 72,
+          "support": 73,
+          "setup_time": 3.56,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O5",
+          "name": "Software Option 27-5",
+          "monthly_cost": 88.21,
+          "security": 84,
+          "usability": 71,
+          "integration": 56,
+          "support": 92,
+          "setup_time": 4.54,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O6",
+          "name": "Software Option 27-6",
+          "monthly_cost": 87.66,
+          "security": 59,
+          "usability": 84,
+          "integration": 60,
+          "support": 76,
+          "setup_time": 1.78,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O7",
+          "name": "Software Option 27-7",
+          "monthly_cost": 50.61,
+          "security": 97,
+          "usability": 83,
+          "integration": 59,
+          "support": 83,
+          "setup_time": 7.93,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_027_O8",
+          "name": "Software Option 27-8",
+          "monthly_cost": 80.69,
+          "security": 66,
+          "usability": 56,
+          "integration": 65,
+          "support": 93,
+          "setup_time": 3.83,
+          "compliance": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_08",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 28; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "setup_time"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_028_O1",
+          "name": "Software Option 28-1",
+          "monthly_cost": 63.22,
+          "security": 93.0,
+          "usability": 82,
+          "integration": 79.0,
+          "support": 73,
+          "setup_time": 2.78,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_028_O2",
+          "name": "Software Option 28-2",
+          "monthly_cost": 66.07,
+          "security": 91.14,
+          "usability": 85,
+          "integration": 77.42,
+          "support": 87,
+          "setup_time": 2.8817999999999997,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_028_O3",
+          "name": "Software Option 28-3",
+          "monthly_cost": 49.51,
+          "security": 88.35,
+          "usability": 87,
+          "integration": 75.05,
+          "support": 89,
+          "setup_time": 3.0345,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_028_O4",
+          "name": "Software Option 28-4",
+          "monthly_cost": 60.39,
+          "security": 66,
+          "usability": 82,
+          "integration": 76,
+          "support": 90,
+          "setup_time": 2.78,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_028_O5",
+          "name": "Software Option 28-5",
+          "monthly_cost": 84.85,
+          "security": 73,
+          "usability": 95,
+          "integration": 86,
+          "support": 90,
+          "setup_time": 3.58,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_028_O6",
+          "name": "Software Option 28-6",
+          "monthly_cost": 54.39,
+          "security": 72,
+          "usability": 78,
+          "integration": 95,
+          "support": 58,
+          "setup_time": 2.43,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_028_O7",
+          "name": "Software Option 28-7",
+          "monthly_cost": 51.58,
+          "security": 85,
+          "usability": 98,
+          "integration": 75,
+          "support": 60,
+          "setup_time": 1.48,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_028_O8",
+          "name": "Software Option 28-8",
+          "monthly_cost": 63.85,
+          "security": 83,
+          "usability": 58,
+          "integration": 85,
+          "support": 90,
+          "setup_time": 3.06,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_09",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 29; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 120,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_029_O1",
+          "name": "Software Option 29-1",
+          "monthly_cost": 103.2,
+          "security": 89.0,
+          "usability": 71,
+          "integration": 93.0,
+          "support": 72.0,
+          "setup_time": 1.45,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O2",
+          "name": "Software Option 29-2",
+          "monthly_cost": 103.2,
+          "security": 84.55,
+          "usability": 97,
+          "integration": 88.35,
+          "support": 68.39999999999999,
+          "setup_time": 4.42,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O3",
+          "name": "Software Option 29-3",
+          "monthly_cost": 103.2,
+          "security": 81.88,
+          "usability": 71,
+          "integration": 85.55999999999999,
+          "support": 66.24,
+          "setup_time": 2.38,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O4",
+          "name": "Software Option 29-4",
+          "monthly_cost": 103.2,
+          "security": 89,
+          "usability": 64,
+          "integration": 93,
+          "support": 65,
+          "setup_time": 7.07,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O5",
+          "name": "Software Option 29-5",
+          "monthly_cost": 97.32,
+          "security": 77,
+          "usability": 59,
+          "integration": 74,
+          "support": 78,
+          "setup_time": 4.61,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O6",
+          "name": "Software Option 29-6",
+          "monthly_cost": 86.93,
+          "security": 67,
+          "usability": 97,
+          "integration": 71,
+          "support": 77,
+          "setup_time": 5.61,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O7",
+          "name": "Software Option 29-7",
+          "monthly_cost": 90.7,
+          "security": 77,
+          "usability": 59,
+          "integration": 80,
+          "support": 72,
+          "setup_time": 7.04,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O8",
+          "name": "Software Option 29-8",
+          "monthly_cost": 99.57,
+          "security": 55,
+          "usability": 70,
+          "integration": 76,
+          "support": 80,
+          "setup_time": 2.36,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O9",
+          "name": "Software Option 29-9",
+          "monthly_cost": 93.95,
+          "security": 80,
+          "usability": 59,
+          "integration": 78,
+          "support": 65,
+          "setup_time": 1.61,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_029_O10",
+          "name": "Software Option 29-10",
+          "monthly_cost": 124.84,
+          "security": 83,
+          "usability": 57,
+          "integration": 64,
+          "support": 95,
+          "setup_time": 1.03,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_10",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 30; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "monthly_cost",
+        "usability"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_030_O1",
+          "name": "Software Option 30-1",
+          "monthly_cost": 45.07,
+          "security": 97.0,
+          "usability": 79.0,
+          "integration": 93.0,
+          "support": 71,
+          "setup_time": 7.96,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O2",
+          "name": "Software Option 30-2",
+          "monthly_cost": 46.386,
+          "security": 89.24000000000001,
+          "usability": 72.68,
+          "integration": 85.56,
+          "support": 56,
+          "setup_time": 0.81,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O3",
+          "name": "Software Option 30-3",
+          "monthly_cost": 46.8795,
+          "security": 86.33,
+          "usability": 70.31,
+          "integration": 82.77,
+          "support": 93,
+          "setup_time": 7.52,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O4",
+          "name": "Software Option 30-4",
+          "monthly_cost": 53.02,
+          "security": 74,
+          "usability": 60,
+          "integration": 66,
+          "support": 81,
+          "setup_time": 1.09,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O5",
+          "name": "Software Option 30-5",
+          "monthly_cost": 65.33,
+          "security": 60,
+          "usability": 75,
+          "integration": 70,
+          "support": 97,
+          "setup_time": 1.93,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O6",
+          "name": "Software Option 30-6",
+          "monthly_cost": 49.83,
+          "security": 70,
+          "usability": 63,
+          "integration": 64,
+          "support": 96,
+          "setup_time": 2.68,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O7",
+          "name": "Software Option 30-7",
+          "monthly_cost": 82.38,
+          "security": 72,
+          "usability": 63,
+          "integration": 58,
+          "support": 55,
+          "setup_time": 3.96,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O8",
+          "name": "Software Option 30-8",
+          "monthly_cost": 80.6,
+          "security": 77,
+          "usability": 61,
+          "integration": 66,
+          "support": 80,
+          "setup_time": 4.5,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_030_O9",
+          "name": "Software Option 30-9",
+          "monthly_cost": 75.48,
+          "security": 90,
+          "usability": 90,
+          "integration": 95,
+          "support": 81,
+          "setup_time": 2.37,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_030_O10",
+          "name": "Software Option 30-10",
+          "monthly_cost": 72.96,
+          "security": 61,
+          "usability": 82,
+          "integration": 81,
+          "support": 97,
+          "setup_time": 3.77,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_11",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 31; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_031_O1",
+          "name": "Software Option 31-1",
+          "monthly_cost": 63.49,
+          "security": 89.0,
+          "usability": 98,
+          "integration": 99.0,
+          "support": 96.0,
+          "setup_time": 2.35,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O2",
+          "name": "Software Option 31-2",
+          "monthly_cost": 68.8,
+          "security": 78.32000000000001,
+          "usability": 78,
+          "integration": 87.12,
+          "support": 84.48,
+          "setup_time": 2.31,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O3",
+          "name": "Software Option 31-3",
+          "monthly_cost": 60.71,
+          "security": 75.64999999999999,
+          "usability": 86,
+          "integration": 84.14999999999999,
+          "support": 81.6,
+          "setup_time": 3.52,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O4",
+          "name": "Software Option 31-4",
+          "monthly_cost": 68.8,
+          "security": 62,
+          "usability": 81,
+          "integration": 99,
+          "support": 87,
+          "setup_time": 1.74,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O5",
+          "name": "Software Option 31-5",
+          "monthly_cost": 44.68,
+          "security": 82,
+          "usability": 74,
+          "integration": 69,
+          "support": 99,
+          "setup_time": 0.44,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O6",
+          "name": "Software Option 31-6",
+          "monthly_cost": 52.71,
+          "security": 85,
+          "usability": 56,
+          "integration": 90,
+          "support": 72,
+          "setup_time": 6.3,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O7",
+          "name": "Software Option 31-7",
+          "monthly_cost": 78.17,
+          "security": 93,
+          "usability": 74,
+          "integration": 68,
+          "support": 85,
+          "setup_time": 2.69,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O8",
+          "name": "Software Option 31-8",
+          "monthly_cost": 75.95,
+          "security": 57,
+          "usability": 80,
+          "integration": 62,
+          "support": 63,
+          "setup_time": 7.53,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_031_O9",
+          "name": "Software Option 31-9",
+          "monthly_cost": 68.95,
+          "security": 96,
+          "usability": 64,
+          "integration": 91,
+          "support": 56,
+          "setup_time": 3.86,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_12",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 32; hard compliance is required and usability plus support matter most.",
+      "primary_criteria": [
+        "usability",
+        "support"
+      ],
+      "secondary_criteria": [
+        "monthly_cost",
+        "usability"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 120,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_032_O1",
+          "name": "Software Option 32-1",
+          "monthly_cost": 73.27,
+          "security": 91,
+          "usability": 96.0,
+          "integration": 99,
+          "support": 94.0,
+          "setup_time": 6.27,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O2",
+          "name": "Software Option 32-2",
+          "monthly_cost": 73.8886,
+          "security": 93,
+          "usability": 94.08,
+          "integration": 74,
+          "support": 92.12,
+          "setup_time": 7.4,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O3",
+          "name": "Software Option 32-3",
+          "monthly_cost": 74.81649999999999,
+          "security": 87,
+          "usability": 91.19999999999999,
+          "integration": 85,
+          "support": 89.3,
+          "setup_time": 2.8,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O4",
+          "name": "Software Option 32-4",
+          "monthly_cost": 73.27,
+          "security": 96,
+          "usability": 82,
+          "integration": 59,
+          "support": 65,
+          "setup_time": 1.77,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O5",
+          "name": "Software Option 32-5",
+          "monthly_cost": 111.43,
+          "security": 60,
+          "usability": 91,
+          "integration": 87,
+          "support": 86,
+          "setup_time": 6.5,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O6",
+          "name": "Software Option 32-6",
+          "monthly_cost": 107.4,
+          "security": 85,
+          "usability": 75,
+          "integration": 66,
+          "support": 90,
+          "setup_time": 4.63,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_032_O7",
+          "name": "Software Option 32-7",
+          "monthly_cost": 77.39,
+          "security": 99,
+          "usability": 79,
+          "integration": 96,
+          "support": 67,
+          "setup_time": 0.72,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O8",
+          "name": "Software Option 32-8",
+          "monthly_cost": 83.87,
+          "security": 100,
+          "usability": 76,
+          "integration": 94,
+          "support": 97,
+          "setup_time": 7.44,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O9",
+          "name": "Software Option 32-9",
+          "monthly_cost": 110.18,
+          "security": 77,
+          "usability": 96,
+          "integration": 100,
+          "support": 81,
+          "setup_time": 4.45,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_032_O10",
+          "name": "Software Option 32-10",
+          "monthly_cost": 101.01,
+          "security": 85,
+          "usability": 70,
+          "integration": 94,
+          "support": 93,
+          "setup_time": 6.83,
+          "compliance": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_13",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 33; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 220,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_033_O1",
+          "name": "Software Option 33-1",
+          "monthly_cost": 184.88,
+          "security": 85.0,
+          "usability": 82,
+          "integration": 81.0,
+          "support": 83.0,
+          "setup_time": 3.39,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O2",
+          "name": "Software Option 33-2",
+          "monthly_cost": 189.2,
+          "security": 80.75,
+          "usability": 71,
+          "integration": 76.95,
+          "support": 78.85,
+          "setup_time": 3.21,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O3",
+          "name": "Software Option 33-3",
+          "monthly_cost": 152.6,
+          "security": 78.19999999999999,
+          "usability": 87,
+          "integration": 74.52,
+          "support": 76.36,
+          "setup_time": 5.02,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O4",
+          "name": "Software Option 33-4",
+          "monthly_cost": 134.93,
+          "security": 85,
+          "usability": 72,
+          "integration": 57,
+          "support": 83,
+          "setup_time": 5.22,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O5",
+          "name": "Software Option 33-5",
+          "monthly_cost": 177.88,
+          "security": 67,
+          "usability": 99,
+          "integration": 78,
+          "support": 59,
+          "setup_time": 1.55,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O6",
+          "name": "Software Option 33-6",
+          "monthly_cost": 217.19,
+          "security": 90,
+          "usability": 61,
+          "integration": 65,
+          "support": 70,
+          "setup_time": 6.9,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O7",
+          "name": "Software Option 33-7",
+          "monthly_cost": 163.49,
+          "security": 69,
+          "usability": 86,
+          "integration": 93,
+          "support": 55,
+          "setup_time": 7.98,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O8",
+          "name": "Software Option 33-8",
+          "monthly_cost": 176.49,
+          "security": 82,
+          "usability": 60,
+          "integration": 60,
+          "support": 55,
+          "setup_time": 4.46,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O9",
+          "name": "Software Option 33-9",
+          "monthly_cost": 216.24,
+          "security": 66,
+          "usability": 70,
+          "integration": 77,
+          "support": 84,
+          "setup_time": 1.3,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_033_O10",
+          "name": "Software Option 33-10",
+          "monthly_cost": 177.09,
+          "security": 75,
+          "usability": 68,
+          "integration": 55,
+          "support": 70,
+          "setup_time": 7.07,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_14",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 34; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 220,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_034_O1",
+          "name": "Software Option 34-1",
+          "monthly_cost": 179.46,
+          "security": 99.0,
+          "usability": 84,
+          "integration": 89.0,
+          "support": 80.0,
+          "setup_time": 6.86,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O2",
+          "name": "Software Option 34-2",
+          "monthly_cost": 142.48,
+          "security": 91.08,
+          "usability": 72,
+          "integration": 81.88000000000001,
+          "support": 73.60000000000001,
+          "setup_time": 4.21,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O3",
+          "name": "Software Option 34-3",
+          "monthly_cost": 186.13,
+          "security": 88.11,
+          "usability": 73,
+          "integration": 79.21000000000001,
+          "support": 71.2,
+          "setup_time": 2.87,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O4",
+          "name": "Software Option 34-4",
+          "monthly_cost": 121.82,
+          "security": 63,
+          "usability": 65,
+          "integration": 89,
+          "support": 77,
+          "setup_time": 1.14,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O5",
+          "name": "Software Option 34-5",
+          "monthly_cost": 246.1,
+          "security": 92,
+          "usability": 59,
+          "integration": 71,
+          "support": 67,
+          "setup_time": 3.03,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O6",
+          "name": "Software Option 34-6",
+          "monthly_cost": 136.3,
+          "security": 66,
+          "usability": 98,
+          "integration": 89,
+          "support": 83,
+          "setup_time": 1.51,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O7",
+          "name": "Software Option 34-7",
+          "monthly_cost": 128.5,
+          "security": 60,
+          "usability": 79,
+          "integration": 68,
+          "support": 63,
+          "setup_time": 3.14,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_034_O8",
+          "name": "Software Option 34-8",
+          "monthly_cost": 142.51,
+          "security": 68,
+          "usability": 67,
+          "integration": 86,
+          "support": 74,
+          "setup_time": 6.34,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_15",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 35; hard compliance is required and usability plus support matter most.",
+      "primary_criteria": [
+        "usability",
+        "support"
+      ],
+      "secondary_criteria": [
+        "monthly_cost",
+        "usability"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 120,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_035_O1",
+          "name": "Software Option 35-1",
+          "monthly_cost": 86.67,
+          "security": 96,
+          "usability": 100.0,
+          "integration": 85,
+          "support": 76.0,
+          "setup_time": 7.65,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_035_O2",
+          "name": "Software Option 35-2",
+          "monthly_cost": 88.7736,
+          "security": 76,
+          "usability": 88.0,
+          "integration": 86,
+          "support": 66.88,
+          "setup_time": 2.62,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_035_O3",
+          "name": "Software Option 35-3",
+          "monthly_cost": 89.2995,
+          "security": 91,
+          "usability": 85.0,
+          "integration": 94,
+          "support": 64.6,
+          "setup_time": 1.87,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_035_O4",
+          "name": "Software Option 35-4",
+          "monthly_cost": 103.2,
+          "security": 57,
+          "usability": 75,
+          "integration": 77,
+          "support": 76,
+          "setup_time": 5.17,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_035_O5",
+          "name": "Software Option 35-5",
+          "monthly_cost": 126.37,
+          "security": 62,
+          "usability": 100,
+          "integration": 75,
+          "support": 79,
+          "setup_time": 7.26,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_035_O6",
+          "name": "Software Option 35-6",
+          "monthly_cost": 97.77,
+          "security": 85,
+          "usability": 65,
+          "integration": 86,
+          "support": 56,
+          "setup_time": 3.36,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_035_O7",
+          "name": "Software Option 35-7",
+          "monthly_cost": 124.7,
+          "security": 99,
+          "usability": 77,
+          "integration": 59,
+          "support": 68,
+          "setup_time": 6.36,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_035_O8",
+          "name": "Software Option 35-8",
+          "monthly_cost": 124.9,
+          "security": 63,
+          "usability": 66,
+          "integration": 75,
+          "support": 81,
+          "setup_time": 3.18,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_16",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 36; hard compliance is required and security plus integration matter most.",
+      "primary_criteria": [
+        "security",
+        "integration"
+      ],
+      "secondary_criteria": [
+        "setup_time"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_036_O1",
+          "name": "Software Option 36-1",
+          "monthly_cost": 137.38,
+          "security": 94.0,
+          "usability": 75,
+          "integration": 97.0,
+          "support": 77,
+          "setup_time": 0.71,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O2",
+          "name": "Software Option 36-2",
+          "monthly_cost": 124.07,
+          "security": 92.12,
+          "usability": 85,
+          "integration": 95.06,
+          "support": 89,
+          "setup_time": 0.8278,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O3",
+          "name": "Software Option 36-3",
+          "monthly_cost": 133.07,
+          "security": 89.3,
+          "usability": 72,
+          "integration": 92.14999999999999,
+          "support": 56,
+          "setup_time": 1.0045,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O4",
+          "name": "Software Option 36-4",
+          "monthly_cost": 96.01,
+          "security": 94,
+          "usability": 100,
+          "integration": 85,
+          "support": 90,
+          "setup_time": 5.6,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O5",
+          "name": "Software Option 36-5",
+          "monthly_cost": 108.87,
+          "security": 65,
+          "usability": 95,
+          "integration": 96,
+          "support": 73,
+          "setup_time": 6.99,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_036_O6",
+          "name": "Software Option 36-6",
+          "monthly_cost": 91.92,
+          "security": 74,
+          "usability": 81,
+          "integration": 86,
+          "support": 77,
+          "setup_time": 7.73,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O7",
+          "name": "Software Option 36-7",
+          "monthly_cost": 175.56,
+          "security": 92,
+          "usability": 67,
+          "integration": 70,
+          "support": 86,
+          "setup_time": 7.3,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O8",
+          "name": "Software Option 36-8",
+          "monthly_cost": 157.07,
+          "security": 68,
+          "usability": 70,
+          "integration": 83,
+          "support": 70,
+          "setup_time": 2.86,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O9",
+          "name": "Software Option 36-9",
+          "monthly_cost": 110.39,
+          "security": 71,
+          "usability": 63,
+          "integration": 57,
+          "support": 75,
+          "setup_time": 5.3,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_036_O10",
+          "name": "Software Option 36-10",
+          "monthly_cost": 94.89,
+          "security": 86,
+          "usability": 85,
+          "integration": 66,
+          "support": 73,
+          "setup_time": 4.02,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_17",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 37; hard compliance is required and monthly_cost plus compliance matter most.",
+      "primary_criteria": [
+        "monthly_cost",
+        "compliance"
+      ],
+      "secondary_criteria": [
+        "setup_time"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 220,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_037_O1",
+          "name": "Software Option 37-1",
+          "monthly_cost": 123.29,
+          "security": 66,
+          "usability": 62,
+          "integration": 77,
+          "support": 83,
+          "setup_time": 3.51,
+          "compliance": 1.0
+        },
+        {
+          "option_id": "SOF_037_O2",
+          "name": "Software Option 37-2",
+          "monthly_cost": 126.63550000000001,
+          "security": 79,
+          "usability": 55,
+          "integration": 59,
+          "support": 99,
+          "setup_time": 3.7485,
+          "compliance": 0.95
+        },
+        {
+          "option_id": "SOF_037_O3",
+          "name": "Software Option 37-3",
+          "monthly_cost": 128.6428,
+          "security": 99,
+          "usability": 82,
+          "integration": 70,
+          "support": 86,
+          "setup_time": 3.8916,
+          "compliance": 0.9199999999999999
+        },
+        {
+          "option_id": "SOF_037_O4",
+          "name": "Software Option 37-4",
+          "monthly_cost": 186.12,
+          "security": 86,
+          "usability": 75,
+          "integration": 88,
+          "support": 57,
+          "setup_time": 5.64,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_037_O5",
+          "name": "Software Option 37-5",
+          "monthly_cost": 132.43,
+          "security": 66,
+          "usability": 89,
+          "integration": 92,
+          "support": 92,
+          "setup_time": 3.58,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_037_O6",
+          "name": "Software Option 37-6",
+          "monthly_cost": 155.36,
+          "security": 68,
+          "usability": 81,
+          "integration": 91,
+          "support": 99,
+          "setup_time": 3.8,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_037_O7",
+          "name": "Software Option 37-7",
+          "monthly_cost": 183.95,
+          "security": 82,
+          "usability": 79,
+          "integration": 80,
+          "support": 84,
+          "setup_time": 0.53,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_037_O8",
+          "name": "Software Option 37-8",
+          "monthly_cost": 244.31,
+          "security": 100,
+          "usability": 96,
+          "integration": 71,
+          "support": 77,
+          "setup_time": 2.95,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_037_O9",
+          "name": "Software Option 37-9",
+          "monthly_cost": 236.11,
+          "security": 95,
+          "usability": 81,
+          "integration": 56,
+          "support": 72,
+          "setup_time": 7.73,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_18",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 38; hard compliance is required and usability plus support matter most.",
+      "primary_criteria": [
+        "usability",
+        "support"
+      ],
+      "secondary_criteria": [
+        "setup_time"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_038_O1",
+          "name": "Software Option 38-1",
+          "monthly_cost": 60.18,
+          "security": 58,
+          "usability": 97.0,
+          "integration": 99,
+          "support": 86.0,
+          "setup_time": 0.78,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O2",
+          "name": "Software Option 38-2",
+          "monthly_cost": 68.8,
+          "security": 70,
+          "usability": 89.24000000000001,
+          "integration": 85,
+          "support": 79.12,
+          "setup_time": 1.2744,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O3",
+          "name": "Software Option 38-3",
+          "monthly_cost": 68.56,
+          "security": 60,
+          "usability": 86.33,
+          "integration": 79,
+          "support": 76.54,
+          "setup_time": 1.4598,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O4",
+          "name": "Software Option 38-4",
+          "monthly_cost": 44.52,
+          "security": 71,
+          "usability": 74,
+          "integration": 57,
+          "support": 73,
+          "setup_time": 1.47,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O5",
+          "name": "Software Option 38-5",
+          "monthly_cost": 65.21,
+          "security": 98,
+          "usability": 55,
+          "integration": 71,
+          "support": 86,
+          "setup_time": 1.69,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_038_O6",
+          "name": "Software Option 38-6",
+          "monthly_cost": 81.31,
+          "security": 62,
+          "usability": 85,
+          "integration": 91,
+          "support": 84,
+          "setup_time": 1.03,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O7",
+          "name": "Software Option 38-7",
+          "monthly_cost": 59.06,
+          "security": 77,
+          "usability": 92,
+          "integration": 75,
+          "support": 73,
+          "setup_time": 6.62,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O8",
+          "name": "Software Option 38-8",
+          "monthly_cost": 82.53,
+          "security": 88,
+          "usability": 67,
+          "integration": 69,
+          "support": 94,
+          "setup_time": 2.61,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O9",
+          "name": "Software Option 38-9",
+          "monthly_cost": 88.0,
+          "security": 88,
+          "usability": 75,
+          "integration": 55,
+          "support": 90,
+          "setup_time": 3.45,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_038_O10",
+          "name": "Software Option 38-10",
+          "monthly_cost": 45.94,
+          "security": 95,
+          "usability": 87,
+          "integration": 74,
+          "support": 78,
+          "setup_time": 2.48,
+          "compliance": 0
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_19",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 39; hard compliance is required and monthly_cost plus compliance matter most.",
+      "primary_criteria": [
+        "monthly_cost",
+        "compliance"
+      ],
+      "secondary_criteria": [
+        "setup_time"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 80,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_039_O1",
+          "name": "Software Option 39-1",
+          "monthly_cost": 44.08,
+          "security": 93,
+          "usability": 76,
+          "integration": 68,
+          "support": 65,
+          "setup_time": 0.5,
+          "compliance": 1.0
+        },
+        {
+          "option_id": "SOF_039_O2",
+          "name": "Software Option 39-2",
+          "monthly_cost": 46.9984,
+          "security": 58,
+          "usability": 86,
+          "integration": 70,
+          "support": 77,
+          "setup_time": 1.3843999999999999,
+          "compliance": 0.88
+        },
+        {
+          "option_id": "SOF_039_O3",
+          "name": "Software Option 39-3",
+          "monthly_cost": 47.728,
+          "security": 81,
+          "usability": 57,
+          "integration": 83,
+          "support": 92,
+          "setup_time": 1.6055,
+          "compliance": 0.85
+        },
+        {
+          "option_id": "SOF_039_O4",
+          "name": "Software Option 39-4",
+          "monthly_cost": 66.32,
+          "security": 76,
+          "usability": 82,
+          "integration": 68,
+          "support": 56,
+          "setup_time": 4.85,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_039_O5",
+          "name": "Software Option 39-5",
+          "monthly_cost": 66.17,
+          "security": 59,
+          "usability": 65,
+          "integration": 65,
+          "support": 55,
+          "setup_time": 5.87,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_039_O6",
+          "name": "Software Option 39-6",
+          "monthly_cost": 44.54,
+          "security": 57,
+          "usability": 56,
+          "integration": 100,
+          "support": 88,
+          "setup_time": 3.11,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_039_O7",
+          "name": "Software Option 39-7",
+          "monthly_cost": 60.44,
+          "security": 60,
+          "usability": 58,
+          "integration": 87,
+          "support": 74,
+          "setup_time": 3.44,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_039_O8",
+          "name": "Software Option 39-8",
+          "monthly_cost": 77.16,
+          "security": 64,
+          "usability": 83,
+          "integration": 82,
+          "support": 63,
+          "setup_time": 5.65,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_039_O9",
+          "name": "Software Option 39-9",
+          "monthly_cost": 74.92,
+          "security": 83,
+          "usability": 93,
+          "integration": 89,
+          "support": 63,
+          "setup_time": 1.66,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_039_O10",
+          "name": "Software Option 39-10",
+          "monthly_cost": 79.7,
+          "security": 82,
+          "usability": 73,
+          "integration": 99,
+          "support": 88,
+          "setup_time": 5.32,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SOF_20",
+      "domain": "software",
+      "user_request": "Select a subscription tool for scenario 40; hard compliance is required and monthly_cost plus compliance matter most.",
+      "primary_criteria": [
+        "monthly_cost",
+        "compliance"
+      ],
+      "secondary_criteria": [
+        "support"
+      ],
+      "hard_constraints": {
+        "monthly_cost_max": 160,
+        "compliance": 1
+      },
+      "options": [
+        {
+          "option_id": "SOF_040_O1",
+          "name": "Software Option 40-1",
+          "monthly_cost": 115.86,
+          "security": 97,
+          "usability": 98,
+          "integration": 63,
+          "support": 95.0,
+          "setup_time": 4.68,
+          "compliance": 1.0
+        },
+        {
+          "option_id": "SOF_040_O2",
+          "name": "Software Option 40-2",
+          "monthly_cost": 116.3148,
+          "security": 64,
+          "usability": 69,
+          "integration": 87,
+          "support": 93.1,
+          "setup_time": 3.19,
+          "compliance": 0.98
+        },
+        {
+          "option_id": "SOF_040_O3",
+          "name": "Software Option 40-3",
+          "monthly_cost": 116.997,
+          "security": 59,
+          "usability": 77,
+          "integration": 95,
+          "support": 90.25,
+          "setup_time": 1.78,
+          "compliance": 0.95
+        },
+        {
+          "option_id": "SOF_040_O4",
+          "name": "Software Option 40-4",
+          "monthly_cost": 137.6,
+          "security": 55,
+          "usability": 60,
+          "integration": 72,
+          "support": 91,
+          "setup_time": 0.24,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_040_O5",
+          "name": "Software Option 40-5",
+          "monthly_cost": 105.38,
+          "security": 70,
+          "usability": 66,
+          "integration": 62,
+          "support": 59,
+          "setup_time": 4.36,
+          "compliance": 0
+        },
+        {
+          "option_id": "SOF_040_O6",
+          "name": "Software Option 40-6",
+          "monthly_cost": 95.38,
+          "security": 63,
+          "usability": 80,
+          "integration": 87,
+          "support": 56,
+          "setup_time": 2.11,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_040_O7",
+          "name": "Software Option 40-7",
+          "monthly_cost": 132.96,
+          "security": 67,
+          "usability": 87,
+          "integration": 56,
+          "support": 73,
+          "setup_time": 4.02,
+          "compliance": 1
+        },
+        {
+          "option_id": "SOF_040_O8",
+          "name": "Software Option 40-8",
+          "monthly_cost": 155.35,
+          "security": 63,
+          "usability": 66,
+          "integration": 55,
+          "support": 96,
+          "setup_time": 7.67,
+          "compliance": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_01",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 41; it must satisfy the hard constraints and optimize device_price and warranty.",
+      "primary_criteria": [
+        "device_price",
+        "warranty"
+      ],
+      "secondary_criteria": [
+        "battery"
+      ],
+      "hard_constraints": {
+        "device_price_max": 800,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_041_O1",
+          "name": "Electronics Option 41-1",
+          "device_price": 479.95,
+          "battery": 98.0,
+          "performance": 64,
+          "reliability": 89,
+          "weight": 5.29,
+          "energy_use": 6.1,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_041_O2",
+          "name": "Electronics Option 41-2",
+          "device_price": 496.674,
+          "battery": 90.16000000000001,
+          "performance": 89,
+          "reliability": 79,
+          "weight": 5.1,
+          "energy_use": 0.76,
+          "warranty": 2.7600000000000002
+        },
+        {
+          "option_id": "ELE_041_O3",
+          "name": "Electronics Option 41-3",
+          "device_price": 502.9455,
+          "battery": 87.22,
+          "performance": 78,
+          "reliability": 93,
+          "weight": 1.89,
+          "energy_use": 3.8,
+          "warranty": 2.67
+        },
+        {
+          "option_id": "ELE_041_O4",
+          "name": "Electronics Option 41-4",
+          "device_price": 688.0,
+          "battery": 56,
+          "performance": 86,
+          "reliability": 93,
+          "weight": 4.52,
+          "energy_use": 7.54,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_041_O5",
+          "name": "Electronics Option 41-5",
+          "device_price": 890.96,
+          "battery": 98,
+          "performance": 56,
+          "reliability": 75,
+          "weight": 6.25,
+          "energy_use": 2.78,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_041_O6",
+          "name": "Electronics Option 41-6",
+          "device_price": 521.41,
+          "battery": 89,
+          "performance": 98,
+          "reliability": 89,
+          "weight": 3.61,
+          "energy_use": 2.46,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_041_O7",
+          "name": "Electronics Option 41-7",
+          "device_price": 448.58,
+          "battery": 61,
+          "performance": 100,
+          "reliability": 78,
+          "weight": 1.91,
+          "energy_use": 7.55,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_041_O8",
+          "name": "Electronics Option 41-8",
+          "device_price": 881.72,
+          "battery": 85,
+          "performance": 100,
+          "reliability": 87,
+          "weight": 1.44,
+          "energy_use": 3.57,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_041_O9",
+          "name": "Electronics Option 41-9",
+          "device_price": 798.77,
+          "battery": 76,
+          "performance": 84,
+          "reliability": 97,
+          "weight": 3.05,
+          "energy_use": 7.29,
+          "warranty": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_02",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 42; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "weight",
+        "reliability"
+      ],
+      "hard_constraints": {
+        "device_price_max": 800,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_042_O1",
+          "name": "Electronics Option 42-1",
+          "device_price": 688.0,
+          "battery": 96.0,
+          "performance": 99,
+          "reliability": 78.0,
+          "weight": 3.52,
+          "energy_use": 7.12,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_042_O2",
+          "name": "Electronics Option 42-2",
+          "device_price": 547.26,
+          "battery": 84.48,
+          "performance": 90,
+          "reliability": 68.64,
+          "weight": 4.0804,
+          "energy_use": 4.37,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_042_O3",
+          "name": "Electronics Option 42-3",
+          "device_price": 585.57,
+          "battery": 81.6,
+          "performance": 94,
+          "reliability": 66.3,
+          "weight": 4.2205,
+          "energy_use": 0.74,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_042_O4",
+          "name": "Electronics Option 42-4",
+          "device_price": 688.0,
+          "battery": 82,
+          "performance": 82,
+          "reliability": 78,
+          "weight": 5.95,
+          "energy_use": 1.45,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_042_O5",
+          "name": "Electronics Option 42-5",
+          "device_price": 746.66,
+          "battery": 57,
+          "performance": 55,
+          "reliability": 95,
+          "weight": 2.55,
+          "energy_use": 2.07,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_042_O6",
+          "name": "Electronics Option 42-6",
+          "device_price": 788.01,
+          "battery": 94,
+          "performance": 91,
+          "reliability": 61,
+          "weight": 0.77,
+          "energy_use": 7.75,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_042_O7",
+          "name": "Electronics Option 42-7",
+          "device_price": 678.39,
+          "battery": 83,
+          "performance": 64,
+          "reliability": 69,
+          "weight": 3.14,
+          "energy_use": 1.48,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_042_O8",
+          "name": "Electronics Option 42-8",
+          "device_price": 598.3,
+          "battery": 81,
+          "performance": 78,
+          "reliability": 97,
+          "weight": 1.6,
+          "energy_use": 4.82,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_042_O9",
+          "name": "Electronics Option 42-9",
+          "device_price": 702.38,
+          "battery": 72,
+          "performance": 62,
+          "reliability": 65,
+          "weight": 4.52,
+          "energy_use": 4.78,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_03",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 43; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 300,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_043_O1",
+          "name": "Electronics Option 43-1",
+          "device_price": 169.25,
+          "battery": 92.0,
+          "performance": 91,
+          "reliability": 60,
+          "weight": 3.57,
+          "energy_use": 2.66,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_043_O2",
+          "name": "Electronics Option 43-2",
+          "device_price": 200.71,
+          "battery": 90.16,
+          "performance": 74,
+          "reliability": 88,
+          "weight": 3.6628,
+          "energy_use": 2.7526,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_043_O3",
+          "name": "Electronics Option 43-3",
+          "device_price": 199.45,
+          "battery": 87.39999999999999,
+          "performance": 95,
+          "reliability": 85,
+          "weight": 3.802,
+          "energy_use": 2.8915,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_043_O4",
+          "name": "Electronics Option 43-4",
+          "device_price": 217.59,
+          "battery": 75,
+          "performance": 83,
+          "reliability": 61,
+          "weight": 4.36,
+          "energy_use": 6.29,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_043_O5",
+          "name": "Electronics Option 43-5",
+          "device_price": 277.16,
+          "battery": 86,
+          "performance": 78,
+          "reliability": 62,
+          "weight": 2.95,
+          "energy_use": 5.11,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_043_O6",
+          "name": "Electronics Option 43-6",
+          "device_price": 206.02,
+          "battery": 95,
+          "performance": 88,
+          "reliability": 91,
+          "weight": 1.98,
+          "energy_use": 7.82,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_043_O7",
+          "name": "Electronics Option 43-7",
+          "device_price": 305.27,
+          "battery": 84,
+          "performance": 95,
+          "reliability": 60,
+          "weight": 0.52,
+          "energy_use": 1.91,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_043_O8",
+          "name": "Electronics Option 43-8",
+          "device_price": 285.78,
+          "battery": 60,
+          "performance": 82,
+          "reliability": 69,
+          "weight": 2.35,
+          "energy_use": 7.52,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_04",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 44; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "weight",
+        "reliability"
+      ],
+      "hard_constraints": {
+        "device_price_max": 300,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_044_O1",
+          "name": "Electronics Option 44-1",
+          "device_price": 258.0,
+          "battery": 75,
+          "performance": 71.0,
+          "reliability": 89.0,
+          "weight": 0.31,
+          "energy_use": 7.12,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_044_O2",
+          "name": "Electronics Option 44-2",
+          "device_price": 172.74,
+          "battery": 93,
+          "performance": 67.45,
+          "reliability": 84.55,
+          "weight": 0.6715,
+          "energy_use": 6.94,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_044_O3",
+          "name": "Electronics Option 44-3",
+          "device_price": 250.07,
+          "battery": 96,
+          "performance": 65.32,
+          "reliability": 81.88,
+          "weight": 0.8884000000000001,
+          "energy_use": 5.86,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_044_O4",
+          "name": "Electronics Option 44-4",
+          "device_price": 258.0,
+          "battery": 68,
+          "performance": 56,
+          "reliability": 89,
+          "weight": 4.61,
+          "energy_use": 3.36,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_044_O5",
+          "name": "Electronics Option 44-5",
+          "device_price": 185.46,
+          "battery": 96,
+          "performance": 65,
+          "reliability": 67,
+          "weight": 7.22,
+          "energy_use": 6.87,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_044_O6",
+          "name": "Electronics Option 44-6",
+          "device_price": 320.61,
+          "battery": 80,
+          "performance": 83,
+          "reliability": 80,
+          "weight": 4.38,
+          "energy_use": 0.4,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_044_O7",
+          "name": "Electronics Option 44-7",
+          "device_price": 183.91,
+          "battery": 67,
+          "performance": 55,
+          "reliability": 87,
+          "weight": 0.2,
+          "energy_use": 2.84,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_044_O8",
+          "name": "Electronics Option 44-8",
+          "device_price": 207.95,
+          "battery": 81,
+          "performance": 67,
+          "reliability": 67,
+          "weight": 6.28,
+          "energy_use": 1.56,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_044_O9",
+          "name": "Electronics Option 44-9",
+          "device_price": 303.82,
+          "battery": 90,
+          "performance": 76,
+          "reliability": 93,
+          "weight": 4.99,
+          "energy_use": 3.04,
+          "warranty": 4
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_05",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 45; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "weight",
+        "reliability"
+      ],
+      "hard_constraints": {
+        "device_price_max": 1200,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_045_O1",
+          "name": "Electronics Option 45-1",
+          "device_price": 973.26,
+          "battery": 69,
+          "performance": 92.0,
+          "reliability": 87.0,
+          "weight": 0.92,
+          "energy_use": 0.52,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_045_O2",
+          "name": "Electronics Option 45-2",
+          "device_price": 1032.0,
+          "battery": 58,
+          "performance": 84.64,
+          "reliability": 80.04,
+          "weight": 1.3328,
+          "energy_use": 0.89,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_045_O3",
+          "name": "Electronics Option 45-3",
+          "device_price": 1032.0,
+          "battery": 84,
+          "performance": 81.88,
+          "reliability": 77.43,
+          "weight": 1.4876,
+          "energy_use": 3.46,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_045_O4",
+          "name": "Electronics Option 45-4",
+          "device_price": 670.09,
+          "battery": 91,
+          "performance": 61,
+          "reliability": 63,
+          "weight": 3.47,
+          "energy_use": 7.62,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_045_O5",
+          "name": "Electronics Option 45-5",
+          "device_price": 907.68,
+          "battery": 77,
+          "performance": 62,
+          "reliability": 86,
+          "weight": 1.43,
+          "energy_use": 5.36,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_045_O6",
+          "name": "Electronics Option 45-6",
+          "device_price": 918.15,
+          "battery": 87,
+          "performance": 81,
+          "reliability": 94,
+          "weight": 6.34,
+          "energy_use": 7.25,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_045_O7",
+          "name": "Electronics Option 45-7",
+          "device_price": 1042.03,
+          "battery": 84,
+          "performance": 59,
+          "reliability": 86,
+          "weight": 6.54,
+          "energy_use": 2.19,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_045_O8",
+          "name": "Electronics Option 45-8",
+          "device_price": 906.1,
+          "battery": 84,
+          "performance": 72,
+          "reliability": 99,
+          "weight": 2.39,
+          "energy_use": 4.86,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_045_O9",
+          "name": "Electronics Option 45-9",
+          "device_price": 1047.17,
+          "battery": 90,
+          "performance": 100,
+          "reliability": 77,
+          "weight": 3.87,
+          "energy_use": 0.24,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_06",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 46; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "battery"
+      ],
+      "hard_constraints": {
+        "device_price_max": 500,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_046_O1",
+          "name": "Electronics Option 46-1",
+          "device_price": 430.0,
+          "battery": 97.0,
+          "performance": 67.0,
+          "reliability": 88.0,
+          "weight": 4.27,
+          "energy_use": 6.24,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_046_O2",
+          "name": "Electronics Option 46-2",
+          "device_price": 430.0,
+          "battery": 85.36,
+          "performance": 58.96,
+          "reliability": 77.44,
+          "weight": 5.6,
+          "energy_use": 2.74,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_046_O3",
+          "name": "Electronics Option 46-3",
+          "device_price": 430.0,
+          "battery": 82.45,
+          "performance": 56.949999999999996,
+          "reliability": 74.8,
+          "weight": 1.54,
+          "energy_use": 6.47,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_046_O4",
+          "name": "Electronics Option 46-4",
+          "device_price": 351.74,
+          "battery": 80,
+          "performance": 67,
+          "reliability": 68,
+          "weight": 4.15,
+          "energy_use": 0.97,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_046_O5",
+          "name": "Electronics Option 46-5",
+          "device_price": 410.84,
+          "battery": 72,
+          "performance": 75,
+          "reliability": 83,
+          "weight": 2.35,
+          "energy_use": 1.4,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_046_O6",
+          "name": "Electronics Option 46-6",
+          "device_price": 508.67,
+          "battery": 73,
+          "performance": 98,
+          "reliability": 78,
+          "weight": 2.54,
+          "energy_use": 2.61,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_046_O7",
+          "name": "Electronics Option 46-7",
+          "device_price": 444.41,
+          "battery": 93,
+          "performance": 90,
+          "reliability": 93,
+          "weight": 4.19,
+          "energy_use": 1.93,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_046_O8",
+          "name": "Electronics Option 46-8",
+          "device_price": 432.7,
+          "battery": 68,
+          "performance": 73,
+          "reliability": 66,
+          "weight": 0.77,
+          "energy_use": 4.34,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_046_O9",
+          "name": "Electronics Option 46-9",
+          "device_price": 381.2,
+          "battery": 83,
+          "performance": 84,
+          "reliability": 62,
+          "weight": 4.43,
+          "energy_use": 7.53,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_046_O10",
+          "name": "Electronics Option 46-10",
+          "device_price": 338.37,
+          "battery": 69,
+          "performance": 58,
+          "reliability": 90,
+          "weight": 7.9,
+          "energy_use": 1.61,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_07",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 47; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 1200,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_047_O1",
+          "name": "Electronics Option 47-1",
+          "device_price": 1032.0,
+          "battery": 80.0,
+          "performance": 74,
+          "reliability": 91,
+          "weight": 0.87,
+          "energy_use": 0.28,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_047_O2",
+          "name": "Electronics Option 47-2",
+          "device_price": 1032.0,
+          "battery": 78.4,
+          "performance": 65,
+          "reliability": 60,
+          "weight": 1.0266,
+          "energy_use": 0.4202,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_047_O3",
+          "name": "Electronics Option 47-3",
+          "device_price": 899.4,
+          "battery": 76.0,
+          "performance": 79,
+          "reliability": 74,
+          "weight": 1.2615,
+          "energy_use": 0.6305000000000001,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_047_O4",
+          "name": "Electronics Option 47-4",
+          "device_price": 915.31,
+          "battery": 80,
+          "performance": 95,
+          "reliability": 60,
+          "weight": 6.59,
+          "energy_use": 6.29,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_047_O5",
+          "name": "Electronics Option 47-5",
+          "device_price": 856.87,
+          "battery": 98,
+          "performance": 64,
+          "reliability": 96,
+          "weight": 6.1,
+          "energy_use": 2.77,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_047_O6",
+          "name": "Electronics Option 47-6",
+          "device_price": 1283.09,
+          "battery": 96,
+          "performance": 61,
+          "reliability": 99,
+          "weight": 1.29,
+          "energy_use": 4.17,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_047_O7",
+          "name": "Electronics Option 47-7",
+          "device_price": 690.45,
+          "battery": 72,
+          "performance": 72,
+          "reliability": 87,
+          "weight": 3.6,
+          "energy_use": 3.27,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_047_O8",
+          "name": "Electronics Option 47-8",
+          "device_price": 781.77,
+          "battery": 68,
+          "performance": 72,
+          "reliability": 71,
+          "weight": 5.47,
+          "energy_use": 2.91,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_047_O9",
+          "name": "Electronics Option 47-9",
+          "device_price": 721.68,
+          "battery": 62,
+          "performance": 70,
+          "reliability": 77,
+          "weight": 4.02,
+          "energy_use": 2.37,
+          "warranty": 2
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_08",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 48; it must satisfy the hard constraints and optimize device_price and warranty.",
+      "primary_criteria": [
+        "device_price",
+        "warranty"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 800,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_048_O1",
+          "name": "Electronics Option 48-1",
+          "device_price": 493.52,
+          "battery": 86,
+          "performance": 92,
+          "reliability": 100,
+          "weight": 2.58,
+          "energy_use": 1.93,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_048_O2",
+          "name": "Electronics Option 48-2",
+          "device_price": 503.294,
+          "battery": 94,
+          "performance": 58,
+          "reliability": 93,
+          "weight": 7.74,
+          "energy_use": 2.2195,
+          "warranty": 2.8499999999999996
+        },
+        {
+          "option_id": "ELE_048_O3",
+          "name": "Electronics Option 48-3",
+          "device_price": 509.1584,
+          "battery": 89,
+          "performance": 80,
+          "reliability": 67,
+          "weight": 6.75,
+          "energy_use": 2.3931999999999998,
+          "warranty": 2.76
+        },
+        {
+          "option_id": "ELE_048_O4",
+          "name": "Electronics Option 48-4",
+          "device_price": 493.52,
+          "battery": 78,
+          "performance": 99,
+          "reliability": 79,
+          "weight": 1.02,
+          "energy_use": 1.93,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_048_O5",
+          "name": "Electronics Option 48-5",
+          "device_price": 852.68,
+          "battery": 59,
+          "performance": 58,
+          "reliability": 99,
+          "weight": 5.11,
+          "energy_use": 6.02,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_048_O6",
+          "name": "Electronics Option 48-6",
+          "device_price": 791.77,
+          "battery": 56,
+          "performance": 95,
+          "reliability": 77,
+          "weight": 1.14,
+          "energy_use": 5.87,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_048_O7",
+          "name": "Electronics Option 48-7",
+          "device_price": 545.56,
+          "battery": 70,
+          "performance": 60,
+          "reliability": 69,
+          "weight": 2.03,
+          "energy_use": 3.15,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_048_O8",
+          "name": "Electronics Option 48-8",
+          "device_price": 764.65,
+          "battery": 88,
+          "performance": 88,
+          "reliability": 76,
+          "weight": 0.42,
+          "energy_use": 2.37,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_048_O9",
+          "name": "Electronics Option 48-9",
+          "device_price": 800.71,
+          "battery": 59,
+          "performance": 72,
+          "reliability": 97,
+          "weight": 7.18,
+          "energy_use": 6.29,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_048_O10",
+          "name": "Electronics Option 48-10",
+          "device_price": 446.88,
+          "battery": 57,
+          "performance": 62,
+          "reliability": 97,
+          "weight": 2.31,
+          "energy_use": 2.28,
+          "warranty": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_09",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 49; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 500,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_049_O1",
+          "name": "Electronics Option 49-1",
+          "device_price": 337.45,
+          "battery": 96.0,
+          "performance": 67,
+          "reliability": 88,
+          "weight": 0.81,
+          "energy_use": 1.55,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_049_O2",
+          "name": "Electronics Option 49-2",
+          "device_price": 336.26,
+          "battery": 88.32000000000001,
+          "performance": 97,
+          "reliability": 57,
+          "weight": 1.27,
+          "energy_use": 2.0724,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_049_O3",
+          "name": "Electronics Option 49-3",
+          "device_price": 392.95,
+          "battery": 85.44,
+          "performance": 69,
+          "reliability": 95,
+          "weight": 1.4425,
+          "energy_use": 2.2683,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_049_O4",
+          "name": "Electronics Option 49-4",
+          "device_price": 341.96,
+          "battery": 90,
+          "performance": 66,
+          "reliability": 67,
+          "weight": 1.75,
+          "energy_use": 4.96,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_049_O5",
+          "name": "Electronics Option 49-5",
+          "device_price": 459.86,
+          "battery": 81,
+          "performance": 66,
+          "reliability": 68,
+          "weight": 5.93,
+          "energy_use": 3.57,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_049_O6",
+          "name": "Electronics Option 49-6",
+          "device_price": 442.59,
+          "battery": 61,
+          "performance": 76,
+          "reliability": 87,
+          "weight": 6.19,
+          "energy_use": 1.55,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_049_O7",
+          "name": "Electronics Option 49-7",
+          "device_price": 452.34,
+          "battery": 68,
+          "performance": 64,
+          "reliability": 62,
+          "weight": 3.29,
+          "energy_use": 3.56,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_049_O8",
+          "name": "Electronics Option 49-8",
+          "device_price": 298.47,
+          "battery": 56,
+          "performance": 64,
+          "reliability": 76,
+          "weight": 7.11,
+          "energy_use": 7.57,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_049_O9",
+          "name": "Electronics Option 49-9",
+          "device_price": 555.85,
+          "battery": 91,
+          "performance": 67,
+          "reliability": 95,
+          "weight": 5.44,
+          "energy_use": 5.57,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_049_O10",
+          "name": "Electronics Option 49-10",
+          "device_price": 282.44,
+          "battery": 64,
+          "performance": 64,
+          "reliability": 76,
+          "weight": 3.04,
+          "energy_use": 5.18,
+          "warranty": 2
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_10",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 50; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "weight",
+        "reliability"
+      ],
+      "hard_constraints": {
+        "device_price_max": 300,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_050_O1",
+          "name": "Electronics Option 50-1",
+          "device_price": 198.28,
+          "battery": 93.0,
+          "performance": 61,
+          "reliability": 90.0,
+          "weight": 0.96,
+          "energy_use": 0.87,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_050_O2",
+          "name": "Electronics Option 50-2",
+          "device_price": 258.0,
+          "battery": 81.84,
+          "performance": 86,
+          "reliability": 79.2,
+          "weight": 1.4028,
+          "energy_use": 3.76,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_050_O3",
+          "name": "Electronics Option 50-3",
+          "device_price": 258.0,
+          "battery": 79.05,
+          "performance": 69,
+          "reliability": 76.5,
+          "weight": 1.5135,
+          "energy_use": 0.46,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_050_O4",
+          "name": "Electronics Option 50-4",
+          "device_price": 201.39,
+          "battery": 67,
+          "performance": 75,
+          "reliability": 70,
+          "weight": 1.04,
+          "energy_use": 4.72,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_050_O5",
+          "name": "Electronics Option 50-5",
+          "device_price": 227.71,
+          "battery": 95,
+          "performance": 60,
+          "reliability": 72,
+          "weight": 4.12,
+          "energy_use": 2.76,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_050_O6",
+          "name": "Electronics Option 50-6",
+          "device_price": 189.06,
+          "battery": 64,
+          "performance": 74,
+          "reliability": 75,
+          "weight": 6.28,
+          "energy_use": 1.45,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_050_O7",
+          "name": "Electronics Option 50-7",
+          "device_price": 286.12,
+          "battery": 69,
+          "performance": 66,
+          "reliability": 75,
+          "weight": 1.72,
+          "energy_use": 7.69,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_050_O8",
+          "name": "Electronics Option 50-8",
+          "device_price": 323.47,
+          "battery": 88,
+          "performance": 87,
+          "reliability": 72,
+          "weight": 2.8,
+          "energy_use": 2.16,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_050_O9",
+          "name": "Electronics Option 50-9",
+          "device_price": 246.5,
+          "battery": 72,
+          "performance": 87,
+          "reliability": 97,
+          "weight": 6.29,
+          "energy_use": 2.48,
+          "warranty": 2
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_11",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 51; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 1200,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_051_O1",
+          "name": "Electronics Option 51-1",
+          "device_price": 1032.0,
+          "battery": 83,
+          "performance": 97.0,
+          "reliability": 99.0,
+          "weight": 7.61,
+          "energy_use": 3.17,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_051_O2",
+          "name": "Electronics Option 51-2",
+          "device_price": 860.24,
+          "battery": 70,
+          "performance": 95.06,
+          "reliability": 97.02,
+          "weight": 0.5,
+          "energy_use": 3.2842,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_051_O3",
+          "name": "Electronics Option 51-3",
+          "device_price": 787.54,
+          "battery": 99,
+          "performance": 92.14999999999999,
+          "reliability": 94.05,
+          "weight": 6.16,
+          "energy_use": 3.4555,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_051_O4",
+          "name": "Electronics Option 51-4",
+          "device_price": 912.88,
+          "battery": 63,
+          "performance": 66,
+          "reliability": 97,
+          "weight": 0.78,
+          "energy_use": 3.17,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_051_O5",
+          "name": "Electronics Option 51-5",
+          "device_price": 1298.29,
+          "battery": 77,
+          "performance": 73,
+          "reliability": 100,
+          "weight": 6.24,
+          "energy_use": 4.09,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_051_O6",
+          "name": "Electronics Option 51-6",
+          "device_price": 1100.55,
+          "battery": 87,
+          "performance": 65,
+          "reliability": 76,
+          "weight": 5.1,
+          "energy_use": 2.86,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_051_O7",
+          "name": "Electronics Option 51-7",
+          "device_price": 1173.85,
+          "battery": 79,
+          "performance": 97,
+          "reliability": 79,
+          "weight": 7.51,
+          "energy_use": 3.38,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_051_O8",
+          "name": "Electronics Option 51-8",
+          "device_price": 1115.0,
+          "battery": 69,
+          "performance": 72,
+          "reliability": 92,
+          "weight": 3.7,
+          "energy_use": 1.69,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_051_O9",
+          "name": "Electronics Option 51-9",
+          "device_price": 1115.34,
+          "battery": 99,
+          "performance": 63,
+          "reliability": 96,
+          "weight": 2.3,
+          "energy_use": 6.48,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_051_O10",
+          "name": "Electronics Option 51-10",
+          "device_price": 1204.3,
+          "battery": 95,
+          "performance": 88,
+          "reliability": 71,
+          "weight": 4.75,
+          "energy_use": 1.1,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_12",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 52; it must satisfy the hard constraints and optimize device_price and warranty.",
+      "primary_criteria": [
+        "device_price",
+        "warranty"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 500,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_052_O1",
+          "name": "Electronics Option 52-1",
+          "device_price": 293.27,
+          "battery": 55,
+          "performance": 78,
+          "reliability": 75,
+          "weight": 2.31,
+          "energy_use": 1.01,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_052_O2",
+          "name": "Electronics Option 52-2",
+          "device_price": 300.1565,
+          "battery": 57,
+          "performance": 90,
+          "reliability": 91,
+          "weight": 4.98,
+          "energy_use": 1.2505000000000002,
+          "warranty": 2.8499999999999996
+        },
+        {
+          "option_id": "ELE_052_O3",
+          "name": "Electronics Option 52-3",
+          "device_price": 304.28839999999997,
+          "battery": 99,
+          "performance": 71,
+          "reliability": 89,
+          "weight": 5.88,
+          "energy_use": 1.3948,
+          "warranty": 2.76
+        },
+        {
+          "option_id": "ELE_052_O4",
+          "name": "Electronics Option 52-4",
+          "device_price": 293.27,
+          "battery": 71,
+          "performance": 79,
+          "reliability": 93,
+          "weight": 2.79,
+          "energy_use": 1.01,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_052_O5",
+          "name": "Electronics Option 52-5",
+          "device_price": 515.43,
+          "battery": 58,
+          "performance": 71,
+          "reliability": 84,
+          "weight": 7.85,
+          "energy_use": 7.83,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_052_O6",
+          "name": "Electronics Option 52-6",
+          "device_price": 440.98,
+          "battery": 79,
+          "performance": 58,
+          "reliability": 67,
+          "weight": 2.98,
+          "energy_use": 5.7,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_052_O7",
+          "name": "Electronics Option 52-7",
+          "device_price": 408.05,
+          "battery": 75,
+          "performance": 63,
+          "reliability": 81,
+          "weight": 4.59,
+          "energy_use": 5.93,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_052_O8",
+          "name": "Electronics Option 52-8",
+          "device_price": 430.86,
+          "battery": 70,
+          "performance": 88,
+          "reliability": 56,
+          "weight": 7.52,
+          "energy_use": 6.23,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_052_O9",
+          "name": "Electronics Option 52-9",
+          "device_price": 472.35,
+          "battery": 71,
+          "performance": 74,
+          "reliability": 64,
+          "weight": 3.82,
+          "energy_use": 2.07,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_13",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 53; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "weight",
+        "reliability"
+      ],
+      "hard_constraints": {
+        "device_price_max": 1200,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_053_O1",
+          "name": "Electronics Option 53-1",
+          "device_price": 902.88,
+          "battery": 87,
+          "performance": 99.0,
+          "reliability": 94.0,
+          "weight": 0.43,
+          "energy_use": 3.87,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_053_O2",
+          "name": "Electronics Option 53-2",
+          "device_price": 803.14,
+          "battery": 93,
+          "performance": 91.08,
+          "reliability": 86.48,
+          "weight": 1.1059999999999999,
+          "energy_use": 7.11,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_053_O3",
+          "name": "Electronics Option 53-3",
+          "device_price": 939.36,
+          "battery": 60,
+          "performance": 88.11,
+          "reliability": 83.66,
+          "weight": 1.3595,
+          "energy_use": 1.32,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_053_O4",
+          "name": "Electronics Option 53-4",
+          "device_price": 702.37,
+          "battery": 60,
+          "performance": 68,
+          "reliability": 74,
+          "weight": 7.88,
+          "energy_use": 0.8,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_053_O5",
+          "name": "Electronics Option 53-5",
+          "device_price": 1201.45,
+          "battery": 68,
+          "performance": 89,
+          "reliability": 82,
+          "weight": 1.83,
+          "energy_use": 5.49,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_053_O6",
+          "name": "Electronics Option 53-6",
+          "device_price": 840.49,
+          "battery": 55,
+          "performance": 100,
+          "reliability": 85,
+          "weight": 7.66,
+          "energy_use": 4.92,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_053_O7",
+          "name": "Electronics Option 53-7",
+          "device_price": 964.14,
+          "battery": 66,
+          "performance": 67,
+          "reliability": 70,
+          "weight": 3.64,
+          "energy_use": 4.73,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_053_O8",
+          "name": "Electronics Option 53-8",
+          "device_price": 1171.16,
+          "battery": 68,
+          "performance": 99,
+          "reliability": 75,
+          "weight": 5.5,
+          "energy_use": 7.82,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_053_O9",
+          "name": "Electronics Option 53-9",
+          "device_price": 726.04,
+          "battery": 94,
+          "performance": 91,
+          "reliability": 79,
+          "weight": 6.12,
+          "energy_use": 4.6,
+          "warranty": 2
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_14",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 54; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "battery"
+      ],
+      "hard_constraints": {
+        "device_price_max": 500,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_054_O1",
+          "name": "Electronics Option 54-1",
+          "device_price": 349.41,
+          "battery": 90.0,
+          "performance": 98.0,
+          "reliability": 97.0,
+          "weight": 3.55,
+          "energy_use": 0.27,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_054_O2",
+          "name": "Electronics Option 54-2",
+          "device_price": 430.0,
+          "battery": 79.2,
+          "performance": 86.24,
+          "reliability": 85.36,
+          "weight": 3.24,
+          "energy_use": 1.23,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_054_O3",
+          "name": "Electronics Option 54-3",
+          "device_price": 430.0,
+          "battery": 76.5,
+          "performance": 83.3,
+          "reliability": 82.45,
+          "weight": 0.3,
+          "energy_use": 1.33,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_054_O4",
+          "name": "Electronics Option 54-4",
+          "device_price": 415.87,
+          "battery": 57,
+          "performance": 61,
+          "reliability": 72,
+          "weight": 0.45,
+          "energy_use": 3.51,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_054_O5",
+          "name": "Electronics Option 54-5",
+          "device_price": 337.33,
+          "battery": 70,
+          "performance": 78,
+          "reliability": 63,
+          "weight": 2.86,
+          "energy_use": 3.96,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_054_O6",
+          "name": "Electronics Option 54-6",
+          "device_price": 481.8,
+          "battery": 85,
+          "performance": 89,
+          "reliability": 85,
+          "weight": 2.65,
+          "energy_use": 6.99,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_054_O7",
+          "name": "Electronics Option 54-7",
+          "device_price": 426.07,
+          "battery": 93,
+          "performance": 91,
+          "reliability": 91,
+          "weight": 6.23,
+          "energy_use": 7.71,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_054_O8",
+          "name": "Electronics Option 54-8",
+          "device_price": 469.9,
+          "battery": 76,
+          "performance": 64,
+          "reliability": 99,
+          "weight": 4.15,
+          "energy_use": 3.67,
+          "warranty": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_15",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 55; it must satisfy the hard constraints and optimize device_price and warranty.",
+      "primary_criteria": [
+        "device_price",
+        "warranty"
+      ],
+      "secondary_criteria": [
+        "battery"
+      ],
+      "hard_constraints": {
+        "device_price_max": 1200,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_055_O1",
+          "name": "Electronics Option 55-1",
+          "device_price": 673.42,
+          "battery": 95.0,
+          "performance": 89,
+          "reliability": 93,
+          "weight": 7.59,
+          "energy_use": 5.99,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_055_O2",
+          "name": "Electronics Option 55-2",
+          "device_price": 680.6116,
+          "battery": 93.1,
+          "performance": 62,
+          "reliability": 83,
+          "weight": 1.96,
+          "energy_use": 2.23,
+          "warranty": 1.96
+        },
+        {
+          "option_id": "ELE_055_O3",
+          "name": "Electronics Option 55-3",
+          "device_price": 691.399,
+          "battery": 90.25,
+          "performance": 91,
+          "reliability": 96,
+          "weight": 3.24,
+          "energy_use": 2.98,
+          "warranty": 1.9
+        },
+        {
+          "option_id": "ELE_055_O4",
+          "name": "Electronics Option 55-4",
+          "device_price": 1032.0,
+          "battery": 81,
+          "performance": 96,
+          "reliability": 75,
+          "weight": 6.26,
+          "energy_use": 5.98,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_055_O5",
+          "name": "Electronics Option 55-5",
+          "device_price": 1209.81,
+          "battery": 81,
+          "performance": 94,
+          "reliability": 58,
+          "weight": 4.88,
+          "energy_use": 1.44,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_055_O6",
+          "name": "Electronics Option 55-6",
+          "device_price": 918.88,
+          "battery": 83,
+          "performance": 83,
+          "reliability": 95,
+          "weight": 1.4,
+          "energy_use": 6.63,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_055_O7",
+          "name": "Electronics Option 55-7",
+          "device_price": 1000.47,
+          "battery": 100,
+          "performance": 71,
+          "reliability": 79,
+          "weight": 3.61,
+          "energy_use": 0.42,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_055_O8",
+          "name": "Electronics Option 55-8",
+          "device_price": 721.09,
+          "battery": 70,
+          "performance": 88,
+          "reliability": 94,
+          "weight": 3.13,
+          "energy_use": 6.16,
+          "warranty": 1
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_16",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 56; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 500,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_056_O1",
+          "name": "Electronics Option 56-1",
+          "device_price": 430.0,
+          "battery": 97.0,
+          "performance": 81,
+          "reliability": 76,
+          "weight": 3.3,
+          "energy_use": 0.64,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_056_O2",
+          "name": "Electronics Option 56-2",
+          "device_price": 363.39,
+          "battery": 92.14999999999999,
+          "performance": 81,
+          "reliability": 97,
+          "weight": 3.4995,
+          "energy_use": 0.9720000000000001,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_056_O3",
+          "name": "Electronics Option 56-3",
+          "device_price": 403.3,
+          "battery": 89.24,
+          "performance": 57,
+          "reliability": 85,
+          "weight": 3.6191999999999998,
+          "energy_use": 1.1712,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_056_O4",
+          "name": "Electronics Option 56-4",
+          "device_price": 430.0,
+          "battery": 77,
+          "performance": 83,
+          "reliability": 70,
+          "weight": 5.89,
+          "energy_use": 2.85,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_056_O5",
+          "name": "Electronics Option 56-5",
+          "device_price": 510.56,
+          "battery": 74,
+          "performance": 75,
+          "reliability": 68,
+          "weight": 4.79,
+          "energy_use": 0.84,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_056_O6",
+          "name": "Electronics Option 56-6",
+          "device_price": 295.87,
+          "battery": 76,
+          "performance": 67,
+          "reliability": 90,
+          "weight": 4.18,
+          "energy_use": 4.94,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_056_O7",
+          "name": "Electronics Option 56-7",
+          "device_price": 330.16,
+          "battery": 57,
+          "performance": 80,
+          "reliability": 90,
+          "weight": 2.84,
+          "energy_use": 7.0,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_056_O8",
+          "name": "Electronics Option 56-8",
+          "device_price": 342.11,
+          "battery": 74,
+          "performance": 69,
+          "reliability": 70,
+          "weight": 6.93,
+          "energy_use": 7.69,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_056_O9",
+          "name": "Electronics Option 56-9",
+          "device_price": 350.48,
+          "battery": 100,
+          "performance": 75,
+          "reliability": 64,
+          "weight": 4.98,
+          "energy_use": 2.28,
+          "warranty": 2
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_17",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 57; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "weight",
+        "reliability"
+      ],
+      "hard_constraints": {
+        "device_price_max": 500,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_057_O1",
+          "name": "Electronics Option 57-1",
+          "device_price": 430.0,
+          "battery": 82.0,
+          "performance": 73,
+          "reliability": 100.0,
+          "weight": 0.76,
+          "energy_use": 5.55,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_057_O2",
+          "name": "Electronics Option 57-2",
+          "device_price": 430.0,
+          "battery": 75.44,
+          "performance": 88,
+          "reliability": 92.0,
+          "weight": 1.1576,
+          "energy_use": 2.02,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_057_O3",
+          "name": "Electronics Option 57-3",
+          "device_price": 430.0,
+          "battery": 72.98,
+          "performance": 96,
+          "reliability": 89.0,
+          "weight": 1.3067000000000002,
+          "energy_use": 0.91,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_057_O4",
+          "name": "Electronics Option 57-4",
+          "device_price": 430.0,
+          "battery": 59,
+          "performance": 91,
+          "reliability": 100,
+          "weight": 4.61,
+          "energy_use": 2.24,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_057_O5",
+          "name": "Electronics Option 57-5",
+          "device_price": 303.29,
+          "battery": 83,
+          "performance": 95,
+          "reliability": 90,
+          "weight": 5.56,
+          "energy_use": 4.12,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_057_O6",
+          "name": "Electronics Option 57-6",
+          "device_price": 456.91,
+          "battery": 81,
+          "performance": 84,
+          "reliability": 75,
+          "weight": 1.23,
+          "energy_use": 6.46,
+          "warranty": 1
+        },
+        {
+          "option_id": "ELE_057_O7",
+          "name": "Electronics Option 57-7",
+          "device_price": 368.64,
+          "battery": 95,
+          "performance": 76,
+          "reliability": 56,
+          "weight": 5.3,
+          "energy_use": 6.48,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_057_O8",
+          "name": "Electronics Option 57-8",
+          "device_price": 443.68,
+          "battery": 86,
+          "performance": 80,
+          "reliability": 62,
+          "weight": 7.9,
+          "energy_use": 3.63,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_057_O9",
+          "name": "Electronics Option 57-9",
+          "device_price": 433.06,
+          "battery": 55,
+          "performance": 58,
+          "reliability": 99,
+          "weight": 3.47,
+          "energy_use": 5.66,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_057_O10",
+          "name": "Electronics Option 57-10",
+          "device_price": 298.62,
+          "battery": 78,
+          "performance": 81,
+          "reliability": 64,
+          "weight": 0.28,
+          "energy_use": 5.01,
+          "warranty": 4
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_18",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 58; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "battery"
+      ],
+      "hard_constraints": {
+        "device_price_max": 300,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_058_O1",
+          "name": "Electronics Option 58-1",
+          "device_price": 180.72,
+          "battery": 89.0,
+          "performance": 100.0,
+          "reliability": 100.0,
+          "weight": 7.41,
+          "energy_use": 4.46,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_058_O2",
+          "name": "Electronics Option 58-2",
+          "device_price": 175.43,
+          "battery": 78.32000000000001,
+          "performance": 88.0,
+          "reliability": 88.0,
+          "weight": 1.95,
+          "energy_use": 7.23,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_058_O3",
+          "name": "Electronics Option 58-3",
+          "device_price": 252.18,
+          "battery": 75.64999999999999,
+          "performance": 85.0,
+          "reliability": 85.0,
+          "weight": 3.32,
+          "energy_use": 7.47,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_058_O4",
+          "name": "Electronics Option 58-4",
+          "device_price": 258.0,
+          "battery": 58,
+          "performance": 95,
+          "reliability": 68,
+          "weight": 1.82,
+          "energy_use": 6.74,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_058_O5",
+          "name": "Electronics Option 58-5",
+          "device_price": 266.12,
+          "battery": 60,
+          "performance": 86,
+          "reliability": 79,
+          "weight": 4.46,
+          "energy_use": 5.92,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_058_O6",
+          "name": "Electronics Option 58-6",
+          "device_price": 315.8,
+          "battery": 77,
+          "performance": 84,
+          "reliability": 70,
+          "weight": 2.41,
+          "energy_use": 0.34,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_058_O7",
+          "name": "Electronics Option 58-7",
+          "device_price": 191.14,
+          "battery": 80,
+          "performance": 86,
+          "reliability": 97,
+          "weight": 4.78,
+          "energy_use": 7.44,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_058_O8",
+          "name": "Electronics Option 58-8",
+          "device_price": 230.53,
+          "battery": 76,
+          "performance": 85,
+          "reliability": 78,
+          "weight": 1.25,
+          "energy_use": 0.37,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_058_O9",
+          "name": "Electronics Option 58-9",
+          "device_price": 170.61,
+          "battery": 98,
+          "performance": 56,
+          "reliability": 78,
+          "weight": 2.22,
+          "energy_use": 4.75,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_058_O10",
+          "name": "Electronics Option 58-10",
+          "device_price": 168.56,
+          "battery": 82,
+          "performance": 66,
+          "reliability": 56,
+          "weight": 2.27,
+          "energy_use": 5.23,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_19",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 59; it must satisfy the hard constraints and optimize performance and reliability.",
+      "primary_criteria": [
+        "performance",
+        "reliability"
+      ],
+      "secondary_criteria": [
+        "battery"
+      ],
+      "hard_constraints": {
+        "device_price_max": 300,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_059_O1",
+          "name": "Electronics Option 59-1",
+          "device_price": 215.67,
+          "battery": 97.0,
+          "performance": 92.0,
+          "reliability": 93.0,
+          "weight": 6.66,
+          "energy_use": 3.35,
+          "warranty": 3.0
+        },
+        {
+          "option_id": "ELE_059_O2",
+          "name": "Electronics Option 59-2",
+          "device_price": 181.33,
+          "battery": 95.06,
+          "performance": 90.16,
+          "reliability": 91.14,
+          "weight": 6.53,
+          "energy_use": 5.37,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_059_O3",
+          "name": "Electronics Option 59-3",
+          "device_price": 222.91,
+          "battery": 92.14999999999999,
+          "performance": 87.39999999999999,
+          "reliability": 88.35,
+          "weight": 1.82,
+          "energy_use": 2.05,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_059_O4",
+          "name": "Electronics Option 59-4",
+          "device_price": 258.0,
+          "battery": 93,
+          "performance": 78,
+          "reliability": 90,
+          "weight": 4.98,
+          "energy_use": 6.94,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_059_O5",
+          "name": "Electronics Option 59-5",
+          "device_price": 200.73,
+          "battery": 57,
+          "performance": 59,
+          "reliability": 60,
+          "weight": 0.57,
+          "energy_use": 5.63,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_059_O6",
+          "name": "Electronics Option 59-6",
+          "device_price": 221.87,
+          "battery": 75,
+          "performance": 90,
+          "reliability": 63,
+          "weight": 1.75,
+          "energy_use": 6.34,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_059_O7",
+          "name": "Electronics Option 59-7",
+          "device_price": 300.64,
+          "battery": 65,
+          "performance": 60,
+          "reliability": 55,
+          "weight": 3.53,
+          "energy_use": 5.19,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_059_O8",
+          "name": "Electronics Option 59-8",
+          "device_price": 238.09,
+          "battery": 62,
+          "performance": 59,
+          "reliability": 90,
+          "weight": 1.69,
+          "energy_use": 6.12,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_059_O9",
+          "name": "Electronics Option 59-9",
+          "device_price": 247.88,
+          "battery": 98,
+          "performance": 67,
+          "reliability": 73,
+          "weight": 3.35,
+          "energy_use": 6.49,
+          "warranty": 3
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELE_20",
+      "domain": "electronics",
+      "user_request": "Pick an electronic product for scenario 60; it must satisfy the hard constraints and optimize battery and weight.",
+      "primary_criteria": [
+        "battery",
+        "weight"
+      ],
+      "secondary_criteria": [
+        "energy_use"
+      ],
+      "hard_constraints": {
+        "device_price_max": 1200,
+        "warranty_min": 2
+      },
+      "options": [
+        {
+          "option_id": "ELE_060_O1",
+          "name": "Electronics Option 60-1",
+          "device_price": 1032.0,
+          "battery": 94.0,
+          "performance": 75,
+          "reliability": 56,
+          "weight": 1.3,
+          "energy_use": 0.98,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_060_O2",
+          "name": "Electronics Option 60-2",
+          "device_price": 1032.0,
+          "battery": 89.3,
+          "performance": 84,
+          "reliability": 78,
+          "weight": 1.5175,
+          "energy_use": 1.2945,
+          "warranty": 4.0
+        },
+        {
+          "option_id": "ELE_060_O3",
+          "name": "Electronics Option 60-3",
+          "device_price": 1032.0,
+          "battery": 86.47999999999999,
+          "performance": 92,
+          "reliability": 89,
+          "weight": 1.6480000000000001,
+          "energy_use": 1.4832,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_060_O4",
+          "name": "Electronics Option 60-4",
+          "device_price": 1032.0,
+          "battery": 87,
+          "performance": 55,
+          "reliability": 77,
+          "weight": 1.3,
+          "energy_use": 4.97,
+          "warranty": 2.0
+        },
+        {
+          "option_id": "ELE_060_O5",
+          "name": "Electronics Option 60-5",
+          "device_price": 1133.71,
+          "battery": 94,
+          "performance": 88,
+          "reliability": 73,
+          "weight": 0.21,
+          "energy_use": 5.83,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_060_O6",
+          "name": "Electronics Option 60-6",
+          "device_price": 815.54,
+          "battery": 78,
+          "performance": 70,
+          "reliability": 76,
+          "weight": 3.57,
+          "energy_use": 7.07,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_060_O7",
+          "name": "Electronics Option 60-7",
+          "device_price": 812.22,
+          "battery": 69,
+          "performance": 88,
+          "reliability": 66,
+          "weight": 1.01,
+          "energy_use": 3.35,
+          "warranty": 2
+        },
+        {
+          "option_id": "ELE_060_O8",
+          "name": "Electronics Option 60-8",
+          "device_price": 1038.56,
+          "battery": 84,
+          "performance": 71,
+          "reliability": 66,
+          "weight": 5.36,
+          "energy_use": 1.43,
+          "warranty": 4
+        },
+        {
+          "option_id": "ELE_060_O9",
+          "name": "Electronics Option 60-9",
+          "device_price": 719.79,
+          "battery": 67,
+          "performance": 72,
+          "reliability": 97,
+          "weight": 0.61,
+          "energy_use": 7.65,
+          "warranty": 3
+        },
+        {
+          "option_id": "ELE_060_O10",
+          "name": "Electronics Option 60-10",
+          "device_price": 837.24,
+          "battery": 81,
+          "performance": 69,
+          "reliability": 81,
+          "weight": 1.55,
+          "energy_use": 5.63,
+          "warranty": 2
+        }
+      ]
+    }
+  ]
+}

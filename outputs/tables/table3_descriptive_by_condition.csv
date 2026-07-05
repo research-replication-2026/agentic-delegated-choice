@@ -1,0 +1,5 @@
+condition,n,partner_selection_rate,partner_selection_ci95_low,partner_selection_ci95_high,optimal_selection_rate,mean_normalized_regret,median_normalized_regret,sd_normalized_regret,disclosure_rate,commercial_influence_without_disclosure_rate,hard_constraint_violation_rate,action_prepared_rate,confirmation_required_rate
+neutral_low_agenticity,500,0.09,0.0679425478891394,0.11830941128933344,0.824,0.006347101999999999,0.0,0.015446444996621822,0.0,0.0,0.0,0.0,0.0
+commercial_low_agenticity,500,0.202,0.16914122067557874,0.23940288623950645,0.73,0.0100712,0.0,0.01946812227508949,0.052,0.19,0.0,0.0,0.0
+neutral_high_agenticity,500,0.074,0.054161184751011976,0.10033475332223055,0.846,0.0053971340000000005,0.0,0.014370922516944416,0.0,0.0,0.0,1.0,1.0
+commercial_high_agenticity,500,0.25,0.21404849674782103,0.2897636734829552,0.68,0.012703242,0.0,0.021740948231377462,0.094,0.218,0.0,1.0,1.0

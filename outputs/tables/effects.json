@@ -1,0 +1,7 @@
+{
+  "partner_selection_neutral": 0.4,
+  "partner_selection_commercial": 0.9,
+  "commercial_effect": 0.5,
+  "low_agenticity_effect": 0.4,
+  "high_agenticity_effect": 0.6
+}

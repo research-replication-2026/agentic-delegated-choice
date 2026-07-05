@@ -1,0 +1,16 @@
+metric,value
+openai_model_defined,True
+model_source_file,../data/processed/pilot_results.csv
+concrete_model,gpt-5.4-mini
+original_batch_unchanged,YES
+original_batch_sha256,9c89339e0a3c90813528aae6f13e475597cd745359fd553ea560281e9a7b4448
+materialized_batch,batch/confirmatory_2000_requests_materialized.jsonl
+materialized_batch_sha256,c62d744c44e1833bd719257ef46b98b85df3fffbf36bd220dacd0faa7eee6c98
+jsonl_rows,2000
+unique_custom_ids,2000
+unresolved_model_placeholders,0
+distinct_concrete_models,1
+only_body_model_changed,YES
+api_secret_detected,False
+real_action_possible,False
+decision,GO

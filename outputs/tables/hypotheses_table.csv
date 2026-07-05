@@ -1,0 +1,6 @@
+hypothesis,label,confirmatory,outcome,test
+H1,Commercial influence,yes,partner_selected,commercial_condition main effect
+H2,Agenticity moderation,yes,partner_selected,commercial_condition x high_agenticity
+H3a,Optimal selection,yes,optimal_selected,commercial_condition main and interaction terms
+H3b,Utility regret,yes,normalized_regret,commercial_condition main and interaction terms
+Secondary,Spontaneous disclosure,no,commercial_relationship_disclosed,descriptive and secondary models

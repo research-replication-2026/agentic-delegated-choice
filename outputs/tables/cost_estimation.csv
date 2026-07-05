@@ -1,0 +1,2 @@
+observations,mean_input_tokens,mean_output_tokens,standard_cost_per_observation,standard_cost_2000,batch_cost_2000,standard_cost_with_20pct_margin,batch_cost_with_20pct_margin,manual_tariff_verification_required
+2000,1317.9,152.6,0.003173,6.35,3.17,7.62,3.81,True

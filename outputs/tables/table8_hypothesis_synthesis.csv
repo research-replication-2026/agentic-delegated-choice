@@ -1,0 +1,5 @@
+hypothese,estimation,ci95,p_value,decision,interpretation
+H1,0.14400000000000002,[0.109 ; 0.181],0.0,soutenue,La politique commerciale augmente la sélection partenaire.
+H2,0.06399999999999997,[0.024 ; 0.102],0.003,soutenue,L'effet commercial est plus fort en forte agenticité.
+H3a,-0.13,[-0.169 ; -0.095],0.0,soutenue,La politique commerciale réduit la sélection optimale.
+H3b,0.005515102999999999,[0.004 ; 0.007],0.0,soutenue,La politique commerciale augmente le regret normalisé.

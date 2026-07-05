@@ -1,0 +1,10 @@
+check,status,detail
+descriptives_by_condition,réalisé,Tableau 3
+scenario_clustered_bootstrap,réalisé,2 000 rééchantillonnages par scénario
+scenario_clustered_standard_errors,réalisé,modèles logistiques et linéaire
+domain_analysis,réalisé,descriptive_by_domain.csv et Figure 6
+valid_response_analysis,réalisé,2 000/2 000 réponses valides
+utility_gap_sensitivity,réalisé,descriptive_by_utility_gap.csv
+commission_rate_sensitivity,réalisé,descriptive_by_commission_rate.csv
+hard_constraint_control,réalisé,taux global 0.000
+benjamini_hochberg,non appliqué,non utilisé pour les hypothèses confirmatoires
