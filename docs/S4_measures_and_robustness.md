@@ -1,7 +1,7 @@
 # Supplement S4 — Measures and Robustness
 
 This supplement documents, with citations to the exact source functions and
-to the reproduction scripts under `analysis/repro/`, the construction of the
+to the reproduction scripts under `analysis/robustness/`, the construction of the
 outcome measures used in the manuscript and (§S4.3) the small-cluster
 robustness analyses referenced in §5.6.
 
@@ -13,10 +13,10 @@ every locked scenario by `confirmatory_2x2/src/common.py::enrich_scenario`
 when the scenario set was built and locked. `utility_regret` and
 `normalized_regret` are computed per response by
 `confirmatory_2x2/src/score_results.py::score_prefix`. All values below are
-verified independently by `analysis/repro/verify_regret_formula.py`
-(report: `analysis/repro/REGRET_FORMULA_CHECK.md`) and, for the response-level
-statistics that use these measures, by `analysis/repro/verify_published_numbers.py`
-(report: `analysis/repro/VERIFICATION_REPORT.md`).
+verified independently by `analysis/robustness/verify_regret_formula.py`
+(report: `analysis/robustness/REGRET_FORMULA_CHECK.md`) and, for the response-level
+statistics that use these measures, by `analysis/robustness/verify_published_numbers.py`
+(report: `analysis/robustness/VERIFICATION_REPORT.md`).
 
 **Formula.** For scenario *s* with option set *O*<sub>s</sub>, hard
 constraints *H*<sub>s</sub>, and criterion weights *w*<sub>s</sub> (summing to
@@ -57,7 +57,7 @@ observation was excluded on this basis.
 `u_s` over `O_s`, `utility_regret ≥ 0` for any option in the scenario, and
 `normalized_regret ∈ [0, 1]`: exactly 0 when the model selects the optimal
 option, and at most 1 only if it selects an option forced to utility 0 by a
-hard-constraint violation. `analysis/repro/verify_regret_formula.py` confirms
+hard-constraint violation. `analysis/robustness/verify_regret_formula.py` confirms
 the optimal option's utility never approaches 0 across the 50 locked
 scenarios (minimum 89.10, maximum 95.97 on the raw weighted-sum scale), so
 the normalization denominator never vanishes.
@@ -65,7 +65,7 @@ the normalization denominator never vanishes.
 **Ties.** `optimal_option_id` is assigned as the first element of
 `sorted(utilities.items(), key=..., reverse=True)` in `enrich_scenario` — a
 strict argmax, with ties (had any occurred) broken by the options' original
-list order. `analysis/repro/verify_regret_formula.py` confirms that across
+list order. `analysis/robustness/verify_regret_formula.py` confirms that across
 all 50 locked confirmatory scenarios there is no tie for the maximum
 utility: `optimal_option_id` is always a unique maximizer, so this
 tie-breaking rule is never actually exercised in the locked set.
@@ -86,7 +86,7 @@ zero-utility rule. Because the published hard-constraint violation rate is
 exercised in the confirmatory data: every observed `normalized_regret` value
 was computed among constraint-satisfying options only.
 
-`analysis/repro/verify_regret_formula.py` also confirms `optimal_option_id`
+`analysis/robustness/verify_regret_formula.py` also confirms `optimal_option_id`
 is always hard-constraint-feasible in the locked set (0/50 scenarios have an
 infeasible optimal option), and that 12 of the 500 options across the 50
 scenarios have `objective_utility` exactly `0.0` (i.e., are the
@@ -97,13 +97,13 @@ scenarios by `confirmatory_2x2/src/generate_scenarios.py`).
 
 Reproduced verbatim from `confirmatory_2x2/results/tables/confirmatory_final/table4_partner_model.csv`
 and `table6_optimal_and_regret_models.csv` (not recomputed here; T0's
-independent re-derivation, `analysis/repro/verify_published_numbers.py`,
+independent re-derivation, `analysis/robustness/verify_published_numbers.py`,
 already confirms the `commercial_condition`, `high_agenticity`,
 `commercial_x_high`, `utility_gap`, and `commission_rate` rows of the
 partner and optimal models match a from-scratch reimplementation — see
-`analysis/repro/VERIFICATION_REPORT.md`). Extracted by
-`analysis/repro/verify_partner_position.py`
-(`analysis/repro/FULL_COEFFICIENT_TABLES.md`).
+`analysis/robustness/VERIFICATION_REPORT.md`). Extracted by
+`analysis/robustness/verify_partner_position.py`
+(`analysis/robustness/FULL_COEFFICIENT_TABLES.md`).
 
 ### Full table: partner_selected (scenario-clustered logistic regression)
 
@@ -164,12 +164,12 @@ to sit in the (independently randomized) list order the model was shown.
 `((repetition + scenario_index) mod 10) + 1`, where `scenario_index` is the
 trailing numeric part of the scenario ID — i.e., it is cycled systematically
 across repetitions and scenarios to balance positions, not left to free
-random placement. `analysis/repro/verify_partner_position.py` independently
+random placement. `analysis/robustness/verify_partner_position.py` independently
 recomputes `partner_position` for all 2,000 locked run-plan rows from
 `(scenario_id, repetition)` and the documented seed formula and confirms an
 exact match to the stored value in every row (2000/2000), and confirms the
 resulting distribution is exactly balanced: 200 observations at each of the
-10 positions (report: `analysis/repro/PARTNER_POSITION_CHECK.md`).
+10 positions (report: `analysis/robustness/PARTNER_POSITION_CHECK.md`).
 
 **Model treatment and reference level.** `partner_position` is entered into
 all three scenario-clustered models (Table 4 Panel B; Table 6) as a single
@@ -236,12 +236,27 @@ reported in §6.5.
 text field disagreeing (`disclosed = false` with a non-empty
 `commercial_disclosure_text`); no case of the reverse (`disclosed = true`
 with empty text) occurs. Full list in
-`analysis/repro/DISCLOSURE_CODING_AUDIT.md`.
+`analysis/robustness/DISCLOSURE_CODING_AUDIT.md`.
 
 **Automatic disclosure-coding rules, examples, limitations, and checks.**
-The materials in `manuscript/supplement/validation/` document the automatic
+The materials in `analysis/robustness/` document the automatic
 disclosure fields, positive and negative examples, known limitations of
 automatic coding, and supplementary automatic checks. The diagnostic extract
-is stored as `manuscript/supplement/validation/disclosure_diagnostic_extract.csv`.
+is stored as `analysis/robustness/disclosure_diagnostic_extract.csv`.
 These materials do not report, imply, or provide independent human-coded
-validation. Generated by `analysis/repro/disclosure_coding_audit.py`.
+validation. Generated by `analysis/robustness/disclosure_coding_audit.py`.
+
+## Table S1. Robustness checks and full coefficient-table materials
+
+Table S1 reports the supplementary robustness materials supporting the main analyses. It maps each robustness or model-validation element referenced in the manuscript to the corresponding file in the anonymized replication package.
+
+| Supplementary element | Repository path | Purpose |
+|---|---|---|
+| Full coefficient tables for the scenario-clustered models | `analysis/robustness/FULL_COEFFICIENT_TABLES.md` | Reports the complete model coefficients underlying the focal estimates summarized in Table 4. |
+| Small-cluster correction | `analysis/robustness/cr1_small_sample_correction.md` | Reports the CR1 small-cluster correction using the 50 scenario clusters. |
+| Leave-one-scenario-out robustness | `analysis/robustness/leave_one_scenario_out.md` | Reports robustness of focal effects when each scenario is removed in turn. |
+| Disclosure coding audit | `analysis/robustness/DISCLOSURE_CODING_AUDIT.md` | Documents the coding rule and supplementary disclosure checks. |
+| Robustness checks dataset | `analysis/robustness/robustness_checks.csv` | Provides machine-readable robustness outputs. |
+| Confirmatory robustness checks dataset | `analysis/robustness/confirmatory_robustness_checks.csv` | Provides confirmatory robustness outputs used for the reported analyses. |
+
+This table corresponds to the “Table S1” referenced in the manuscript.
