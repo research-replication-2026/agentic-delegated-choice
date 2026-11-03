@@ -1,6 +1,7 @@
 {
-  "README.md": "a3982a0f10b79e3c2581ad88756beafad27996afe753cb90900a60d16d736653",
-  "analysis/check_release.py": "980c1d12300028de39b13cb982d8ca986b72ec86d7b140049cfb75d738345abb",
+  "README.md": "192bac02a9a0d5be7a6e087fc863d9c2789e8c99e716506c0e110519e113223b",
+  "analysis/audit_anonymity.py": "0b4558934c0ee36cef7b441bf7573b3b07afbb4dabffa2f054a5d2dc4e9fe8d8",
+  "analysis/check_release.py": "c98b3e15ce67ba81a17003632ce11c74ca2cf4ecf3dda499bf2cc5239664b14f",
   "analysis/frozen_gpt/analyze_responses.py": "6bfea19b577930a8900649a2d152fe4e386bb14d45d3bae81291504c62f3d472",
   "analysis/frozen_gpt/common.py": "05f0d6358f63b188ce6af07498faa81079ef77e0cac25bc66a4a7e206a5840d7",
   "analysis/frozen_gpt/robust_inference.py": "1b4f8d05b74a9f7005c8b6eef34ae602ab1651f6c420ff9ea3feaaaa91b398a2",
@@ -50,6 +51,8 @@
   "experimental_materials/source_generation/prepare_claude.py": "37c4bbf275951a5cf479f69bb7582ff5c7f4ad316cc95b23446e8549ed43c693",
   "experimental_materials/source_generation/prepare_control_audit.py": "c129351c6ba986720a7724b6fed97cc5dd5aa3ab9bee409632b67b9e1ccf6c31",
   "experimental_materials/source_generation/prepare_freeze.py": "006547080128895e1f635ce1e14b82fd1ec7b3ed0e8514bca46e01d3bf5ba47d",
+  "provenance/ANONYMITY_FILE_AUDIT.json": "8e63dce3b1ebecc81b1d03ade52c5df029b794802852001ac9f2c89860cf84a2",
+  "provenance/ANONYMOUS_ARCHIVE.json": "9f573ba0997c92fbc0d30b1b45f00b80a1c565f7d4a3db4d29e7d64e8769e9c2",
   "provenance/CONFIDENTIALITY_REVIEW.md": "5b1e10d8b1cd01ebc4765318dd77d4f38a7fc5da86dc837762aa7b0bdf6954cd",
   "provenance/ENVIRONMENT.json": "7fa2b794b280c23ac397759e695758cad543d6b45a8a959186392ddc40bd3494",
   "provenance/executed_request_seals.json": "84d00cdf1ba6fc45e4909a6f444e2705809abedecffc4f3b38bab5134230fd9f",

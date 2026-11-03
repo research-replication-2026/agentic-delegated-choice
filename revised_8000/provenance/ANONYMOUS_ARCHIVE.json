@@ -1,0 +1,11 @@
+{
+  "archive": "ANONYMOUS_REPLICATION_8000.zip",
+  "files": 92,
+  "bytes": 6331557,
+  "sha256": "fd66bbf989b598a51e8c2dc6a39841b2f961d1886871f3ce5a85edf2466e6304",
+  "git_metadata_included": false,
+  "hosting_account_metadata_included": false,
+  "source_workbook_identities_included": false,
+  "scientific_reproduction": "PASS: core, exploratory and release checks executed from standalone distribution",
+  "source_labels_and_data_unchanged": true
+}

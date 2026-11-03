@@ -32,7 +32,10 @@ def main():
                 # Python matrix multiplication is not an email address.
                 # Hardcoded addresses must occur in string/comment tokens in valid Python.
                 searchtext='\n'.join(tok.string for tok in tokenize.generate_tokens(io.StringIO(text).readline) if tok.type in [tokenize.STRING,tokenize.COMMENT])
-            if pat.search(searchtext):findings.append(dict(path=str(p.relative_to(P)),category=kind))
+            if kind=='email_address':
+                hit=any(x.casefold() not in {'anonymous@example.com','noreply@github.com'} for x in pat.findall(searchtext))
+            else:hit=bool(pat.search(searchtext))
+            if hit:findings.append(dict(path=str(p.relative_to(P)),category=kind))
     assert not findings,findings
     with (P/'provenance/source_to_release_manifest.csv').open() as f:manifest=list(csv.DictReader(f))
     for r in manifest:

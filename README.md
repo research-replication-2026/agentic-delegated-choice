@@ -24,3 +24,9 @@ The pre-existing `data/`, `analysis/`, `materials/` and most older `docs/` files
 The [previous root README](docs/LEGACY_README_BEFORE_REVISED_8000.md) is retained as historical documentation. The earlier [S1 materials](docs/S1_experimental_materials.md) describe that older design. For exact revised-study instructions, use the full archived [request batches](revised_8000/experimental_materials/requests/), including all scenario-specific substitutions and provider-specific formatting.
 
 The repository verifies synthetic archived analyses; it does not establish actual consumer exposure, comprehension, transactions, welfare, internal model motives or general superiority of an implementation. The coding control is targeted rather than representative, and prescribed coding independence is not equivalent to independently authenticated execution.
+
+## Anonymous review distribution
+
+[Download the anonymous standalone replication ZIP](https://github.com/research-replication-2026/agentic-delegated-choice/raw/refs/heads/electronic-markets-replication-readiness-20261103/ANONYMOUS_REPLICATION_8000.zip). This distribution omits Git history, hosting-account metadata and private source-workbook identities, retains the exact scientific inputs and deidentified coding labels, and was tested independently. It contains no precomputed output dependency: the documented offline commands rebuild the results.
+
+See [the anonymity audit](ANONYMIZATION_AUDIT.md) for whole-repository, archive, Office/PDF/image and reachable-history checks. File anonymization cannot erase GitHub ownership, public platform aliases, existing external copies or potential cross-repository links. These platform limits are stated explicitly rather than represented as an absolute non-reidentification guarantee.

@@ -1,0 +1,24 @@
+name: Repository anonymity audit
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install metadata inspection tools
+        run: |
+          python -m pip install Pillow==11.3.0
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends poppler-utils
+      - name: Inspect repository, nested archives and reachable history
+        run: python -B revised_8000/analysis/audit_anonymity.py --history --report /tmp/anonymity-audit.json
