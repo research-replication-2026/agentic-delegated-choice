@@ -8,7 +8,7 @@ The complete repository was inspected, rather than only `revised_8000/`: **464 p
 
 - No author-specific personal name, institution, personal email address or personal local filesystem path was found using the locally supplied identity terms. These private search terms are not included in the public checker, logs or report.
 - The Office identity properties found were empty or generic tool metadata; PDF author metadata contained no personal identity. Images contained generic software metadata and no EXIF requiring review.
-- Human coding source workbooks and free-text comments remain excluded. The existing labels are distributed only as deidentified A/B/final CSV projections, without creator/editor identity fields.
+- Historical unsanitized coding workbooks and free-text comments remain excluded. The supplied anonymized A/B Excel versions are now included, with all 800 labels verified against the retained A/B CSVs; the final CSV is also retained. No author/editor identity, comments, hidden content or external links were detected in these two public workbooks.
 - The earlier scientific raw archives, assignments, frozen rules, labels and analytical results were not changed by this anonymity review. No classification, adjudication, experiment or model call was performed.
 - The GitHub account's public profile did not display a public email, institution, location, biography or external website at the time checked. Private authenticated-account data are not copied into the release.
 
@@ -19,7 +19,7 @@ The audit found **no personal identifiers needing removal from the already relea
 `ANONYMOUS_REPLICATION_8000.zip` is intended for anonymous review. It contains the revised study's immutable inputs, exact request/response archives, deidentified coding labels, original rules, portable scripts and reference tables. It excludes:
 
 - `.git`, commits, account/profile information, repository-state metadata and PR/workflow links;
-- full manuscripts, title/author forms, correspondence and source coding workbooks;
+- full manuscripts, title/author forms, correspondence and historical unsanitized source coding workbooks;
 - personal identity dictionaries used for private verification;
 - dependency caches, operating-system metadata and precomputed analytical-output dependencies.
 
@@ -40,3 +40,5 @@ python -B revised_8000/analysis/audit_anonymity.py --history --report /tmp/anony
 ```
 
 For a private local identity-term check, optionally supply `--private-terms-file /path/outside/repository/private_terms.json`, containing a JSON array of terms. The checker reports only finding categories and affected file paths, never the identity values. Do not publish that dictionary. The normal `check_release.py` also rejects identifying email/path/credential patterns while permitting the reserved anonymous email placeholder used in archived anonymous metadata.
+
+The two public anonymized Excel files and their structural checks are documented in [coding provenance](revised_8000/disclosure_validation/PROVENANCE.md). Their privacy cleanup changes file hashes relative to the historical records; all published scientific annotations are unchanged.

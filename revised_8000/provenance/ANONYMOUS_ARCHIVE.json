@@ -1,13 +1,14 @@
 {
   "archive": "ANONYMOUS_REPLICATION_8000.zip",
-  "files": 95,
-  "bytes": 6342416,
-  "sha256": "315c1293442c7510fc523f166c175eb66be0c70d7d6bfba54acd3acb306ae43a",
+  "files": 98,
+  "bytes": 6382689,
+  "sha256": "10b662e854aa180376ad08dcbff026a5abab2330604a0bf4989d3c0e710b623d",
   "git_metadata_included": false,
   "hosting_account_metadata_included": false,
   "source_workbook_identities_included": false,
   "scientific_reproduction": "PASS: core, exploratory and release checks executed from standalone distribution",
   "source_labels_and_data_unchanged": true,
   "reviewer_prompt_messages": 8,
-  "reviewer_response_examples": 8
+  "reviewer_response_examples": 8,
+  "anonymized_coder_workbooks": 2
 }

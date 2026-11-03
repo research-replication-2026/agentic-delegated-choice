@@ -6,7 +6,7 @@ The new release was reviewed as a whitelist, not copied wholesale from the resea
 
 - Exact archived request and response bytes, losslessly compressed. The GPT `billing` object contains only the nonidentifying `payer` enum. Account-related `user`, `safety_identifier` and `prompt_cache_key` fields were inspected for populated identifying content; no populated values were found in the released GPT outputs.
 - Synthetic scenarios, benchmark and referent/assignment mappings.
-- Existing coding labels exported without XLSX document properties or free-text comments.
+- Existing coding labels in CSV, plus the two supplied anonymized A/B Excel versions, with no author/editor identities or comments detected and all labels checked against the CSVs.
 - Frozen scientific code and source-to-release hashes; scientific comparison targets and reproducible outputs.
 - Exact numeric table text from the final manuscript, excluding title/author forms and the full manuscript document.
 
@@ -14,7 +14,7 @@ The new release was reviewed as a whitelist, not copied wholesale from the resea
 
 | Material | Treatment and reason |
 |---|---|
-| Original human coding XLSX and metadata/comments | Original files retained and hashed locally; verified labels exported to deidentified CSV. Creator/editor fields and comments are excluded for anonymity. |
+| Historical human coding XLSX and metadata/comments | Historical source copies remain local and hashed. Supplied anonymized A/B Excel versions are published byte-for-byte after privacy review and verification against all 800 CSV labels; the final harmonization source workbook remains private. |
 | Internal SQLite operational ledger, authorizations and account/cost evidence | Not published. Only verified request-hash/state summaries are released. |
 | Full manuscripts, response letters and correspondence | Not published; final manuscript hash and numeric table projections support confrontation. |
 | Local absolute source_path column in NLP registry | Excluded from the 8,000-row public projection; original source hash retained. Other scientific values are unchanged. |

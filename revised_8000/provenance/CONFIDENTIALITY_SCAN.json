@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "new revised_8000 release, including decompressed archives; excludes self/generated scan reports",
-  "utf8_files_scanned": 139,
+  "utf8_files_scanned": 140,
   "gzip_archives_opened": 72,
   "findings": [],
   "binary_plot_files_not_text_scanned": true,

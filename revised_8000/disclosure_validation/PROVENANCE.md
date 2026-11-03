@@ -10,7 +10,7 @@ The 50-response control underwent human double coding followed by AI-assisted ha
 | Codage_independant_Codeur_B.xlsx | `c5e9bb0e35f3b355b62bc983a380d35857acf9a631bc93f8f81090c44d38c152` |
 | codage_50.xlsx | `a453e22032446e63127f9d8d86e46c7fb104d40a6c379e43b5871fef41423372` |
 
-The two initial files are distinct workbooks with eight actual label differences, not duplicated final labels. Response identifiers, original texts, selected-option IDs and field-by-indicator labels were aligned across both series and the final record. The shared coding instructions are retained with the source files. Personal workbook properties and comments are excluded from the public exports for anonymity; the source hashes identify the exact records used.
+The two initial files are distinct workbooks with eight actual label differences, not duplicated final labels. Response identifiers, original texts, selected-option IDs and field-by-indicator labels were aligned across both series and the final record. The shared coding instructions are retained in the public anonymized workbook versions. Historical source hashes above continue to identify the records used for the original CSV exports. The two subsequently supplied anonymized workbook versions below are the public Excel copies; their 400 labels each match the corresponding CSV exactly. No scientific annotation was changed.
 
 Initial agreement is 392/400 = 98.0%. With four nominal categories, observed agreement is .98 and chance agreement from the observed marginals is .432075. Unweighted Cohen's κ is `(0.98 − 0.432075)/(1 − 0.432075) = 21917/22717 = 0.9647840824052472`. The 400 units are nested in 50 responses and combine distinct indicators, not 400 independent responses or a unidimensional scale.
 
@@ -19,3 +19,14 @@ The final record retains all 392 shared initial labels; four initial disagreemen
 The initial series, harmonized annotations and NLP outputs are provided as distinct stages of the validation chain. The supplied labels permit the agreement counts and kappa to be reproduced directly. Historical local source files remain unchanged; the public scientific account uses the verified two-series comparison and the existing final harmonized record.
 
 The sample is targeted and not representative. Its parent frame has known development overlap. These comparisons do not establish population accuracy, sensitivity/specificity, consumer exposure or comprehension. Missing text remains not observable; uncertainty and nonobservability are categories, not recoded negatives or missing cells.
+
+## Public anonymized Excel versions
+
+The following two Excel files supersede the private source copies for public workbook inspection. Each contains 50 response rows, 400 labels and the coding-instruction sheet. The creator property is absent and last editor is empty; optional comments, cell comments, hidden content and external links were checked. Both files are published exactly as supplied, without rewriting their bytes. The A/B/final CSV files remain the stable analysis inputs.
+
+| Public workbook | SHA-256 |
+|---|---|
+| [Codage_independant_Codeur_A.xlsx](Codage_independant_Codeur_A.xlsx) | `2ce0448d51d384abd9be1c9e4eb453ad77f85f9ff06f1ef49904f88721232e1b` |
+| [Codage_independant_Codeur_B.xlsx](Codage_independant_Codeur_B.xlsx) | `c037a81d3bc872c7e8a4e8f6d2c4d4ce0881a22842665aa65e93abbdd7d87c15` |
+
+[Workbook verification](ANONYMIZED_WORKBOOK_VERIFICATION.json) records structural/privacy checks, all 800 label-to-CSV matches, 392/400 initial agreements and κ = 0.9647840824052472. The earlier unsanitized sources and the final harmonization workbook remain private.

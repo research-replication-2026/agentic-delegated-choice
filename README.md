@@ -6,6 +6,8 @@ The revised manuscript is based on **8,000 archived responses: 4,000 GPT and 4,0
 
 For reviewers: [exact common instruction and four policies](revised_8000/reviewer_examples/EXACT_PROMPTS.md) · [eight matched archived responses, including choices, rationales and commercial declarations](revised_8000/reviewer_examples/ARCHIVED_RESPONSES.md).
 
+Public anonymized coding workbooks: [Codeur A](revised_8000/disclosure_validation/Codage_independant_Codeur_A.xlsx) · [Codeur B](revised_8000/disclosure_validation/Codage_independant_Codeur_B.xlsx). Their annotations match the analysis CSVs exactly.
+
 ## Revised study: reproduce archived analyses
 
 The package includes exact executed requests and original response envelopes, scenarios and assignment mappings, frozen NLP v2.2.0, deidentified existing human codings, original frozen inference code, portable offline adapters, scientific reference outputs and hash/provenance checks.
