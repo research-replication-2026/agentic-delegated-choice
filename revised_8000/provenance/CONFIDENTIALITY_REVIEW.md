@@ -14,7 +14,7 @@ The new release was reviewed as a whitelist, not copied wholesale from the resea
 
 | Material | Treatment and reason |
 |---|---|
-| Original human coding XLSX and metadata/comments | Original files retained and hashed locally; exact labels exported to deidentified CSV. Creator/editor fields can identify an operator but do not establish coder identities. |
+| Original human coding XLSX and metadata/comments | Original files retained and hashed locally; verified labels exported to deidentified CSV. Creator/editor fields and comments are excluded for anonymity. |
 | Internal SQLite operational ledger, authorizations and account/cost evidence | Not published. Only verified request-hash/state summaries are released. |
 | Full manuscripts, response letters and correspondence | Not published; final manuscript hash and numeric table projections support confrontation. |
 | Local absolute source_path column in NLP registry | Excluded from the 8,000-row public projection; original source hash retained. Other scientific values are unchanged. |

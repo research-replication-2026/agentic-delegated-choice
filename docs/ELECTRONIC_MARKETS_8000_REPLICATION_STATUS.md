@@ -6,4 +6,4 @@ The deposit contains exact request/response archives for both implementations, 5
 
 The original 2 × 2 materials elsewhere in this repository remain historical and do not substitute for N/S/I/C. The preceding scope notice remains in Git history and the archived root README. No historical scientific file was relabeled as a new experiment. Source workbooks, operational ledgers, credentials, personal metadata and full manuscript/reviewer correspondence were excluded from publication; exact scientific label projections and verified request-seal summaries are provided instead.
 
-This is analytical reproduction of archived data, not a new model run, confirmation of coder independence, population classifier validation, or evidence of consumer-visible disclosure. The branch is not automatically merged into main.
+The existing human double-coding files and their agreement have been verified from the archived annotations. This is analytical reproduction of archived data, not a new model run, population classifier validation, or evidence of consumer-visible disclosure. The branch is not automatically merged into main.

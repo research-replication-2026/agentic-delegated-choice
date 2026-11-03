@@ -23,7 +23,7 @@ The pre-existing `data/`, `analysis/`, `materials/` and most older `docs/` files
 
 The [previous root README](docs/LEGACY_README_BEFORE_REVISED_8000.md) is retained as historical documentation. The earlier [S1 materials](docs/S1_experimental_materials.md) describe that older design. For exact revised-study instructions, use the full archived [request batches](revised_8000/experimental_materials/requests/), including all scenario-specific substitutions and provider-specific formatting.
 
-The repository verifies synthetic archived analyses; it does not establish actual consumer exposure, comprehension, transactions, welfare, internal model motives or general superiority of an implementation. The coding control is targeted rather than representative, and prescribed coding independence is not equivalent to independently authenticated execution.
+The repository verifies synthetic archived analyses; it does not establish actual consumer exposure, comprehension, transactions, welfare, internal model motives or general superiority of an implementation. The two human coding series have been checked item by item and their agreement independently recalculated: 392/400 (98.0%; Cohen's κ = 0.965). The coding control is targeted rather than representative.
 
 ## Anonymous review distribution
 
