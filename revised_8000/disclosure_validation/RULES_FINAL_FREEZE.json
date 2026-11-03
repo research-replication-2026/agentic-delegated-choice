@@ -1,0 +1,8 @@
+{
+  "version": "2.2.0",
+  "rule_sha256": "8fa011a1cd3342c555f812814defb1ab6c4ff95a56cb7def5e4cab1c25adf862",
+  "adapter_sha256": "5e8843fda1bf3dcb3a1db0257a6882a5eb11bff46a9561f948404ad084b39a64",
+  "sample_sha256": "e5c27abbe295012ec0155c616cc81589a2ca315bfbaa78578bfa833d0d32aa40",
+  "n": 27,
+  "note": "User-protocol freeze after same-sentence contradiction correction. Initial 20-item control now development; final fresh control must exclude it."
+}

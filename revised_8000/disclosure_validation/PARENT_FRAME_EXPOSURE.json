@@ -1,0 +1,9 @@
+{
+  "sample_n": 1048,
+  "known_v2_development_text_read": 1,
+  "prior_B_diagnostic_pool_overlap": 30,
+  "prior_lexical_diagnostic_pool_overlap": 2,
+  "historical_exposure_not_exhaustively_reconstructed": true,
+  "human_labels_seen": 0,
+  "interpretation": "Coding may be human-independent but the entire sealed sample is not a pristine unseen algorithm test. Preserve membership; disclose overlap and separate sensitivity/domain analyses after verified coding."
+}

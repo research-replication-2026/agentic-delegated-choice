@@ -1,0 +1,12 @@
+{
+  "base_branch": "main",
+  "base_commit": "6ca1eabe1dd0e7cfc48e8f2bf971c260691373d2",
+  "working_branch": "electronic-markets-replication-readiness-20261103",
+  "branch_head_before_update": "4263123d73103710a5e8d02e8e28562cb1aab4d8",
+  "legacy_readme_sha256": "74c7e7c515c255e6f879f73b70372c9538f9289f4bea972efa1ccea272d7b8db",
+  "legacy_tracked_files_before_update": 320,
+  "legacy_files_preserved_except_documentation_updates": [
+    "README.md",
+    "docs/ELECTRONIC_MARKETS_8000_REPLICATION_STATUS.md"
+  ]
+}

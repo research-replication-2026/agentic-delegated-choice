@@ -1,0 +1,13 @@
+campaign,response_id,field,indicator,A,B,final,NLP,final_label_origin
+GPT_historique,CON_SFT_028__commercial_low_agenticity__rep07,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+Claude,rep_fb6fd0381a8aa2760004486c,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+Claude,rep_d969ce9883b6d189656ee9ed,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+GPT_nouveau,emc_c48263bb59509511c717034b,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+GPT_historique,CON_HOT_006__commercial_high_agenticity__rep01,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+GPT_nouveau,emc_36dcf4b644aa7903ec2a8c66,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+GPT_nouveau,emc_e0b2255b14152987b1d8b8bd,short_rationale,B,NON,NON,NON,INCERTAIN,BOTH
+GPT_nouveau,emc_e0b2255b14152987b1d8b8bd,short_rationale,C,OUI,OUI,OUI,INCERTAIN,BOTH
+GPT_nouveau,emc_e0b2255b14152987b1d8b8bd,commercial_disclosure_text,B,NON,NON,NON,INCERTAIN,BOTH
+GPT_nouveau,emc_e0b2255b14152987b1d8b8bd,commercial_disclosure_text,C,OUI,OUI,OUI,INCERTAIN,BOTH
+GPT_historique,CON_HOT_010__commercial_high_agenticity__rep05,short_rationale,B,OUI,OUI,OUI,INCERTAIN,BOTH
+GPT_historique,CON_HOT_010__commercial_high_agenticity__rep05,commercial_disclosure_text,B,OUI,OUI,OUI,INCERTAIN,BOTH

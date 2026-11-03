@@ -1,0 +1,138 @@
+[
+  {
+    "estimate": -0.12394736842105263,
+    "se": 0.03080792088320464,
+    "status": "bootstrap_t_with_conservative_t49_corroboration",
+    "p_primary": 0.00019826071894472655,
+    "p_sensitivity": 4e-05,
+    "ci95": [
+      -0.19718908695757012,
+      -0.0620365335067278
+    ],
+    "ci9875": [
+      -0.22382170922714778,
+      -0.04405443002177643
+    ],
+    "bootstrap_t_ci95": [
+      -0.19718908695757012,
+      -0.06917296102405426
+    ],
+    "bootstrap_t_ci9875": [
+      -0.22382170922714778,
+      -0.055580079639489494
+    ],
+    "t49_diagnostic_p": 0.00019826071894472655,
+    "degenerate_bootstrap_draws": 0,
+    "draws": 49999,
+    "seed": 2026102102,
+    "primary": "max(equal-tailed scenario pairs bootstrap-t p, t49 p); CI envelope",
+    "sensitivity": "equal-tailed scenario pairs bootstrap-t alone",
+    "contrast": "C-S",
+    "missing_pairs": 3,
+    "full_assignment_p": null,
+    "full_assignment_holm_p": null,
+    "available_pair_secondary_holm_p": 0.0005947821568341796
+  },
+  {
+    "estimate": -0.09299999999999999,
+    "se": 0.022131794471542798,
+    "status": "bootstrap_t_with_conservative_t49_corroboration",
+    "p_primary": 0.0001115403813540531,
+    "p_sensitivity": 4e-05,
+    "ci95": [
+      -0.14288210723325784,
+      -0.04852449387675377
+    ],
+    "ci9875": [
+      -0.1587599399387509,
+      -0.03560651021911852
+    ],
+    "bootstrap_t_ci95": [
+      -0.14288210723325784,
+      -0.052146557314107576
+    ],
+    "bootstrap_t_ci9875": [
+      -0.1587599399387509,
+      -0.0410125633218793
+    ],
+    "t49_diagnostic_p": 0.0001115403813540531,
+    "degenerate_bootstrap_draws": 0,
+    "draws": 49999,
+    "seed": 2026102102,
+    "primary": "max(equal-tailed scenario pairs bootstrap-t p, t49 p); CI envelope",
+    "sensitivity": "equal-tailed scenario pairs bootstrap-t alone",
+    "contrast": "C-I",
+    "missing_pairs": 0,
+    "full_assignment_p": 0.0001115403813540531,
+    "full_assignment_holm_p": 0.0004461615254162124,
+    "available_pair_secondary_holm_p": 0.0004461615254162124
+  },
+  {
+    "estimate": -0.03115789473684211,
+    "se": 0.018218676581486418,
+    "status": "bootstrap_t_with_conservative_t49_corroboration",
+    "p_primary": 0.09355138881577259,
+    "p_sensitivity": 0.08816,
+    "ci95": [
+      -0.06815063553431563,
+      0.005453906574579382
+    ],
+    "ci9875": [
+      -0.07864106556112434,
+      0.016087864279454887
+    ],
+    "bootstrap_t_ci95": [
+      -0.06815063553431563,
+      0.004810966651347271
+    ],
+    "bootstrap_t_ci9875": [
+      -0.07864106556112434,
+      0.014698552567568721
+    ],
+    "t49_diagnostic_p": 0.09355138881577259,
+    "degenerate_bootstrap_draws": 0,
+    "draws": 49999,
+    "seed": 2026102102,
+    "primary": "max(equal-tailed scenario pairs bootstrap-t p, t49 p); CI envelope",
+    "sensitivity": "equal-tailed scenario pairs bootstrap-t alone",
+    "contrast": "I-S",
+    "missing_pairs": 3,
+    "full_assignment_p": null,
+    "full_assignment_holm_p": null,
+    "available_pair_secondary_holm_p": 0.18710277763154518
+  },
+  {
+    "estimate": 0.0021578947368421043,
+    "se": 0.011731658240700726,
+    "status": "bootstrap_t_with_conservative_t49_corroboration",
+    "p_primary": 0.8646,
+    "p_sensitivity": 0.8646,
+    "ci95": [
+      -0.023706648437857636,
+      0.025733544627817465
+    ],
+    "ci9875": [
+      -0.0311932377051151,
+      0.03258113078379758
+    ],
+    "bootstrap_t_ci95": [
+      -0.023706648437857636,
+      0.024054784073805832
+    ],
+    "bootstrap_t_ci9875": [
+      -0.0311932377051151,
+      0.03015630431961478
+    ],
+    "t49_diagnostic_p": 0.8548213879435195,
+    "degenerate_bootstrap_draws": 0,
+    "draws": 49999,
+    "seed": 2026102102,
+    "primary": "max(equal-tailed scenario pairs bootstrap-t p, t49 p); CI envelope",
+    "sensitivity": "equal-tailed scenario pairs bootstrap-t alone",
+    "contrast": "N-S",
+    "missing_pairs": 4,
+    "full_assignment_p": null,
+    "full_assignment_holm_p": null,
+    "available_pair_secondary_holm_p": 0.8646
+  }
+]

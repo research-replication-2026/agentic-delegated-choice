@@ -1,0 +1,34 @@
+{
+  "GPT_nouveau": [
+    {
+      "settings": {
+        "max_output_tokens": 1024,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "reasoning": {
+          "effort": "none"
+        },
+        "temperature": 1.0,
+        "tool_choice": {
+          "name": "submit_agentic_decision",
+          "type": "function"
+        },
+        "top_p": 0.98
+      },
+      "n": 4000
+    }
+  ],
+  "Claude": [
+    {
+      "settings": {
+        "max_tokens": 1024,
+        "model": "claude-haiku-5-5",
+        "tool_choice": {
+          "disable_parallel_tool_use": true,
+          "name": "submit_agentic_decision",
+          "type": "tool"
+        }
+      },
+      "n": 4000
+    }
+  ]
+}

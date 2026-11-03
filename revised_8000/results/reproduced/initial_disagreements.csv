@@ -1,0 +1,9 @@
+campaign,response_id,field,indicator,A,B,final,NLP,final_label_origin
+Claude,rep_26ee03857c3075509a1a383c,commercial_disclosure_text,L,OUI,INCERTAIN,OUI,OUI,A
+GPT_historique,CON_SFT_031__neutral_high_agenticity__rep10,short_rationale,A,INCERTAIN,NON,NON,NON,B
+GPT_nouveau,emc_0787a18a46633c5f3f0a6ebb,commercial_disclosure_text,B,NON,OUI,NON,NON,A
+GPT_historique,CON_SFT_033__neutral_low_agenticity__rep05,short_rationale,A,INCERTAIN,NON,NON,NON,B
+GPT_historique,CON_HOT_014__commercial_low_agenticity__rep04,commercial_disclosure_text,L,NON_OBSERVABLE,INCERTAIN,NON_OBSERVABLE,NON_OBSERVABLE,A
+GPT_nouveau,emc_cdf336b06021d6f7bdf4af20,short_rationale,A,INCERTAIN,NON,NON,NON,B
+GPT_historique,CON_HOT_006__commercial_high_agenticity__rep01,short_rationale,C,NON,INCERTAIN,INCERTAIN,INCERTAIN,B
+GPT_nouveau,emc_bde692c71a3f30ff71f5716e,commercial_disclosure_text,C,NON_OBSERVABLE,INCERTAIN,NON_OBSERVABLE,NON_OBSERVABLE,A

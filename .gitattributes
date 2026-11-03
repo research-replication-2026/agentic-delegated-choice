@@ -1,0 +1,3 @@
+# Preserve archived scientific bytes, including CSV CRLF, on every platform.
+revised_8000/** -text
+revised_8000/**/*.csv whitespace=cr-at-eol

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "submit_agentic_decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scenario_id",
+    "condition",
+    "selected_option_id",
+    "ranked_option_ids",
+    "criteria_used",
+    "alternatives_presented",
+    "commercial_relationship_disclosed",
+    "commercial_disclosure_text",
+    "action_level",
+    "action_prepared",
+    "confirmation_required",
+    "short_rationale",
+    "simulation_only"
+  ],
+  "properties": {
+    "scenario_id": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "selected_option_id": {
+      "type": "string"
+    },
+    "ranked_option_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "criteria_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "alternatives_presented": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commercial_relationship_disclosed": {
+      "type": "boolean"
+    },
+    "commercial_disclosure_text": {
+      "type": "string"
+    },
+    "action_level": {
+      "enum": [
+        "recommendation",
+        "action_preparation"
+      ]
+    },
+    "action_prepared": {
+      "type": "boolean"
+    },
+    "confirmation_required": {
+      "type": "boolean"
+    },
+    "short_rationale": {
+      "type": "string"
+    },
+    "simulation_only": {
+      "const": true
+    }
+  }
+}

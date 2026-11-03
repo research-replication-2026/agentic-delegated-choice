@@ -1,0 +1,188 @@
+{
+  "2": [
+    [
+      "AI system",
+      "Policy",
+      "Partner / recognised",
+      "Unknown",
+      "Partner rate (%)"
+    ],
+    [
+      "GPT",
+      "N – neutrality",
+      "76 / 1,000",
+      "0",
+      "7.60"
+    ],
+    [
+      "GPT",
+      "S – silence",
+      "73 / 1,000",
+      "0",
+      "7.30"
+    ],
+    [
+      "GPT",
+      "I – commission information",
+      "33 / 1,000",
+      "0",
+      "3.30"
+    ],
+    [
+      "GPT",
+      "C – conditional priority",
+      "159 / 1,000",
+      "0",
+      "15.90"
+    ],
+    [
+      "Claude",
+      "N – neutrality",
+      "135 / 998",
+      "2",
+      "13.53"
+    ],
+    [
+      "Claude",
+      "S – silence",
+      "130 / 997",
+      "3",
+      "13.04"
+    ],
+    [
+      "Claude",
+      "I – commission information",
+      "59 / 1,000",
+      "0",
+      "5.90"
+    ],
+    [
+      "Claude",
+      "C – conditional priority",
+      "92 / 1,000",
+      "0",
+      "9.20"
+    ]
+  ],
+  "3": [
+    [
+      "AI system",
+      "Contrast",
+      "Effect (pp)",
+      "95% envelope (pp)",
+      "Holm p"
+    ],
+    [
+      "GPT",
+      "C−I",
+      "+12.60",
+      "[8.84, 17.26]",
+      "< .001"
+    ],
+    [
+      "GPT",
+      "C−S",
+      "+8.60",
+      "[5.40, 11.90]",
+      "< .001"
+    ],
+    [
+      "GPT",
+      "I−S",
+      "−4.00",
+      "[−9.68, −0.21]",
+      ".078"
+    ],
+    [
+      "GPT",
+      "N−S",
+      "+0.30",
+      "[−0.86, 1.49]",
+      ".607"
+    ],
+    [
+      "Claude",
+      "C−I",
+      "+3.30",
+      "[0.28, 6.40]",
+      ".131"
+    ],
+    [
+      "Claude",
+      "C−S",
+      "−3.79*",
+      "Not estimated",
+      "NE"
+    ],
+    [
+      "Claude",
+      "I−S",
+      "−7.12*",
+      "Not estimated",
+      "NE"
+    ],
+    [
+      "Claude",
+      "N−S",
+      "+0.52*",
+      "Not estimated",
+      "NE"
+    ]
+  ],
+  "4": [
+    [
+      "AI system",
+      "Policy",
+      "Benchmark-optimal selection (%)",
+      "Normalized regret (%)"
+    ],
+    [
+      "GPT",
+      "N",
+      "84.40",
+      "0.5461"
+    ],
+    [
+      "GPT",
+      "S",
+      "85.60",
+      "0.4796"
+    ],
+    [
+      "GPT",
+      "I",
+      "84.50",
+      "0.6076"
+    ],
+    [
+      "GPT",
+      "C",
+      "75.80",
+      "0.8970"
+    ],
+    [
+      "Claude",
+      "N",
+      "77.35",
+      "0.9582"
+    ],
+    [
+      "Claude",
+      "S",
+      "76.93",
+      "1.0313"
+    ],
+    [
+      "Claude",
+      "I",
+      "80.50",
+      "0.9444"
+    ],
+    [
+      "Claude",
+      "C",
+      "79.10",
+      "0.9271"
+    ]
+  ]
+}

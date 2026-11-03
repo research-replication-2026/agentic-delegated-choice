@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "raw_responses": 8000,
+  "recognized_selections": 7995,
+  "unknown_selections": 5,
+  "scenarios": 50,
+  "exact_policy_blocks": 2000,
+  "cross_implementation_exact_prompts": 4000,
+  "frozen_NLP_label_comparisons": 96000,
+  "economic_comparisons": 144,
+  "manuscript_numeric_table_rows_checked": 24,
+  "initial_agreement": {
+    "n": 400,
+    "agreements": 392,
+    "disagreements": 8,
+    "exact_agreement_pct": 98.0,
+    "expected_agreement": 0.432075,
+    "cohen_kappa": 0.9647840824052472
+  },
+  "final_NLP_agreements": 388,
+  "model_API_calls": 0,
+  "network_calls": 0,
+  "scope": "Raw scoring, exact inputs, primary/cross inference, conformity, economic contrasts, frozen NLP and existing human control. Additional exploratory mechanism/moderator text claims require their separate archived analyses."
+}

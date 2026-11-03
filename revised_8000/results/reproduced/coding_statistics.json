@@ -1,0 +1,13 @@
+{
+  "initial": {
+    "n": 400,
+    "agreements": 392,
+    "disagreements": 8,
+    "exact_agreement_pct": 98.0,
+    "expected_agreement": 0.432075,
+    "cohen_kappa": 0.9647840824052472
+  },
+  "final_NLP_agreements": 388,
+  "final_NLP_disagreements": 12,
+  "final_NLP_disagreement_responses": 8
+}

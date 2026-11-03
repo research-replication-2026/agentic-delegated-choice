@@ -1,0 +1,652 @@
+{
+  "GPT": [
+    {
+      "contrast": "C-S",
+      "missing_outcomes": 0,
+      "assigned_difference_bounds": [
+        0.086,
+        0.086
+      ],
+      "bounds_outer_bootstrap95": [
+        0.05500000000000001,
+        0.117
+      ],
+      "estimate": 0.086,
+      "se": 0.015910463762658117,
+      "p_raw": 4e-05,
+      "status": "bootstrap_t_with_conservative_t49_corroboration",
+      "ci95": [
+        0.05402672601132013,
+        0.11898886168881434
+      ],
+      "ci9875_bonferroni": [
+        0.044740036170797325,
+        0.12860682441064292
+      ],
+      "p_bootstrap_t_sensitivity": 4e-05,
+      "p_t49_diagnostic": 1.9016316114494104e-06,
+      "bootstrap_t_ci95_sensitivity": [
+        0.055117135947943555,
+        0.11898886168881434
+      ],
+      "bootstrap_t_ci9875_sensitivity": [
+        0.04673384997692785,
+        0.12860682441064292
+      ],
+      "method": "v2: max(p_bootstrap_t_equal_tailed,p_t49), then Holm; CI envelope",
+      "bootstrap_draws": 49999,
+      "bootstrap_seed": 2026102102,
+      "degenerate_bootstrap_draws": 0,
+      "loso_range": [
+        0.07959183673469387,
+        0.09183673469387756
+      ],
+      "scenario_differences": [
+        0.0,
+        0.2,
+        0.15,
+        0.05,
+        0.1,
+        -0.15,
+        0.05,
+        0.05,
+        0.1,
+        0.2,
+        0.0,
+        0.1,
+        0.2,
+        0.2,
+        0.1,
+        0.2,
+        0.1,
+        0.4,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.05,
+        0.2,
+        0.35,
+        0.15,
+        0.05,
+        0.2,
+        0.05,
+        0.05,
+        0.0,
+        0.1,
+        0.0,
+        0.1,
+        0.05,
+        0.0,
+        0.0,
+        -0.1,
+        0.05,
+        0.0,
+        0.1,
+        0.2,
+        0.0,
+        0.25,
+        0.05,
+        0.0,
+        0.05,
+        0.1,
+        0.25,
+        -0.2
+      ],
+      "secondary_levels": {
+        "low": {
+          "estimate": 0.08,
+          "ci95": [
+            0.044000000000000004,
+            0.118
+          ]
+        },
+        "high": {
+          "estimate": 0.09200000000000001,
+          "ci95": [
+            0.06,
+            0.126
+          ]
+        },
+        "interaction_high_minus_low": {
+          "estimate": 0.011999999999999997,
+          "ci95": [
+            -0.024,
+            0.046000000000000006
+          ]
+        }
+      },
+      "p_holm": 0.00016,
+      "p_bootstrap_t_sensitivity_holm": 0.00016
+    },
+    {
+      "contrast": "C-I",
+      "missing_outcomes": 0,
+      "assigned_difference_bounds": [
+        0.126,
+        0.126
+      ],
+      "bounds_outer_bootstrap95": [
+        0.092,
+        0.16400000000000003
+      ],
+      "estimate": 0.126,
+      "se": 0.01869410034623496,
+      "p_raw": 4e-05,
+      "status": "bootstrap_t_with_conservative_t49_corroboration",
+      "ci95": [
+        0.08843279886379708,
+        0.17263127909972223
+      ],
+      "ci9875_bonferroni": [
+        0.07752134371372482,
+        0.18970410049751374
+      ],
+      "p_bootstrap_t_sensitivity": 4e-05,
+      "p_t49_diagnostic": 1.6768278047617993e-08,
+      "bootstrap_t_ci95_sensitivity": [
+        0.09390776124524962,
+        0.17263127909972223
+      ],
+      "bootstrap_t_ci9875_sensitivity": [
+        0.08533883708329283,
+        0.18970410049751374
+      ],
+      "method": "v2: max(p_bootstrap_t_equal_tailed,p_t49), then Holm; CI envelope",
+      "bootstrap_draws": 49999,
+      "bootstrap_seed": 2026102102,
+      "degenerate_bootstrap_draws": 0,
+      "loso_range": [
+        0.11530612244897959,
+        0.12857142857142856
+      ],
+      "scenario_differences": [
+        0.0,
+        0.25,
+        0.1,
+        0.2,
+        0.1,
+        0.25,
+        0.05,
+        0.05,
+        0.1,
+        0.2,
+        0.0,
+        0.1,
+        0.25,
+        0.1,
+        0.1,
+        0.15,
+        0.1,
+        0.4,
+        0.0,
+        0.0,
+        0.05,
+        0.15,
+        0.0,
+        0.2,
+        0.2,
+        0.15,
+        0.1,
+        0.2,
+        0.05,
+        0.05,
+        0.0,
+        0.1,
+        0.0,
+        0.15,
+        0.05,
+        0.0,
+        0.0,
+        0.4,
+        0.05,
+        0.0,
+        0.05,
+        0.65,
+        0.0,
+        0.3,
+        0.1,
+        0.4,
+        0.0,
+        0.1,
+        0.2,
+        0.1
+      ],
+      "secondary_levels": {
+        "low": {
+          "estimate": 0.12,
+          "ci95": [
+            0.08399999999999999,
+            0.16
+          ]
+        },
+        "high": {
+          "estimate": 0.132,
+          "ci95": [
+            0.092,
+            0.17799999999999996
+          ]
+        },
+        "interaction_high_minus_low": {
+          "estimate": 0.012000000000000002,
+          "ci95": [
+            -0.025999999999999995,
+            0.048
+          ]
+        }
+      },
+      "p_holm": 0.00016,
+      "p_bootstrap_t_sensitivity_holm": 0.00016
+    },
+    {
+      "contrast": "I-S",
+      "missing_outcomes": 0,
+      "assigned_difference_bounds": [
+        -0.04000000000000001,
+        -0.04000000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.079,
+        -0.006999999999999999
+      ],
+      "estimate": -0.04000000000000001,
+      "se": 0.018844151368961313,
+      "p_raw": 0.03885869084204335,
+      "status": "bootstrap_t_with_conservative_t49_corroboration",
+      "ci95": [
+        -0.09684227635007227,
+        -0.00213126004422029
+      ],
+      "ci9875_bonferroni": [
+        -0.12635475005547095,
+        0.008867777550279739
+      ],
+      "p_bootstrap_t_sensitivity": 0.01032,
+      "p_t49_diagnostic": 0.03885869084204335,
+      "bootstrap_t_ci95_sensitivity": [
+        -0.09684227635007227,
+        -0.00883212025654
+      ],
+      "bootstrap_t_ci9875_sensitivity": [
+        -0.12635475005547095,
+        -0.0010002689627348835
+      ],
+      "method": "v2: max(p_bootstrap_t_equal_tailed,p_t49), then Holm; CI envelope",
+      "bootstrap_draws": 49999,
+      "bootstrap_seed": 2026102102,
+      "degenerate_bootstrap_draws": 0,
+      "loso_range": [
+        -0.04387755102040817,
+        -0.030612244897959193
+      ],
+      "scenario_differences": [
+        0.0,
+        -0.05,
+        0.05,
+        -0.15,
+        0.0,
+        -0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.05,
+        0.1,
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.0,
+        0.15,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.05,
+        -0.45,
+        0.0,
+        -0.05,
+        -0.05,
+        -0.4,
+        0.05,
+        0.0,
+        0.05,
+        -0.3
+      ],
+      "secondary_levels": {
+        "low": {
+          "estimate": -0.04,
+          "ci95": [
+            -0.08199999999999999,
+            -0.003999999999999999
+          ]
+        },
+        "high": {
+          "estimate": -0.04,
+          "ci95": [
+            -0.08,
+            -0.004000000000000001
+          ]
+        },
+        "interaction_high_minus_low": {
+          "estimate": -5.551115123125783e-19,
+          "ci95": [
+            -0.026000000000000002,
+            0.026000000000000002
+          ]
+        }
+      },
+      "p_holm": 0.0777173816840867,
+      "p_bootstrap_t_sensitivity_holm": 0.02064
+    },
+    {
+      "contrast": "N-S",
+      "missing_outcomes": 0,
+      "assigned_difference_bounds": [
+        0.0030000000000000005,
+        0.0030000000000000005
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.008,
+        0.014000000000000002
+      ],
+      "estimate": 0.0030000000000000005,
+      "se": 0.005787036885865455,
+      "p_raw": 0.6065123736608109,
+      "status": "bootstrap_t_with_conservative_t49_corroboration",
+      "ci95": [
+        -0.008629486022188729,
+        0.014898915166728312
+      ],
+      "ci9875_bonferroni": [
+        -0.012007289300357842,
+        0.018202220232584453
+      ],
+      "p_bootstrap_t_sensitivity": 0.60148,
+      "p_t49_diagnostic": 0.6065123736608109,
+      "bootstrap_t_ci95_sensitivity": [
+        -0.008255557533593728,
+        0.014898915166728312
+      ],
+      "bootstrap_t_ci9875_sensitivity": [
+        -0.011493032808905106,
+        0.018202220232584453
+      ],
+      "method": "v2: max(p_bootstrap_t_equal_tailed,p_t49), then Holm; CI envelope",
+      "bootstrap_draws": 49999,
+      "bootstrap_seed": 2026102102,
+      "degenerate_bootstrap_draws": 0,
+      "loso_range": [
+        5.664403186863043e-19,
+        0.00510204081632653
+      ],
+      "scenario_differences": [
+        0.0,
+        0.05,
+        0.0,
+        -0.05,
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.05,
+        -0.05,
+        0.0,
+        0.05,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.0,
+        -0.1,
+        0.0,
+        0.0,
+        0.05,
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.0,
+        -0.1,
+        0.0,
+        0.0,
+        0.05,
+        0.05,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.05,
+        0.0,
+        0.15,
+        0.05
+      ],
+      "secondary_levels": {
+        "low": {
+          "estimate": 0.008,
+          "ci95": [
+            -0.008000000000000002,
+            0.026000000000000002
+          ]
+        },
+        "high": {
+          "estimate": -0.0019999999999999996,
+          "ci95": [
+            -0.02,
+            0.016
+          ]
+        },
+        "interaction_high_minus_low": {
+          "estimate": -0.009999999999999998,
+          "ci95": [
+            -0.038000000000000006,
+            0.016000000000000004
+          ]
+        }
+      },
+      "p_holm": 0.6065123736608109,
+      "p_bootstrap_t_sensitivity_holm": 0.60148
+    }
+  ],
+  "Claude": [
+    {
+      "contrast": "C-S",
+      "missing_outcomes": 3,
+      "assigned_difference_bounds": [
+        -0.040999999999999995,
+        -0.03799999999999999
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.091,
+        0.006000000000000003
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": -0.037947368421052625
+    },
+    {
+      "contrast": "C-I",
+      "missing_outcomes": 0,
+      "assigned_difference_bounds": [
+        0.03300000000000001,
+        0.03300000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        0.004000000000000001,
+        0.06299999999999999
+      ],
+      "estimate": 0.03300000000000001,
+      "se": 0.015024469836821232,
+      "p_raw": 0.03282388149897619,
+      "status": "bootstrap_t_with_conservative_t49_corroboration",
+      "ci95": [
+        0.0028071974649288706,
+        0.06402681397402239
+      ],
+      "ci9875_bonferroni": [
+        -0.005962351523348931,
+        0.07260069814702186
+      ],
+      "p_bootstrap_t_sensitivity": 0.0256,
+      "p_t49_diagnostic": 0.03282388149897619,
+      "bootstrap_t_ci95_sensitivity": [
+        0.003919949690002037,
+        0.06402681397402239
+      ],
+      "bootstrap_t_ci9875_sensitivity": [
+        -0.003621080874436404,
+        0.07260069814702186
+      ],
+      "method": "v2: max(p_bootstrap_t_equal_tailed,p_t49), then Holm; CI envelope",
+      "bootstrap_draws": 49999,
+      "bootstrap_seed": 2026102102,
+      "degenerate_bootstrap_draws": 0,
+      "loso_range": [
+        0.02551020408163266,
+        0.039795918367346944
+      ],
+      "scenario_differences": [
+        0.0,
+        -0.15,
+        0.05,
+        0.0,
+        0.1,
+        -0.2,
+        0.25,
+        -0.05,
+        0.05,
+        0.0,
+        0.2,
+        0.1,
+        -0.05,
+        0.0,
+        0.05,
+        -0.05,
+        0.0,
+        0.0,
+        0.15,
+        0.0,
+        0.0,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.0,
+        0.0,
+        0.05,
+        0.05,
+        0.0,
+        -0.05,
+        0.0,
+        0.0,
+        0.05,
+        0.15,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.4,
+        0.0,
+        -0.3,
+        0.15,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.1
+      ],
+      "secondary_levels": {
+        "low": {
+          "estimate": 0.03,
+          "ci95": [
+            -0.006000000000000001,
+            0.064
+          ]
+        },
+        "high": {
+          "estimate": 0.036000000000000004,
+          "ci95": [
+            0.003999999999999999,
+            0.07200000000000001
+          ]
+        },
+        "interaction_high_minus_low": {
+          "estimate": 0.005999999999999994,
+          "ci95": [
+            -0.032,
+            0.044000000000000004
+          ]
+        }
+      },
+      "p_holm": 0.13129552599590477,
+      "p_bootstrap_t_sensitivity_holm": 0.1024
+    },
+    {
+      "contrast": "I-S",
+      "missing_outcomes": 3,
+      "assigned_difference_bounds": [
+        -0.07400000000000001,
+        -0.07100000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.11,
+        -0.038000000000000006
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": -0.07115789473684211
+    },
+    {
+      "contrast": "N-S",
+      "missing_outcomes": 5,
+      "assigned_difference_bounds": [
+        0.001999999999999999,
+        0.007000000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.014000000000000002,
+        0.023000000000000003
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": 0.005157894736842104
+    }
+  ]
+}
