@@ -46,12 +46,12 @@ def main():
     assert core['status']==extended['status']=='PASS'
     assert (core['raw_responses'],core['recognized_selections'],core['unknown_selections'])==(8000,7995,5)
     assert core['manuscript_numeric_table_rows_checked']==24 and core['economic_comparisons']==144
-    assert extended['reference_tables_verified']==25 and extended['scientific_figures_regenerated']==6
+    assert extended['reference_tables_verified']==24 and extended['scientific_figures_regenerated']==6
     coding=json.loads((P/'results/reproduced/coding_statistics.json').read_text())
     assert coding['initial']['agreements']==392 and coding['final_NLP_agreements']==388
     assert abs(coding['initial']['cohen_kappa']-0.9647840824052472)<1e-14
     files=[p for p in P.rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     dump('CONFIDENTIALITY_SCAN.json',dict(status='PASS',scope='new revised_8000 release, including decompressed archives; excludes self/generated scan reports',utf8_files_scanned=checked,gzip_archives_opened=archives,findings=findings,binary_plot_files_not_text_scanned=True,source_exclusion_review='CONFIDENTIALITY_REVIEW.md'))
-    dump('RELEASE_VERIFICATION.json',dict(status='PASS',verdict='COMPLET',scope='Offline analytical replication of the revised 8000-response experiment and existing coding control; no new generation or claims about unmeasured consumer exposure',pinned_input_files=len(inputs),source_manifest_rows=len(manifest),release_file_count_before_this_report=len(files),total_bytes=sum(p.stat().st_size for p in files),raw_responses=8000,recognized_selections=7995,matched_main_numeric_rows=24,economic_comparisons=144,exploratory_tables=25,initial_coding_agreement='392/400',cohen_kappa=coding['initial']['cohen_kappa'],final_NLP_agreement='388/400',model_API_calls=0,network_calls_during_reproduction=0))
-    print('PASS release integrity/privacy and complete archived analytical replication; '+str(len(inputs))+' immutable inputs pinned.')
+    dump('RELEASE_VERIFICATION.json',dict(status='PASS',verdict='PARTIEL',scope='Archived-output analytical reproduction; executed input messages are withheld, so full protocol replication is not available',pinned_input_files=len(inputs),source_manifest_rows=len(manifest),release_file_count_before_this_report=len(files),total_bytes=sum(p.stat().st_size for p in files),raw_responses=8000,recognized_selections=7995,matched_main_numeric_rows=24,economic_comparisons=144,exploratory_tables=24,initial_coding_agreement='392/400',cohen_kappa=coding['initial']['cohen_kappa'],final_NLP_agreement='388/400',model_API_calls=0,network_calls_during_reproduction=0))
+    print('PASS release integrity/privacy and archived-output analytical replication; full protocol PARTIEL; '+str(len(inputs))+' immutable inputs pinned.')
 if __name__=='__main__':main()

@@ -1,68 +1,44 @@
-# Revised Electronic Markets study: 8,000 archived responses
+# Revised study: output-based analytical distribution
 
-**Who decides when the agent chooses? Platform commercial instructions in delegated selection**
+**Status: PARTIEL for full protocol replication.** Executed system/user messages, free-text scenario queries, instruction examples and reconstruction source are not supplied. This is an analysis release based on archived model outputs and synthetic assignment metadata, not a release of the executed inputs.
 
-This is the revised study's analytical replication package. It is distinct from the earlier 2 × 2 experiment retained elsewhere in the repository. It reconstructs outcomes from archived raw responses and exact submitted requests; it does not generate new model responses.
-
-## Design and implemented systems
-
-The design contains 50 synthetic scenarios (20 hotels, 15 software, 15 electronics), two implementations, four policies, two simulated tasks and ten repetitions: **8,000 assignments**. GPT used the archived model identifier `gpt-5.4-mini-2026-03-17`, temperature 1, top_p .98, reasoning effort `none`, and max_output_tokens 1024. Claude used `claude-haiku-5-5`, max_tokens 1024 and forced tool use; temperature and top_p were not supplied in those requests. Provider/interface/configuration differences are bundled, not separately randomized.
-
-The four policies are N (explicit neutrality), S (silence), I (commission information), and C (the same commission information plus conditional commercial priority). The two tasks are recommendation and simulated action preparation with confirmation. Neither executes a real transaction. Commissions vary across scenarios (5%, 10%, 15%); the exact visible partner IDs, rates, catalogue order and wording are present in every request archive.
-
-**Authoritative instructions are the archived request payloads**, not a paraphrase or a template from the legacy experiment. `experimental_materials/exact_instruction_examples.json` gives eight actual GPT examples (policy × task); the 4,000 corresponding Claude stimuli have exactly matching system/user/schema content. All 8,000 full requests, including all substitutions, schemas, tools and transmitted settings, are in `experimental_materials/requests/`. Gzip compression is lossless and deterministic; uncompressed SHA-256 values match source archives. The executed French C instruction includes the original unusual non-obligation wording; it has not been retrospectively rewritten.
-
-## Reproduce offline
-
-Python 3.9 was used for verification. Install the pinned analytical dependencies in an isolated environment, then run from the repository root:
+## Reproduce
 
 ```bash
-python -m venv .venv-replication
-. .venv-replication/bin/activate
 python -m pip install -r revised_8000/analysis/requirements.txt
 python -B revised_8000/analysis/reproduce.py
 python -B revised_8000/analysis/reproduce_mechanisms.py
 python -B revised_8000/analysis/check_release.py
 ```
 
-Dependency installation requires a package source; both scientific reproduction commands explicitly block network sockets and make no model calls. No API keys, provider account, SQLite ledger, workstation-specific path or private source tree is needed. Outputs are written only to `results/reproduced/`. The second command executes the unchanged archived exploratory script in a disposable compatibility tree built entirely from this checkout and the first command's freshly reconstructed scores.
+The commands make no model/API calls and block network sockets during scientific analysis. Outputs are written only to results/reproduced/. Dependencies are pinned in analysis/requirements.txt.
 
-`experimental_materials/source_generation/` preserves historical preparation/generation code as provenance. Those scripts are not the portable reproduction entrypoints and are not used to construct approximate replacement instructions. One personal path in a historical manuscript-integrity guard is redacted, with the original source hash and transformation recorded. Original experimental strings are unchanged.
+## Available data and verified results
 
-## Data, outputs and evidence chain
+The revised study comprises 50 synthetic scenarios, GPT and Claude, four policy conditions N/S/I/C, two simulated tasks and ten repetitions (8,000 records). Conditions are retained as analytical labels. Provider parameters are supplied as numerical/API configuration metadata without message text. The structural output schema omits descriptive input prose; it is used only for output-conformity scoring, not represented as an executed request.
 
-| Location | Contents |
-|---|---|
-| experimental_materials/requests/ | Four GPT and four Claude exact request batches, 1,000 requests each |
-| experimental_materials/ | Executed schema, dated local protocol, exact instruction examples and archival source-generation code |
-| data/scenarios.json | 50 synthetic catalogues, constraints, private utility scores and benchmark targets |
-| data/assignments_* | Synthetic assignment IDs and visible-to-canonical mappings; these are not participant identities |
-| data/raw/ | Eight exact archived provider response envelopes, 4,000 per implementation |
-| data/processed/ | Existing analysis-ready rows and frozen NLP reference classifications, with local source paths excluded |
-| analysis/ | Portable adapters and unchanged original scoring/inference/exploratory implementations |
-| disclosure_validation/ | Frozen NLP v2.2.0 rules, codebook, three deidentified coding series, and 50 existing control contexts |
-| results/reference/ | Archived scientific comparison targets, 25 exploratory tables and numeric tables extracted from the final clean manuscript |
-| results/reproduced/ | Fresh raw-based scoring, contrasts, quality/conformity, NLP, coding agreement, exploratory tables and figures |
-| provenance/ | Source-to-publication hashes, executed-request seals, confidentiality review, environment and release verification |
+- data/scenarios.json retains numerical catalogues, constraints, weights and benchmark values; free-text scenario queries are excluded. Original full-scenario hashes are labelled as original_scenario_hash.
+- data/raw/ now contains **projections of archived output envelopes**, not full original transport envelopes. Function-call arguments / tool-use decision objects, generated text, completion status, model settings and usage required for analysis are preserved exactly. Instruction/echo fields, input schemas and redundant transport metadata are excluded.
+- Assignments preserve synthetic record correspondence, policy/task labels, catalogue mappings, repetition and scenario membership. No participant identities are involved.
+- data/decision_schema.json is structural only. data/protocol_settings.json contains the archived sampling/tool-choice configuration without message bodies.
+- data/processed/ and results/reference/ contain scientific comparison targets, not inputs used to fabricate estimates.
 
-The code verifies 8,000 distinct response keys, **7,995 identifiable selections**, five genuinely unknown Claude selections, 500 catalogue utilities, 2,000 policy blocks, and 4,000 cross-implementation matched stimuli. Unknown selections remain missing. Primary C−S, C−I, I−S and N−S contrasts are reconstructed using the original scenario-level bootstrap-t/t49 envelope, seed 2026102102 and 49,999 draws; Holm adjustment retains each four-test family. Three incomplete Claude full-assignment contrasts remain non-point-identified; descriptive available-pair results are kept separate. The direct Claude-minus-GPT comparisons use their own four-test family.
+The analytical commands reconstruct **8,000 responses, 7,995 identifiable selections and five unknown Claude choices**; all 500 benchmark option utilities; partner-selection rates; original four-test primary/cross-implementation families; confidence envelopes and Holm adjustments; conformity and economic outcomes; 144 economic comparisons; 96,000 frozen NLP classifications; and 24 numeric rows of the final manuscript's three result tables. All match the archived targets.
 
-The 144 revised-population economic contrasts are recalculated and checked against archived estimates, confidence envelopes and Holm values. All 24 numeric rows of the final manuscript's selection, primary-contrast and quality tables are checked, including printed rounding and missing-inference labels. The exploratory reproduction verifies 25 tables covering moderator omnibus tests (15), subgroup tests (60), rationale flags (18), conformity tests (12), transitions, scenario influence and adjusted associations. Six standalone figure files are regenerated.
+The exploratory adapter reproduces **24 numerical reference tables** and six figure files. The former input-message verification table is not reproduced as a source check; a separate commission-allocation table refers only to assignment metadata. Exact input equality and executed wording are not verifiable from this public distribution and are not claimed. Analytical code has been adapted for output-only I/O; numerical routines and frozen NLP v2.2.0 are retained.
 
-NLP is rerun deterministically with the unchanged frozen rules on archived text: **96,000 field/union-by-indicator codes** must match existing classifications. The original 50-response control contains 33 revised-experiment responses and 17 earlier GPT responses; historical controls never enter the 8,000-response experimental estimates. Two retained series identified by the authors as human agree on **392/400 (98.0%; unweighted Cohen's κ = 0.9647840824, rounded 0.965)**. The pre-existing final harmonized record agrees with NLP on **388/400 (97.0%)**, with 12 differences on eight responses. All final labels equal at least one initial label; the eight initial differences match A four times and B four times. No new human coding, AI annotation or harmonization is undertaken.
+## Verified existing coding control
 
-## Provenance, privacy and limitations
+The two existing human coding series have been verified item by item for the same 50 responses and 400 field-by-indicator units. Agreement is **392/400 (98.0%; unweighted Cohen's κ = 0.9647840824, rounded 0.965)**. AI-assisted harmonization had already been performed; no coding or harmonization was redone. Every final label matches at least one initial label, with four initial differences matching A and four matching B. The separate final-record–NLP comparison reproduces **388/400 (97.0%)**, with 12 differences on eight responses.
 
-Original XLSX files are retained locally and hashed; deidentified CSV exports publish their existing labels without creator, last-editor or free-text coder-comment metadata. Source workbooks, internal ledgers, payment/authorization records, credentials, correspondence, full manuscript/response-letter documents and personal local paths are excluded. These exclusions do not remove the labels, stimuli, referent mappings or scientific outcomes needed for analytical reproduction. The raw GPT `billing` field is only the nonidentifying enum `payer=developer`, not account or payment information. See `disclosure_validation/PROVENANCE.md` and `provenance/CONFIDENTIALITY_REVIEW.md`.
+The control contains 33 current-experiment and 17 historical responses. Historical controls never enter the 8,000-response experimental estimates. Personal workbook metadata/comments are excluded from the deidentified label projections. The sample is targeted and nonrepresentative; neither agreement establishes population classifier accuracy, consumer display or comprehension. Generated text was requested by the response format and is not a measure of spontaneous disclosure. The four nominal categories remain separate.
 
-The 50-response control underwent human double coding followed by AI-assisted harmonization. The two initial series have been verified item by item: response identifiers, original texts, selected options, coding fields and all 400 labels were aligned. Their agreement was recalculated directly from the two series as 392/400 (98.0%; Cohen's κ = 0.965). All final harmonized labels were checked against the initial annotations, and the separate final-record–NLP comparison was reproduced as 388/400 (97.0%). No new coding or harmonization was performed for this verification.
+## Scope, confidentiality and limitations
 
-The control is targeted, nonrepresentative and drawn from a parent frame with documented development overlap. Neither 98% nor 97% establishes population classifier accuracy. L/A may include payment denials; B requires affirmative remuneration tied to the recognized selected option; C identifies the platform as recipient. Yes/no/uncertain/not observable remain separate categories. The indicators are not a validated transparency scale. Generated fields were requested by the schema; they do not establish spontaneous disclosure, consumer display, reading or comprehension. Rationale flags are deterministic exploratory candidates, not observations of internal reasoning or validated mediators.
+No executed input messages or reconstruction source appear in this current distribution. Generated answers may reflect experimental conditions; they are preserved as outputs because changing them would invalidate the text analysis. Policy labels, synthetic option IDs and numerical benchmark data are analytical variables, not published message bodies. Full input-to-output protocol reproduction is unavailable by this publication choice, so the global verdict is PARTIEL even though the supplied output-based analyses reproduce their targets.
 
-Utilities/regret refer to a private synthetic benchmark, not actual consumer welfare. Some visible attributes conflict with that benchmark and equal within-option scores limit trade-off interpretations. Position, scenario domain and gap have restricted/confounded support. Policies bundle wording, salience and permission; tasks bundle preparation and confirmation. Only two configured implementations are compared. The protocol was locally dated, not publicly preregistered; later economic/NLP/mechanism analyses remain retrospective. Pointwise confidence intervals are not simultaneous Holm intervals. Reproduction verifies archived analysis, not these unmeasured constructs or provider backend determinism.
+Source originals remain unchanged and retained privately. Source-to-release transformations and withheld-file hashes are documented in provenance/. No instruction is invented or approximately reconstructed. Older legacy materials containing inputs are withdrawn from the current tree; remaining legacy results are not presented as this protocol.
 
-The final manuscript still has pre-existing template/Appendix A placeholders; this repository supplies the exact executed requests independently of that incomplete table. The full manuscript is not republished here. See the root `GITHUB_REPLICATION_FINAL_AUDIT.md` for the verified release scope, source exclusions and branch/PR links.
+Utilities measure a private synthetic benchmark, not real welfare. Some visible attributes conflict with that target. Exploratory associations retain their retrospective/confounded interpretation. Five unknown choices remain missing; no replacement outcomes are invented. Text classification does not prove actual consumer exposure or internal model reasoning.
 
-## Whole-repository anonymity review
-
-The complete published repository, including legacy Office/PDF/image files and reachable history, has been checked for author/coder/operator identifiers. See the root ANONYMIZATION_AUDIT.md for results and platform limits. For anonymous review, a separately verified standalone ZIP is provided without Git history, hosting-account metadata or source workbook identities. The data and labels are unchanged. Private identity-term dictionaries are not published.
+Current-file withdrawal does not remove older public commits, the default branch, cached URLs or previously downloaded copies. Repository-history/visibility controls are separate. The anonymous output-analysis ZIP omits Git and hosting metadata; no absolute unlinkability guarantee is made.

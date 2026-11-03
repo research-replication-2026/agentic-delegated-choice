@@ -1,0 +1,24 @@
+{
+  "GPT_nouveau": {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "tool_choice": {
+      "type": "function",
+      "name": "submit_agentic_decision"
+    },
+    "temperature": 1.0,
+    "top_p": 0.98,
+    "reasoning": {
+      "effort": "none"
+    },
+    "max_output_tokens": 1024
+  },
+  "Claude": {
+    "model": "claude-haiku-5-5",
+    "max_tokens": 1024,
+    "tool_choice": {
+      "type": "tool",
+      "name": "submit_agentic_decision",
+      "disable_parallel_tool_use": true
+    }
+  }
+}

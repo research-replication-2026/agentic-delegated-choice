@@ -1,0 +1,607 @@
+{
+  "scope": "Current distribution; no historical purge",
+  "executed_messages_distributed": false,
+  "free_text_scenario_queries_distributed": false,
+  "reconstructive_source_distributed": false,
+  "archived_outputs_projected": true,
+  "model_decision_values_unchanged": true,
+  "full_protocol_verdict": "PARTIEL",
+  "withheld_files": [
+    {
+      "path": "revised_8000/experimental_materials/decision_schema.json",
+      "sha256": "96887f06a30eb0f415f391ea718bf59dd6f560a03785ce0bf2bc56a5c3e95746",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/exact_instruction_examples.json",
+      "sha256": "a22452a365208b664dc5b722d96c1c192ec33e990de4556c5bc3202b53110cbd",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/gpt_frozen_protocol.json",
+      "sha256": "3983c63f892c6518607b166e4728caa9339cd65f7edfe6e5508d22cd7dc8599c",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/claude_batch_01.json.gz",
+      "sha256": "9d0f0636c390515b221d50af78ddf68c7b4a4948652e8a014bbb42ec76c47783",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/claude_batch_02.json.gz",
+      "sha256": "c2798378d255c728272e3c84d9f34b9a6ee56dea980d65c869943a20e6d7d440",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/claude_batch_03.json.gz",
+      "sha256": "6a6fc5fae667378893cbdb2f301c8ad30dd6a55daf6bd869d45db0639fe0fc77",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/claude_batch_04.json.gz",
+      "sha256": "63abba86f3ae2c65a47c00ed9879aaa29d6433651767e9bf5e48ed29f93a8922",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/gpt_batch_01.jsonl.gz",
+      "sha256": "13517a0cfa953fbd1db84f6825fd8407769ad760e1acccd8963bc2e3eb519562",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/gpt_batch_02.jsonl.gz",
+      "sha256": "383d5e9a6056f1570e04c97632b08f021865b8ff9057b07f1d48047ab6388c36",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/gpt_batch_03.jsonl.gz",
+      "sha256": "681eab12ff00e374d9c60141f2ab50661247b27543aec1346d728da1b8846b21",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/requests/gpt_batch_04.jsonl.gz",
+      "sha256": "1746c9b49cbdafaa4128d22c48e722546ec9e724b75d45098245bd71b0209aae",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/claude_adapter.py",
+      "sha256": "7299782e90b342522d59712dce31d0b885a0b12e240f46c6769171282702929f",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/generate_scenarios.py",
+      "sha256": "28be18684bcb309f38ff08459c209cac0214e3a7ac576a4799112e0d20b86512",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/legacy_experiment.yaml",
+      "sha256": "76e41ed2475000ac460c679c21a8bcc8dfdab89e58a327396c5dd24fcbc69eaf",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/legacy_models.yaml",
+      "sha256": "eda1df0f2705a30e76c0bd3ef9312aff5abe22528e6e85a4643a7af4c991c233",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/prepare_claude.py",
+      "sha256": "37c4bbf275951a5cf479f69bb7582ff5c7f4ad316cc95b23446e8549ed43c693",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/prepare_control_audit.py",
+      "sha256": "c129351c6ba986720a7724b6fed97cc5dd5aa3ab9bee409632b67b9e1ccf6c31",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "revised_8000/experimental_materials/source_generation/prepare_freeze.py",
+      "sha256": "006547080128895e1f635ce1e14b82fd1ec7b3ed0e8514bca46e01d3bf5ba47d",
+      "reason": "Executed instructions, request messages or reconstruction source withheld from current distribution"
+    },
+    {
+      "path": "Supplementary Materials S4 - Measures and Robustness.docx",
+      "sha256": "51fe0440c5375450c18be4c1b0a07b029bbfcfdbeca1ca5fbaec4413017f3ad0",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/robustness/LOCKED_BEFORE_COLLECTION_CHECK.md",
+      "sha256": "af469ad986df2af7137f15dfec30625da4fd68fa9fe7cc99d3b396ecb6a95a1a",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/robustness/coding_sheet.md",
+      "sha256": "4280137c241e615e5105a29ff7e43831d7a6a66d240e6b8f9233bd40d53635e9",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/robustness/confirmatory_robustness_checks.csv",
+      "sha256": "ed9526ebe54a73511b55e3a5a4955cc8dbe2fc8a68f2dd87f577bc4c3232362b",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/robustness/disclosure_diagnostic_extract.csv",
+      "sha256": "34814d73668a501c02378ff31c8b0e6ccfd4dd5f1fd51db7963b43e23b01f477",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/robustness/robustness_checks__confirmatory_v2_src__8d877ef5.py",
+      "sha256": "30ec208d40e5b61b2e52b076f381febff043329e3c0a6bb867e168c443c9db2e",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/build_batch.py",
+      "sha256": "c63d3ff241a87b7f8a8d76c13543b2bc6bf6e6b315dadd83cce7b3895c9de862",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/build_batch__confirmatory_v2_src__e3dc6796.py",
+      "sha256": "4de99078a127e8265b8ae07cb9e0ec002b392743f59ea1fc3c1efba5975a9ae3",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/build_corrected_batch.py",
+      "sha256": "4d3d02896ae2dfd89cc673fe925a078010a9e9141ac5df26dbdda890c351f4b9",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/build_prompts.py",
+      "sha256": "3e59d6c516074ae1ad208e1635a7318832c93723a71069049114f9cd1ac520b0",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/build_run_plan.py",
+      "sha256": "36c17ba95158f80f61d5bd3b09f28888ba4c47ec5be710b02087b820d05bb0f1",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/chunk_corrected_batch.py",
+      "sha256": "dd776a46f93be519c6b7bfb959e7ec4f754a511e10d12f07947263f0515f9094",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/common.py",
+      "sha256": "64b6f09d9841f69e74cf06824fa5b87650d2170715852a3e22a2111f7c8ee94f",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/common__confirmatory_v2_src__1253c93a.py",
+      "sha256": "60a551af38a62741e1b8a2f479fa9daba68f417f29910248a768c18a1894daee",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/conftest__confirmatory_v2_tests__58f4d32b.py",
+      "sha256": "315d0a7a7d4ad1fc2376351c089de609f231224f9d0079c321dd4bcb1d7004cc",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/create_manifest__confirmatory_v2_src__37fd28f8.py",
+      "sha256": "b4e82f3eedb1c2344bd282b69d72ea6b936a447a872e8896322e49e1b6dd1712",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/create_reports.py",
+      "sha256": "53776db3bb8e02eacd3a3b89ca16a55c63f2e1835a02ba767ba0977b0ea301e2",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/extract_experimental_materials.py",
+      "sha256": "6befa0c08e3e4fcad5878860caa2b361a64c63edac88b1d349e46c58a68769b0",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/final_methodology_results.py",
+      "sha256": "c49760f16931155b82705898b510848bcdee01d1fa9b59c9e2bdfbc8e5afcc2f",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/generate_pilot_scenarios.py",
+      "sha256": "05b8bfee22bea8ebbeb8bfd3906117b545783fda34830df7e7cf3f5d0202f227",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/generate_scenarios.py",
+      "sha256": "28be18684bcb309f38ff08459c209cac0214e3a7ac576a4799112e0d20b86512",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/generate_sha256_manifest.py",
+      "sha256": "28af4005ea1917c2d4d750e17eff8d4fc8ac0a9e0c31cd54950b6eda31895004",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/openai_client.py",
+      "sha256": "a5c2135dbd08ab2c409c9a04e8f5ab675168456d0d63d593413bdcf3a9d5fdf5",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/resubmit_corrected_v2.py",
+      "sha256": "19b659684ce6a4cc84997e098ff7d8bb20bdbc37337e825bc67af9ad93bff1ac",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/run_quality_checks.py",
+      "sha256": "94497d9b1b050b20672877a997bd633637575702c2bb9b6d8ff1d9d62444415f",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/score_pilot.py",
+      "sha256": "0ec878d7fe8adbfca49fea907aef13db2749f033c6239fd5e93c38ad0b7ad18d",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/test_confirmatory_2x2.py",
+      "sha256": "1a681f21a785b02d7f4d23553a9783c3d7f87d548d0a2f2b58bcd4e5f2c32c18",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/test_design_integrity.py",
+      "sha256": "f2c86890177311868b3711e7ecd9c7096501782f48f686631f5de6cdf0ef73ec",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/test_metadata_type_fix.py",
+      "sha256": "86c566aa272d06cc00685df946ea705baada7d76cfb65c0db32b6d30ae14dedf",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/test_openai_batch_adapter.py",
+      "sha256": "1590a722ab1001b8dfd68652355cde3b50f8dc1c6d653c23c34f08637104d9ec",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/test_prelaunch_batch_validation.py",
+      "sha256": "e0743352572b011273b78a04434737fd918bec48dadc4cfa1493af412c1f9e28",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/test_prompt_identity.py",
+      "sha256": "ed9b2a6231a946f3bce1dd669a96eed71fa05e58daa8dfbed671888b9bfe883e",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/validate_batch_and_prompts.py",
+      "sha256": "365ddf662f8b6ab5cdc25224dbd49e0667db16047a9eef462c41c53af305d39a",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/validate_plan.py",
+      "sha256": "8d93c6b9e921448274e48a06d8420825b363d4b544bcf549c8ac43ff6cef6e1d",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/validate_prompts.py",
+      "sha256": "aebf62de257accb08cb514ae6e960adcc61896c9fe3b015d47c8c0048ab47b66",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/verify_locked_before_collection.py",
+      "sha256": "1e3a6251d69744f3e92ca4b948a8c07168879fe2af7eb0cc6f98e5163e8acaa1",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "analysis/scripts/write_reports__confirmatory_2x2_src__554425bd.py",
+      "sha256": "3ad5e85788b77cb01591aba8025880aa89f9b38573fa78b9f2f965cb2e910402",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/processed/pilot_results.csv",
+      "sha256": "d3065f2ce10c6b0ac0b4cf478b3e7cb25f87c02dc9a827be395f7852bc2b4099",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/processed/pilot_results.xlsx",
+      "sha256": "db2cd562bb79bf496b8622dcbc6b5e6eb8b956caba2f2a38836a1cd6781e0113",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/chunk_01_output.jsonl",
+      "sha256": "e3638236e88b152dc0cc7243bff2f25ef85b535fa461946f1bb73c34919bc99c",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/chunk_02_output.jsonl",
+      "sha256": "20614636ac71b62fb71605696071516f287414f3c8a88fe8385aac6c58d43a81",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/chunk_03_output.jsonl",
+      "sha256": "36fe07f655312641282142a49d18487d4cea2a2a2162ea592821acace5bab1c4",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/chunk_04_output.jsonl",
+      "sha256": "530963efe2e645c66bff60dc5d350cb31c06ec52bf12d00f23217eddfb429d10",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_2000_requests.jsonl",
+      "sha256": "9c89339e0a3c90813528aae6f13e475597cd745359fd553ea560281e9a7b4448",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_2000_requests_corrected_v2.jsonl",
+      "sha256": "5a18a98614ad5b3abe5d554ee3e6278bffe8deaaf0e33d62344bb44e3b677290",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_2000_requests_materialized.jsonl",
+      "sha256": "c62d744c44e1833bd719257ef46b98b85df3fffbf36bd220dacd0faa7eee6c98",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_corrected_v2_chunk_01.jsonl",
+      "sha256": "af2103bfd689163bcb90bc5dfe6b9ea4787e39cb7d0f1762e62f8dd109486be8",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_corrected_v2_chunk_02.jsonl",
+      "sha256": "b1cdbebb54481bf44baf931bbd0d028285ea2777d95ef43b28f584d3da1599ca",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_corrected_v2_chunk_03.jsonl",
+      "sha256": "ff572a0efea0b6493b011b8013b8da7ad498e441a9af099861c8811c3f112c17",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_corrected_v2_chunk_04.jsonl",
+      "sha256": "1f3f495ad5e9463a0a9ba1ea5481a2063cd9b4a588d8813416592e82b83a4be4",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/confirmatory_corrected_v2_merged_output.jsonl",
+      "sha256": "9ad195935d60025f9cff02ef290aebd829c9809b273f16a1d27bd2015dedd4b9",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/future_api_batch_preview.jsonl",
+      "sha256": "04a62d9e793e691808b626d2c852dd8a9cec64b9f0f5542a93e199ea9ec6ac48",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/pilot_responses.jsonl",
+      "sha256": "6e250040f43147de57f019c910eb2f7bdb2fa7f41acde11fe3de2f02438e9e4c",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/smoke_test_4_requests.jsonl",
+      "sha256": "c5c37c15a28cc17499eafc7c50dc0678097d622ceb276374d8f21be586b2674e",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/smoke_test_4_requests_corrected_v2.jsonl",
+      "sha256": "182b5722027e6a54bdfa2954686bfcefd9c6dec3b8a8760b38aa1cc0a756db03",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/raw_model_responses/smoke_test_corrected_v2_output.jsonl",
+      "sha256": "533975238cdac1b14409395349c02d8445db6ac735b61c292080ba3a5aa0ab2c",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/batch_partner_mapping_audit.csv",
+      "sha256": "391c557ecbbb66e33491ccae3129236104cfaa08a1c182ad2d5e704b0320d0d6",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_run_plan.csv",
+      "sha256": "35714495d2e3ed72523692c15d6d54f2eb972d26aff4f87a3cbe7bb0439fbd92",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_run_plan.jsonl",
+      "sha256": "c84db7c9b73cef55bceedd95cd54956613e7453f22fa4727494c44160bd9cbac",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_run_plan.xlsx",
+      "sha256": "db9321a8fecb50b21654f2754ba27410c06c77cccb51825f57b0215715691bbb",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_scenarios.json",
+      "sha256": "1fd1df266514b52723d66b4c128db6bb0b2e358caabd08b824d4409d58d0cb0d",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_scenarios_locked.json",
+      "sha256": "690cfeda3182a4a4de2fed5e228c75d52c685646115d5d465021e92745bf5318",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_scenarios_unlocked.json",
+      "sha256": "faea19c00f6e5d93d04f2f93c47475644da636d14fcac86f142a2bf91b4f5a5a",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_scenarios_visible.json",
+      "sha256": "41625df7f4cd0873856ae497da9887918d10d83d1db7ace7b24b9827b0dca1ad",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_scenarios_visible_locked.json",
+      "sha256": "1d2c971eb86e4fe710a55344685b0e883128efa037dab0d66d0b8a0e27434220",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/confirmatory_scenarios_visible_unlocked.json",
+      "sha256": "d09546a621c3a63d4b82a661385d75ccd852027d5ef36e5297479cba2d8f0318",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/development_scenarios.json",
+      "sha256": "e8c8c1cd472d75b420a457c7a1e0ed19169f5e8d82b224ebeff57509f6c755dc",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/development_scenarios_internal.json",
+      "sha256": "c42669daf49411adcd88f9e6cf9483cee328c5ed2ea32daa02c76f8fad8dec6d",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/development_scenarios_visible.json",
+      "sha256": "3c728fc641c063226a8b9744f27f410a33203b2501c03d9c24f37f62eea82ed5",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/development_scenarios_visible__e_anonymous-user_Anonymous_AI_AGENTIC_confirmatory_v2_data_model_visible__d0d6a825.json",
+      "sha256": "cab051346a627c79f9342ac81d52ad732f8225ed40098cf6460bcff7ccb4a81b",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/pilot_scenarios.json",
+      "sha256": "04319571192d35c073d8fb57041231b58eb46dc691386fc7e05899538c98401f",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "data/scenarios/pilot_scenarios_visible.json",
+      "sha256": "2c5a650f6e1e3cd010b85e82b0496f856bdf084bf278970684874d1f51ba3203",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/AVAILABILITY.md",
+      "sha256": "71e852df74f196f88931ae6d6ad3cebaaee6740837dfa208068eb8ee0dfaf9cb",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/LEGACY_README_BEFORE_REVISED_8000.md",
+      "sha256": "74c7e7c515c255e6f879f73b70372c9538f9289f4bea972efa1ccea272d7b8db",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/Methodologie_et_resultats_experience_confirmatoire_2x2.md",
+      "sha256": "1c047d6c8ec83c494e96585c26beb16d25f97bd06bf5c9c72c02e7e6405821b1",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "46a268138e90031c79bc11081cf3cabdfb79e6a3e9bed7a4504577c47db970bc",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/README__confirmatory_v2__fc752c1d.md",
+      "sha256": "fb9b67ab25011a7c72c751ecde758f4ef0568690849d0a9ac036700953545c42",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/README__docs__27a5ba19.md",
+      "sha256": "0505e8e616087a80d3a850a3eb5bc9fba5394161f4a6a1f944a46ca0000da3eb",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/S1_experimental_materials.md",
+      "sha256": "a2e6d5ca22b384f6366c657f58751a1a24d43cfb0cf52501163d8834516d3b6a",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/S4_measures_and_robustness.md",
+      "sha256": "d928f78f324089f23a39e4e2756d4431d9153d90bde7cfc6a56a28cdd3dc9961",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/batch_validation_report.md",
+      "sha256": "0d52c33b306eb104e2f3dcdaeef1b9f95c157857aa5cd15f7cf3e64ee9f196eb",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/chunked_resubmission_plan.md",
+      "sha256": "9ddf39ccd98fb6e34505a5cd0333559db96cde7a04a311b91c6347c69a466255",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/corrected_batch_validation_report.md",
+      "sha256": "0225a749c91dcbe320b8434d9f3ad8483be40f282f9eb9c9c5f9b5b9434f47f0",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/corrected_v2_preflight.md",
+      "sha256": "ac84967dfaaf253fa12a8264b288b22a42f34944466f5d2587e7e8132900829a",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "sha256": "f985601d27e31a3cb6cd483ca7b20686b10ee1510a46ee5e3c1104c775dabda9",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/file_inventory.md",
+      "sha256": "b9dd832b7141827cb2fee1c503f65c554068e5d7f8cfc95916e49aba3f085492",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/metadata_type_fix_report.md",
+      "sha256": "b72e8d9ef9047828ffeb3f634f036d4cf890157815fbe33fc2a5a28c41b08987",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/preregistration_en.md",
+      "sha256": "344b34fbd166f328e2fbd857efb7967ccc271a2f7a3ba7077e3c4cb2bbe2b45e",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/preregistration_en__confirmatory_v2_reports__e007a867.md",
+      "sha256": "d7202e5ebae242358e70b064e97a76cfb6f09f4915ca5fdde8b13dd98c8b1dbd",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/prompt_spot_check.md",
+      "sha256": "5ad90205f2831a286a923ba379fbc8b2d1baf6545df97e1928079a855c10ee46",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "docs/software_versions.md",
+      "sha256": "f98855a6483a21ddbae07c24d58ae350197e663bca978ff794dae485884d03c2",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "experimental_materials/system_instructions/commercial_high_agenticity.txt",
+      "sha256": "e76274b42441149cb133e2d5e02671d0235b0248c60f08aa7b0e98ab82853622",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "experimental_materials/system_instructions/commercial_low_agenticity.txt",
+      "sha256": "588003ecd992be09e3a8f01123a61bbe9e58fbb6c777891aad88a65cbb9a38fa",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "hashes/hashes.json",
+      "sha256": "2edfbe1df5ac53db24a32ff597ecbe2ac292015e00eb503e47eb33589e7cef39",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "hashes/sha256_manifest.csv",
+      "sha256": "6b7f1f3f351fa0894b31bd23de4ce5ef330d196f566f92ae85cb8dfd0887867b",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "outputs/tables/batch_validation_summary.csv",
+      "sha256": "d60bafd680cc81a2f2e09a2f13c42c482bed84be4afd59ac415e6b412d6afb43",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "outputs/tables/prompt_spot_check_summary.csv",
+      "sha256": "851dfa6e24b7905464c87679244ddefb2308db0e34380c3a4a7d9edf8f954e8b",
+      "reason": "Legacy file contains input material or potentially reconstructive material; retained privately, withheld from current public tree"
+    },
+    {
+      "path": "revised_8000/provenance/legacy_repository_state.json",
+      "sha256": "f61bfa30602ea24de11e92619b9b8011edb8f69308bef33ad7c3867eb46c4cee",
+      "reason": "Superseded archive or repository-state metadata withdrawn"
+    },
+    {
+      "path": "ANONYMOUS_REPLICATION_8000.zip",
+      "sha256": "4b73a612c2c98d64ac73c3c49907ad7356c5fd612be13f0ac87807bc1b495c49",
+      "reason": "Superseded archive or repository-state metadata withdrawn"
+    },
+    {
+      "path": "ANONYMOUS_REPLICATION_8000.sha256",
+      "sha256": "d8e0882f875f823e21e9deca6da34e08b10cae9bc8f715e277d29bb68ece3c4d",
+      "reason": "Superseded archive or repository-state metadata withdrawn"
+    },
+    {
+      "path": "outputs/figures/fig1_chain.png",
+      "sha256": "ac74c2f4408cdf23a962c23ca76228cce188c02e7d7dd87c9f1207f14d474db3",
+      "reason": "Conceptual figure includes a quoted input example"
+    }
+  ],
+  "withheld_files_scope": "Original file versions identified by hash; some paths now contain replacement documentation without input messages"
+}
