@@ -22,5 +22,3 @@ jobs:
           sudo apt-get install -y --no-install-recommends poppler-utils
       - name: Inspect repository, nested archives and reachable history
         run: python -B revised_8000/analysis/audit_anonymity.py --history --report /tmp/anonymity-audit.json
-      - name: Check current distribution contains no executed input messages
-        run: python -B revised_8000/analysis/check_no_inputs.py --report /tmp/input-withholding-audit.json

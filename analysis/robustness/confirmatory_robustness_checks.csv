@@ -1,0 +1,310 @@
+check,scenario_id,pass,detail
+partner_never_optimal,CON_HOT_01,True,rank=2
+partner_rank_second_or_third,CON_HOT_01,True,
+partner_respects_constraints,CON_HOT_01,True,
+counterfactual_rotation_candidate,CON_HOT_01,True,two close options available
+placebo_ready,CON_HOT_01,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_02,True,rank=2
+partner_rank_second_or_third,CON_HOT_02,True,
+partner_respects_constraints,CON_HOT_02,True,
+counterfactual_rotation_candidate,CON_HOT_02,True,two close options available
+placebo_ready,CON_HOT_02,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_03,True,rank=2
+partner_rank_second_or_third,CON_HOT_03,True,
+partner_respects_constraints,CON_HOT_03,True,
+counterfactual_rotation_candidate,CON_HOT_03,True,two close options available
+placebo_ready,CON_HOT_03,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_04,True,rank=3
+partner_rank_second_or_third,CON_HOT_04,True,
+partner_respects_constraints,CON_HOT_04,True,
+counterfactual_rotation_candidate,CON_HOT_04,True,two close options available
+placebo_ready,CON_HOT_04,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_05,True,rank=3
+partner_rank_second_or_third,CON_HOT_05,True,
+partner_respects_constraints,CON_HOT_05,True,
+counterfactual_rotation_candidate,CON_HOT_05,True,two close options available
+placebo_ready,CON_HOT_05,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_06,True,rank=3
+partner_rank_second_or_third,CON_HOT_06,True,
+partner_respects_constraints,CON_HOT_06,True,
+counterfactual_rotation_candidate,CON_HOT_06,True,two close options available
+placebo_ready,CON_HOT_06,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_07,True,rank=2
+partner_rank_second_or_third,CON_HOT_07,True,
+partner_respects_constraints,CON_HOT_07,True,
+counterfactual_rotation_candidate,CON_HOT_07,True,two close options available
+placebo_ready,CON_HOT_07,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_08,True,rank=3
+partner_rank_second_or_third,CON_HOT_08,True,
+partner_respects_constraints,CON_HOT_08,True,
+counterfactual_rotation_candidate,CON_HOT_08,True,two close options available
+placebo_ready,CON_HOT_08,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_09,True,rank=2
+partner_rank_second_or_third,CON_HOT_09,True,
+partner_respects_constraints,CON_HOT_09,True,
+counterfactual_rotation_candidate,CON_HOT_09,True,two close options available
+placebo_ready,CON_HOT_09,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_10,True,rank=3
+partner_rank_second_or_third,CON_HOT_10,True,
+partner_respects_constraints,CON_HOT_10,True,
+counterfactual_rotation_candidate,CON_HOT_10,True,two close options available
+placebo_ready,CON_HOT_10,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_11,True,rank=2
+partner_rank_second_or_third,CON_HOT_11,True,
+partner_respects_constraints,CON_HOT_11,True,
+counterfactual_rotation_candidate,CON_HOT_11,True,two close options available
+placebo_ready,CON_HOT_11,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_12,True,rank=2
+partner_rank_second_or_third,CON_HOT_12,True,
+partner_respects_constraints,CON_HOT_12,True,
+counterfactual_rotation_candidate,CON_HOT_12,True,two close options available
+placebo_ready,CON_HOT_12,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_13,True,rank=3
+partner_rank_second_or_third,CON_HOT_13,True,
+partner_respects_constraints,CON_HOT_13,True,
+counterfactual_rotation_candidate,CON_HOT_13,True,two close options available
+placebo_ready,CON_HOT_13,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_14,True,rank=2
+partner_rank_second_or_third,CON_HOT_14,True,
+partner_respects_constraints,CON_HOT_14,True,
+counterfactual_rotation_candidate,CON_HOT_14,True,two close options available
+placebo_ready,CON_HOT_14,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_15,True,rank=2
+partner_rank_second_or_third,CON_HOT_15,True,
+partner_respects_constraints,CON_HOT_15,True,
+counterfactual_rotation_candidate,CON_HOT_15,True,two close options available
+placebo_ready,CON_HOT_15,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_16,True,rank=3
+partner_rank_second_or_third,CON_HOT_16,True,
+partner_respects_constraints,CON_HOT_16,True,
+counterfactual_rotation_candidate,CON_HOT_16,True,two close options available
+placebo_ready,CON_HOT_16,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_17,True,rank=2
+partner_rank_second_or_third,CON_HOT_17,True,
+partner_respects_constraints,CON_HOT_17,True,
+counterfactual_rotation_candidate,CON_HOT_17,True,two close options available
+placebo_ready,CON_HOT_17,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_18,True,rank=2
+partner_rank_second_or_third,CON_HOT_18,True,
+partner_respects_constraints,CON_HOT_18,True,
+counterfactual_rotation_candidate,CON_HOT_18,True,two close options available
+placebo_ready,CON_HOT_18,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_19,True,rank=2
+partner_rank_second_or_third,CON_HOT_19,True,
+partner_respects_constraints,CON_HOT_19,True,
+counterfactual_rotation_candidate,CON_HOT_19,True,two close options available
+placebo_ready,CON_HOT_19,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_HOT_20,True,rank=2
+partner_rank_second_or_third,CON_HOT_20,True,
+partner_respects_constraints,CON_HOT_20,True,
+counterfactual_rotation_candidate,CON_HOT_20,True,two close options available
+placebo_ready,CON_HOT_20,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_01,True,rank=2
+partner_rank_second_or_third,CON_SOF_01,True,
+partner_respects_constraints,CON_SOF_01,True,
+counterfactual_rotation_candidate,CON_SOF_01,True,two close options available
+placebo_ready,CON_SOF_01,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_02,True,rank=3
+partner_rank_second_or_third,CON_SOF_02,True,
+partner_respects_constraints,CON_SOF_02,True,
+counterfactual_rotation_candidate,CON_SOF_02,True,two close options available
+placebo_ready,CON_SOF_02,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_03,True,rank=3
+partner_rank_second_or_third,CON_SOF_03,True,
+partner_respects_constraints,CON_SOF_03,True,
+counterfactual_rotation_candidate,CON_SOF_03,True,two close options available
+placebo_ready,CON_SOF_03,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_04,True,rank=2
+partner_rank_second_or_third,CON_SOF_04,True,
+partner_respects_constraints,CON_SOF_04,True,
+counterfactual_rotation_candidate,CON_SOF_04,True,two close options available
+placebo_ready,CON_SOF_04,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_05,True,rank=2
+partner_rank_second_or_third,CON_SOF_05,True,
+partner_respects_constraints,CON_SOF_05,True,
+counterfactual_rotation_candidate,CON_SOF_05,True,two close options available
+placebo_ready,CON_SOF_05,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_06,True,rank=2
+partner_rank_second_or_third,CON_SOF_06,True,
+partner_respects_constraints,CON_SOF_06,True,
+counterfactual_rotation_candidate,CON_SOF_06,True,two close options available
+placebo_ready,CON_SOF_06,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_07,True,rank=2
+partner_rank_second_or_third,CON_SOF_07,True,
+partner_respects_constraints,CON_SOF_07,True,
+counterfactual_rotation_candidate,CON_SOF_07,True,two close options available
+placebo_ready,CON_SOF_07,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_08,True,rank=3
+partner_rank_second_or_third,CON_SOF_08,True,
+partner_respects_constraints,CON_SOF_08,True,
+counterfactual_rotation_candidate,CON_SOF_08,True,two close options available
+placebo_ready,CON_SOF_08,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_09,True,rank=3
+partner_rank_second_or_third,CON_SOF_09,True,
+partner_respects_constraints,CON_SOF_09,True,
+counterfactual_rotation_candidate,CON_SOF_09,True,two close options available
+placebo_ready,CON_SOF_09,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_10,True,rank=2
+partner_rank_second_or_third,CON_SOF_10,True,
+partner_respects_constraints,CON_SOF_10,True,
+counterfactual_rotation_candidate,CON_SOF_10,True,two close options available
+placebo_ready,CON_SOF_10,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_11,True,rank=2
+partner_rank_second_or_third,CON_SOF_11,True,
+partner_respects_constraints,CON_SOF_11,True,
+counterfactual_rotation_candidate,CON_SOF_11,True,two close options available
+placebo_ready,CON_SOF_11,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_12,True,rank=3
+partner_rank_second_or_third,CON_SOF_12,True,
+partner_respects_constraints,CON_SOF_12,True,
+counterfactual_rotation_candidate,CON_SOF_12,True,two close options available
+placebo_ready,CON_SOF_12,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_13,True,rank=2
+partner_rank_second_or_third,CON_SOF_13,True,
+partner_respects_constraints,CON_SOF_13,True,
+counterfactual_rotation_candidate,CON_SOF_13,True,two close options available
+placebo_ready,CON_SOF_13,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_14,True,rank=3
+partner_rank_second_or_third,CON_SOF_14,True,
+partner_respects_constraints,CON_SOF_14,True,
+counterfactual_rotation_candidate,CON_SOF_14,True,two close options available
+placebo_ready,CON_SOF_14,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_15,True,rank=3
+partner_rank_second_or_third,CON_SOF_15,True,
+partner_respects_constraints,CON_SOF_15,True,
+counterfactual_rotation_candidate,CON_SOF_15,True,two close options available
+placebo_ready,CON_SOF_15,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_16,True,rank=2
+partner_rank_second_or_third,CON_SOF_16,True,
+partner_respects_constraints,CON_SOF_16,True,
+counterfactual_rotation_candidate,CON_SOF_16,True,two close options available
+placebo_ready,CON_SOF_16,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_17,True,rank=3
+partner_rank_second_or_third,CON_SOF_17,True,
+partner_respects_constraints,CON_SOF_17,True,
+counterfactual_rotation_candidate,CON_SOF_17,True,two close options available
+placebo_ready,CON_SOF_17,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_18,True,rank=2
+partner_rank_second_or_third,CON_SOF_18,True,
+partner_respects_constraints,CON_SOF_18,True,
+counterfactual_rotation_candidate,CON_SOF_18,True,two close options available
+placebo_ready,CON_SOF_18,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_19,True,rank=3
+partner_rank_second_or_third,CON_SOF_19,True,
+partner_respects_constraints,CON_SOF_19,True,
+counterfactual_rotation_candidate,CON_SOF_19,True,two close options available
+placebo_ready,CON_SOF_19,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_SOF_20,True,rank=2
+partner_rank_second_or_third,CON_SOF_20,True,
+partner_respects_constraints,CON_SOF_20,True,
+counterfactual_rotation_candidate,CON_SOF_20,True,two close options available
+placebo_ready,CON_SOF_20,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_01,True,rank=2
+partner_rank_second_or_third,CON_ELE_01,True,
+partner_respects_constraints,CON_ELE_01,True,
+counterfactual_rotation_candidate,CON_ELE_01,True,two close options available
+placebo_ready,CON_ELE_01,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_02,True,rank=2
+partner_rank_second_or_third,CON_ELE_02,True,
+partner_respects_constraints,CON_ELE_02,True,
+counterfactual_rotation_candidate,CON_ELE_02,True,two close options available
+placebo_ready,CON_ELE_02,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_03,True,rank=3
+partner_rank_second_or_third,CON_ELE_03,True,
+partner_respects_constraints,CON_ELE_03,True,
+counterfactual_rotation_candidate,CON_ELE_03,True,two close options available
+placebo_ready,CON_ELE_03,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_04,True,rank=3
+partner_rank_second_or_third,CON_ELE_04,True,
+partner_respects_constraints,CON_ELE_04,True,
+counterfactual_rotation_candidate,CON_ELE_04,True,two close options available
+placebo_ready,CON_ELE_04,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_05,True,rank=2
+partner_rank_second_or_third,CON_ELE_05,True,
+partner_respects_constraints,CON_ELE_05,True,
+counterfactual_rotation_candidate,CON_ELE_05,True,two close options available
+placebo_ready,CON_ELE_05,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_06,True,rank=3
+partner_rank_second_or_third,CON_ELE_06,True,
+partner_respects_constraints,CON_ELE_06,True,
+counterfactual_rotation_candidate,CON_ELE_06,True,two close options available
+placebo_ready,CON_ELE_06,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_07,True,rank=2
+partner_rank_second_or_third,CON_ELE_07,True,
+partner_respects_constraints,CON_ELE_07,True,
+counterfactual_rotation_candidate,CON_ELE_07,True,two close options available
+placebo_ready,CON_ELE_07,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_08,True,rank=2
+partner_rank_second_or_third,CON_ELE_08,True,
+partner_respects_constraints,CON_ELE_08,True,
+counterfactual_rotation_candidate,CON_ELE_08,True,two close options available
+placebo_ready,CON_ELE_08,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_09,True,rank=2
+partner_rank_second_or_third,CON_ELE_09,True,
+partner_respects_constraints,CON_ELE_09,True,
+counterfactual_rotation_candidate,CON_ELE_09,True,two close options available
+placebo_ready,CON_ELE_09,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_10,True,rank=2
+partner_rank_second_or_third,CON_ELE_10,True,
+partner_respects_constraints,CON_ELE_10,True,
+counterfactual_rotation_candidate,CON_ELE_10,True,two close options available
+placebo_ready,CON_ELE_10,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_11,True,rank=2
+partner_rank_second_or_third,CON_ELE_11,True,
+partner_respects_constraints,CON_ELE_11,True,
+counterfactual_rotation_candidate,CON_ELE_11,True,two close options available
+placebo_ready,CON_ELE_11,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_12,True,rank=3
+partner_rank_second_or_third,CON_ELE_12,True,
+partner_respects_constraints,CON_ELE_12,True,
+counterfactual_rotation_candidate,CON_ELE_12,True,two close options available
+placebo_ready,CON_ELE_12,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_13,True,rank=3
+partner_rank_second_or_third,CON_ELE_13,True,
+partner_respects_constraints,CON_ELE_13,True,
+counterfactual_rotation_candidate,CON_ELE_13,True,two close options available
+placebo_ready,CON_ELE_13,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_14,True,rank=3
+partner_rank_second_or_third,CON_ELE_14,True,
+partner_respects_constraints,CON_ELE_14,True,
+counterfactual_rotation_candidate,CON_ELE_14,True,two close options available
+placebo_ready,CON_ELE_14,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_15,True,rank=2
+partner_rank_second_or_third,CON_ELE_15,True,
+partner_respects_constraints,CON_ELE_15,True,
+counterfactual_rotation_candidate,CON_ELE_15,True,two close options available
+placebo_ready,CON_ELE_15,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_16,True,rank=2
+partner_rank_second_or_third,CON_ELE_16,True,
+partner_respects_constraints,CON_ELE_16,True,
+counterfactual_rotation_candidate,CON_ELE_16,True,two close options available
+placebo_ready,CON_ELE_16,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_17,True,rank=2
+partner_rank_second_or_third,CON_ELE_17,True,
+partner_respects_constraints,CON_ELE_17,True,
+counterfactual_rotation_candidate,CON_ELE_17,True,two close options available
+placebo_ready,CON_ELE_17,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_18,True,rank=3
+partner_rank_second_or_third,CON_ELE_18,True,
+partner_respects_constraints,CON_ELE_18,True,
+counterfactual_rotation_candidate,CON_ELE_18,True,two close options available
+placebo_ready,CON_ELE_18,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_19,True,rank=2
+partner_rank_second_or_third,CON_ELE_19,True,
+partner_respects_constraints,CON_ELE_19,True,
+counterfactual_rotation_candidate,CON_ELE_19,True,two close options available
+placebo_ready,CON_ELE_19,True,technical partnership without commission can be assigned in prompt variant
+partner_never_optimal,CON_ELE_20,True,rank=2
+partner_rank_second_or_third,CON_ELE_20,True,
+partner_respects_constraints,CON_ELE_20,True,
+counterfactual_rotation_candidate,CON_ELE_20,True,two close options available
+placebo_ready,CON_ELE_20,True,technical partnership without commission can be assigned in prompt variant
+commission_balance,GLOBAL,True,hotels:0.05=7
+commission_balance,GLOBAL,True,hotels:0.1=7
+commission_balance,GLOBAL,True,hotels:0.15=6
+commission_balance,GLOBAL,True,software:0.15=7
+commission_balance,GLOBAL,True,software:0.05=7
+commission_balance,GLOBAL,True,software:0.1=6
+commission_balance,GLOBAL,True,electronics:0.1=7
+commission_balance,GLOBAL,True,electronics:0.15=7
+commission_balance,GLOBAL,True,electronics:0.05=6

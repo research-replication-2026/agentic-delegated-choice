@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Portable offline analysis of archived output projections. Input instructions withheld.
+"""Portable, offline reconstruction from archived requests/responses. No generation.
 Only results/reproduced is written. Original frozen scorer, infer and NLP rules
 are imported unchanged; local absolute paths and provider accounts are unnecessary.
 """
@@ -60,16 +60,21 @@ def main():
     keys={r['custom_id']:r for r in jl('data/assignments_gpt.jsonl.gz')}
     mp={r['record_id']:r for r in js('data/assignments_claude.json.gz')}
     expected={(r['campaign'],r['response_id']):r for r in rd('data/processed/NLP_8000_expected.csv.gz')}
-    records=[];nlprows=[];nlpmatches=0;settings=defaultdict(Counter)
+    records=[];prompts={};nlprows=[];nlpmatches=0;settings=defaultdict(Counter)
     for campaign,prefix in [('GPT_nouveau','gpt'),('Claude','claude')]:
         for batch in range(1,5):
-            raw=jl(f'data/raw/{prefix}_batch_{batch:02d}.jsonl.gz')
-            assert len(raw)==1000
-            schema=js('data/decision_schema.json')
-            setting=js('data/protocol_settings.json')[campaign]
+            qp=f'experimental_materials/requests/{prefix}_batch_{batch:02d}.'+('jsonl.gz' if prefix=='gpt' else 'json.gz')
+            req=jl(qp) if prefix=='gpt' else js(qp)['requests'];raw=jl(f'data/raw/{prefix}_batch_{batch:02d}.jsonl.gz')
+            assert len(req)==len(raw)==1000
+            requests={r['custom_id']:r for r in req};assert set(requests)=={r['custom_id'] for r in raw}
             for x in raw:
                 rid=x['custom_id'];key=keys[rid if prefix=='gpt' else mp[rid]['custom_id']];s=scenarios[key['scenario_id']]
-                assert key['batch_index']==batch
+                body=requests[rid]['body' if prefix=='gpt' else 'params']
+                system=body['input'][0]['content'] if prefix=='gpt' else body['system']
+                user=body['input'][1]['content'] if prefix=='gpt' else body['messages'][0]['content']
+                schema=body['tools'][0]['parameters' if prefix=='gpt' else 'input_schema']
+                prompts[campaign,key['scenario_id'],key['repetition'],key['level'],key['arm']]=(system,user,json.dumps(schema,sort_keys=True))
+                setting={k:v for k,v in body.items() if k not in ['input','system','messages','metadata','tools']}
                 settings[campaign][json.dumps(setting,sort_keys=True)]+=1
                 if prefix=='gpt':
                     msg=x['response']['body'];d=json.loads(next(z['arguments'] for z in msg['output'] if z['type']=='function_call'))
@@ -107,10 +112,18 @@ def main():
                     nlprows.append(dict(campaign=campaign,policy=key['arm'],response_id=rid,field='union',indicator=m,label=val))
     assert len(records)==len({(r['campaign'],r['response_id']) for r in records})==8000
     assert sum(r['selection_known'] for r in records)==7995
-    # Verify assignment balance; executed input messages are not distributed.
-    blocks=defaultdict(set)
-    for r in records:blocks[r['campaign'],r['scenario_id'],r['repetition'],r['level']].add(r['policy'])
-    assert len(blocks)==2000 and all(v==set(ARMS) for v in blocks.values())
+    # Exact paired input checks; the permission is extracted from transmitted requests, never retyped.
+    blocks=defaultdict(dict)
+    for (c,sid,rep,level,arm),payload in prompts.items():blocks[c,sid,rep,level][arm]=payload
+    permission_variants=set()
+    for (c,sid,rep,level),arms in blocks.items():
+        assert set(arms)==set(ARMS);assert len({p[1:] for p in arms.values()})==1
+        other='Claude' if c=='GPT_nouveau' else 'GPT_nouveau'
+        for arm in ARMS:assert arms[arm]==blocks[other,sid,rep,level][arm]
+        factual=arms['I'][0].split('\n\n');conditional=arms['C'][0].split('\n\n')
+        assert factual[0]==conditional[0] and factual[-1]==conditional[-1]
+        assert conditional[1].startswith(factual[1]+' ');permission_variants.add(conditional[1][len(factual[1]):])
+    assert len(permission_variants)==1 and len(blocks)==2000
     save('request_settings.json',{c:[dict(settings=json.loads(k),n=v) for k,v in ctr.items()] for c,ctr in settings.items()})
     # Existing scores are validation targets, never inputs to the scoring calculation.
     df=pd.DataFrame(records);old=rd('results/reference/scored_8000.csv.gz');idx={(r['campaign'],r['response_id']):r for r in records}
@@ -237,10 +250,10 @@ def main():
         checks.append(dict(table=4,model=model,cell=arm,status='PASS'))
     cs('manuscript_table_checks.csv',checks)
     save('VERIFICATION.json',dict(status='PASS',raw_responses=8000,recognized_selections=7995,unknown_selections=5,
-        scenarios=50,assigned_policy_blocks=2000,executed_input_messages_distributed=False,
+        scenarios=50,exact_policy_blocks=2000,cross_implementation_exact_prompts=4000,
         frozen_NLP_label_comparisons=nlpmatches,economic_comparisons=144,manuscript_numeric_table_rows_checked=len(checks),
         initial_agreement=ks,final_NLP_agreements=388,model_API_calls=0,network_calls=0,
-        scope='Analysis from archived output projections, assignments and structural schema. Input instructions are withheld; complete input-to-output replication is therefore not available in this distribution.'))
+        scope='Raw scoring, exact inputs, primary/cross inference, conformity, economic contrasts, frozen NLP and existing human control. Additional exploratory mechanism/moderator text claims require their separate archived analyses.'))
     check_manifest();print('PASS: 8000 raw responses, 7995 recognized, 24 manuscript table rows, 144 economic contrasts, 392/400 initial coding and 388/400 final/NLP.',flush=True)
 
 if __name__=='__main__':

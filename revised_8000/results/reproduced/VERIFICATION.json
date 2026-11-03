@@ -4,8 +4,8 @@
   "recognized_selections": 7995,
   "unknown_selections": 5,
   "scenarios": 50,
-  "assigned_policy_blocks": 2000,
-  "executed_input_messages_distributed": false,
+  "exact_policy_blocks": 2000,
+  "cross_implementation_exact_prompts": 4000,
   "frozen_NLP_label_comparisons": 96000,
   "economic_comparisons": 144,
   "manuscript_numeric_table_rows_checked": 24,
@@ -20,5 +20,5 @@
   "final_NLP_agreements": 388,
   "model_API_calls": 0,
   "network_calls": 0,
-  "scope": "Analysis from archived output projections, assignments and structural schema. Input instructions are withheld; complete input-to-output replication is therefore not available in this distribution."
+  "scope": "Raw scoring, exact inputs, primary/cross inference, conformity, economic contrasts, frozen NLP and existing human control. Additional exploratory mechanism/moderator text claims require their separate archived analyses."
 }

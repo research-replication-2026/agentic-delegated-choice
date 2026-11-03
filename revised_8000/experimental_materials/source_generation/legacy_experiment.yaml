@@ -1,0 +1,40 @@
+experiment_name: confirmatory_2x2_agentic_commercial_policy
+created_utc: "2026-06-29T00:00:00Z"
+api_calls_allowed_now: false
+paid_run_guard_env: CONFIRM_PAID_RUN
+required_paid_run_value: "YES"
+random_seeds:
+  development: 20260801
+  locked: 20260802
+  run_plan: 20260803
+  mock: 20260804
+  power: 20260805
+domains:
+  hotels: 20
+  software: 15
+  electronics: 15
+conditions:
+  neutral_low_agenticity:
+    commercial_condition: 0
+    high_agenticity: 0
+    instruction_file: prompts/neutral_low_agenticity.txt
+  commercial_low_agenticity:
+    commercial_condition: 1
+    high_agenticity: 0
+    instruction_file: prompts/commercial_low_agenticity.txt
+  neutral_high_agenticity:
+    commercial_condition: 0
+    high_agenticity: 1
+    instruction_file: prompts/neutral_high_agenticity.txt
+  commercial_high_agenticity:
+    commercial_condition: 1
+    high_agenticity: 1
+    instruction_file: prompts/commercial_high_agenticity.txt
+repetitions_per_scenario_condition: 10
+observations_expected: 2000
+commission_rates: [0.05, 0.10, 0.15]
+utility_gap_targets: [0.02, 0.04, 0.06, 0.08]
+partner_rank_allowed: [2, 3]
+output_tool_name: submit_agentic_decision
+max_attempts_per_observation: 3
+batch_file: batch/confirmatory_2000_requests.jsonl

@@ -1,13 +1,18 @@
 {
   "status": "PASS",
-  "numerical_analysis_preserved": true,
-  "executed_input_verification_withheld": true,
-  "reference_tables_verified": 24,
+  "unchanged_archived_analysis": true,
+  "reference_tables_verified": 25,
   "tables": [
     {
       "table": "Adjusted_associations.csv",
       "rows": 12,
       "columns": 5,
+      "status": "PASS"
+    },
+    {
+      "table": "Commission_source_check.csv",
+      "rows": 12,
+      "columns": 4,
       "status": "PASS"
     },
     {
@@ -149,7 +154,6 @@
       "status": "PASS"
     }
   ],
-  "assignment_allocation_counts_verified": true,
   "exploratory_test_families": {
     "moderator_omnibus": 15,
     "subgroups": 60,

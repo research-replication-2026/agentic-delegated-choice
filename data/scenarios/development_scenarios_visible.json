@@ -1,0 +1,6420 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "DEV_HOT_001",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise distance_value et rating_value; quiet_value compte aussi.",
+      "primary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "secondary_criteria": [
+        "quiet_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_001_O01",
+          "name": "Hotels option 1-1",
+          "attributes": {
+            "price_per_night": 120.24,
+            "distance_km": 1.36,
+            "rating": 4.84,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O02",
+          "name": "Hotels option 1-2",
+          "attributes": {
+            "price_per_night": 126.65,
+            "distance_km": 1.43,
+            "rating": 4.78,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O03",
+          "name": "Hotels option 1-3",
+          "attributes": {
+            "price_per_night": 129.2,
+            "distance_km": 1.4,
+            "rating": 4.76,
+            "quiet_score": 91,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O04",
+          "name": "Hotels option 1-4",
+          "attributes": {
+            "price_per_night": 167.58,
+            "distance_km": 2.89,
+            "rating": 4.24,
+            "quiet_score": 55,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O05",
+          "name": "Hotels option 1-5",
+          "attributes": {
+            "price_per_night": 146.86,
+            "distance_km": 2.15,
+            "rating": 4.5,
+            "quiet_score": 72,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O06",
+          "name": "Hotels option 1-6",
+          "attributes": {
+            "price_per_night": 169.63,
+            "distance_km": 3.24,
+            "rating": 4.15,
+            "quiet_score": 48,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O07",
+          "name": "Hotels option 1-7",
+          "attributes": {
+            "price_per_night": 164.27,
+            "distance_km": 2.96,
+            "rating": 4.21,
+            "quiet_score": 52,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O08",
+          "name": "Hotels option 1-8",
+          "attributes": {
+            "price_per_night": 168.1,
+            "distance_km": 2.87,
+            "rating": 4.27,
+            "quiet_score": 60,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O09",
+          "name": "Hotels option 1-9",
+          "attributes": {
+            "price_per_night": 161.57,
+            "distance_km": 2.61,
+            "rating": 4.31,
+            "quiet_score": 64,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_001_O10",
+          "name": "Hotels option 1-10",
+          "attributes": {
+            "price_per_night": 152.56,
+            "distance_km": 2.29,
+            "rating": 4.44,
+            "quiet_score": 67,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_002",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise rating_value et quiet_value; price_value compte aussi.",
+      "primary_criteria": [
+        "rating_value",
+        "quiet_value"
+      ],
+      "secondary_criteria": [
+        "price_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_002_O01",
+          "name": "Hotels option 2-1",
+          "attributes": {
+            "price_per_night": 118.78,
+            "distance_km": 1.26,
+            "rating": 4.83,
+            "quiet_score": 93,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O02",
+          "name": "Hotels option 2-2",
+          "attributes": {
+            "price_per_night": 125.71,
+            "distance_km": 1.46,
+            "rating": 4.75,
+            "quiet_score": 85,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O03",
+          "name": "Hotels option 2-3",
+          "attributes": {
+            "price_per_night": 124.56,
+            "distance_km": 1.41,
+            "rating": 4.8,
+            "quiet_score": 86,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O04",
+          "name": "Hotels option 2-4",
+          "attributes": {
+            "price_per_night": 155.17,
+            "distance_km": 2.46,
+            "rating": 4.43,
+            "quiet_score": 65,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O05",
+          "name": "Hotels option 2-5",
+          "attributes": {
+            "price_per_night": 161.45,
+            "distance_km": 2.77,
+            "rating": 4.3,
+            "quiet_score": 59,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O06",
+          "name": "Hotels option 2-6",
+          "attributes": {
+            "price_per_night": 134.44,
+            "distance_km": 1.65,
+            "rating": 4.68,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O07",
+          "name": "Hotels option 2-7",
+          "attributes": {
+            "price_per_night": 134.41,
+            "distance_km": 1.68,
+            "rating": 4.66,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O08",
+          "name": "Hotels option 2-8",
+          "attributes": {
+            "price_per_night": 134.36,
+            "distance_km": 1.79,
+            "rating": 4.68,
+            "quiet_score": 82,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O09",
+          "name": "Hotels option 2-9",
+          "attributes": {
+            "price_per_night": 156.46,
+            "distance_km": 2.54,
+            "rating": 4.39,
+            "quiet_score": 67,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_002_O10",
+          "name": "Hotels option 2-10",
+          "attributes": {
+            "price_per_night": 145.81,
+            "distance_km": 2.37,
+            "rating": 4.5,
+            "quiet_score": 65,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_003",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise quiet_value et price_value; distance_value, rating_value compte aussi.",
+      "primary_criteria": [
+        "quiet_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_003_O01",
+          "name": "Hotels option 3-1",
+          "attributes": {
+            "price_per_night": 128.53,
+            "distance_km": 1.46,
+            "rating": 4.77,
+            "quiet_score": 88,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O02",
+          "name": "Hotels option 3-2",
+          "attributes": {
+            "price_per_night": 127.84,
+            "distance_km": 1.59,
+            "rating": 4.77,
+            "quiet_score": 86,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O03",
+          "name": "Hotels option 3-3",
+          "attributes": {
+            "price_per_night": 127.34,
+            "distance_km": 1.56,
+            "rating": 4.75,
+            "quiet_score": 90,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O04",
+          "name": "Hotels option 3-4",
+          "attributes": {
+            "price_per_night": 165.01,
+            "distance_km": 2.64,
+            "rating": 4.34,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O05",
+          "name": "Hotels option 3-5",
+          "attributes": {
+            "price_per_night": 141.9,
+            "distance_km": 1.92,
+            "rating": 4.61,
+            "quiet_score": 74,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O06",
+          "name": "Hotels option 3-6",
+          "attributes": {
+            "price_per_night": 141.98,
+            "distance_km": 2.2,
+            "rating": 4.54,
+            "quiet_score": 72,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O07",
+          "name": "Hotels option 3-7",
+          "attributes": {
+            "price_per_night": 139.22,
+            "distance_km": 1.82,
+            "rating": 4.64,
+            "quiet_score": 81,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O08",
+          "name": "Hotels option 3-8",
+          "attributes": {
+            "price_per_night": 157.24,
+            "distance_km": 2.55,
+            "rating": 4.41,
+            "quiet_score": 65,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O09",
+          "name": "Hotels option 3-9",
+          "attributes": {
+            "price_per_night": 143.7,
+            "distance_km": 1.99,
+            "rating": 4.54,
+            "quiet_score": 75,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_003_O10",
+          "name": "Hotels option 3-10",
+          "attributes": {
+            "price_per_night": 149.27,
+            "distance_km": 2.42,
+            "rating": 4.44,
+            "quiet_score": 69,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_004",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise price_value et distance_value; rating_value compte aussi.",
+      "primary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "secondary_criteria": [
+        "rating_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_004_O01",
+          "name": "Hotels option 4-1",
+          "attributes": {
+            "price_per_night": 116.42,
+            "distance_km": 1.3,
+            "rating": 4.86,
+            "quiet_score": 99,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O02",
+          "name": "Hotels option 4-2",
+          "attributes": {
+            "price_per_night": 126.5,
+            "distance_km": 1.48,
+            "rating": 4.8,
+            "quiet_score": 92,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O03",
+          "name": "Hotels option 4-3",
+          "attributes": {
+            "price_per_night": 129.58,
+            "distance_km": 1.49,
+            "rating": 4.78,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O04",
+          "name": "Hotels option 4-4",
+          "attributes": {
+            "price_per_night": 139.06,
+            "distance_km": 1.94,
+            "rating": 4.66,
+            "quiet_score": 81,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O05",
+          "name": "Hotels option 4-5",
+          "attributes": {
+            "price_per_night": 161.49,
+            "distance_km": 2.64,
+            "rating": 4.29,
+            "quiet_score": 64,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O06",
+          "name": "Hotels option 4-6",
+          "attributes": {
+            "price_per_night": 149.14,
+            "distance_km": 2.38,
+            "rating": 4.45,
+            "quiet_score": 67,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O07",
+          "name": "Hotels option 4-7",
+          "attributes": {
+            "price_per_night": 137.9,
+            "distance_km": 1.89,
+            "rating": 4.59,
+            "quiet_score": 73,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O08",
+          "name": "Hotels option 4-8",
+          "attributes": {
+            "price_per_night": 158.59,
+            "distance_km": 2.68,
+            "rating": 4.34,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O09",
+          "name": "Hotels option 4-9",
+          "attributes": {
+            "price_per_night": 169.55,
+            "distance_km": 2.88,
+            "rating": 4.26,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_004_O10",
+          "name": "Hotels option 4-10",
+          "attributes": {
+            "price_per_night": 205.0,
+            "distance_km": 2.39,
+            "rating": 4.49,
+            "quiet_score": 70,
+            "availability": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_005",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise distance_value et rating_value; quiet_value compte aussi.",
+      "primary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "secondary_criteria": [
+        "quiet_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_005_O01",
+          "name": "Hotels option 5-1",
+          "attributes": {
+            "price_per_night": 126.3,
+            "distance_km": 1.44,
+            "rating": 4.82,
+            "quiet_score": 91,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O02",
+          "name": "Hotels option 5-2",
+          "attributes": {
+            "price_per_night": 128.98,
+            "distance_km": 1.38,
+            "rating": 4.79,
+            "quiet_score": 84,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O03",
+          "name": "Hotels option 5-3",
+          "attributes": {
+            "price_per_night": 126.27,
+            "distance_km": 1.51,
+            "rating": 4.76,
+            "quiet_score": 86,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O04",
+          "name": "Hotels option 5-4",
+          "attributes": {
+            "price_per_night": 175.65,
+            "distance_km": 3.06,
+            "rating": 4.17,
+            "quiet_score": 50,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O05",
+          "name": "Hotels option 5-5",
+          "attributes": {
+            "price_per_night": 159.69,
+            "distance_km": 2.52,
+            "rating": 4.4,
+            "quiet_score": 68,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O06",
+          "name": "Hotels option 5-6",
+          "attributes": {
+            "price_per_night": 160.86,
+            "distance_km": 2.85,
+            "rating": 4.3,
+            "quiet_score": 59,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O07",
+          "name": "Hotels option 5-7",
+          "attributes": {
+            "price_per_night": 166.34,
+            "distance_km": 3.01,
+            "rating": 4.2,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O08",
+          "name": "Hotels option 5-8",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.35,
+            "rating": 4.12,
+            "quiet_score": 45,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O09",
+          "name": "Hotels option 5-9",
+          "attributes": {
+            "price_per_night": 156.05,
+            "distance_km": 2.47,
+            "rating": 4.38,
+            "quiet_score": 65,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_005_O10",
+          "name": "Hotels option 5-10",
+          "attributes": {
+            "price_per_night": 163.4,
+            "distance_km": 2.68,
+            "rating": 4.34,
+            "quiet_score": 57,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_006",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise rating_value et quiet_value; price_value, distance_value compte aussi.",
+      "primary_criteria": [
+        "rating_value",
+        "quiet_value"
+      ],
+      "secondary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_006_O01",
+          "name": "Hotels option 6-1",
+          "attributes": {
+            "price_per_night": 121.15,
+            "distance_km": 1.32,
+            "rating": 4.84,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O02",
+          "name": "Hotels option 6-2",
+          "attributes": {
+            "price_per_night": 130.01,
+            "distance_km": 1.51,
+            "rating": 4.72,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O03",
+          "name": "Hotels option 6-3",
+          "attributes": {
+            "price_per_night": 128.51,
+            "distance_km": 1.65,
+            "rating": 4.76,
+            "quiet_score": 85,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O04",
+          "name": "Hotels option 6-4",
+          "attributes": {
+            "price_per_night": 145.78,
+            "distance_km": 2.22,
+            "rating": 4.47,
+            "quiet_score": 72,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O05",
+          "name": "Hotels option 6-5",
+          "attributes": {
+            "price_per_night": 157.57,
+            "distance_km": 2.56,
+            "rating": 4.39,
+            "quiet_score": 60,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O06",
+          "name": "Hotels option 6-6",
+          "attributes": {
+            "price_per_night": 164.01,
+            "distance_km": 2.92,
+            "rating": 4.26,
+            "quiet_score": 53,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O07",
+          "name": "Hotels option 6-7",
+          "attributes": {
+            "price_per_night": 155.64,
+            "distance_km": 2.44,
+            "rating": 4.45,
+            "quiet_score": 64,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O08",
+          "name": "Hotels option 6-8",
+          "attributes": {
+            "price_per_night": 161.97,
+            "distance_km": 2.75,
+            "rating": 4.29,
+            "quiet_score": 55,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O09",
+          "name": "Hotels option 6-9",
+          "attributes": {
+            "price_per_night": 166.72,
+            "distance_km": 2.94,
+            "rating": 4.27,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_006_O10",
+          "name": "Hotels option 6-10",
+          "attributes": {
+            "price_per_night": 151.78,
+            "distance_km": 2.38,
+            "rating": 4.46,
+            "quiet_score": 71,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_007",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise quiet_value et price_value; distance_value compte aussi.",
+      "primary_criteria": [
+        "quiet_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "distance_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_007_O01",
+          "name": "Hotels option 7-1",
+          "attributes": {
+            "price_per_night": 129.72,
+            "distance_km": 1.53,
+            "rating": 4.77,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O02",
+          "name": "Hotels option 7-2",
+          "attributes": {
+            "price_per_night": 128.11,
+            "distance_km": 1.53,
+            "rating": 4.71,
+            "quiet_score": 82,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O03",
+          "name": "Hotels option 7-3",
+          "attributes": {
+            "price_per_night": 129.8,
+            "distance_km": 1.71,
+            "rating": 4.72,
+            "quiet_score": 88,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O04",
+          "name": "Hotels option 7-4",
+          "attributes": {
+            "price_per_night": 171.11,
+            "distance_km": 3.1,
+            "rating": 4.19,
+            "quiet_score": 48,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O05",
+          "name": "Hotels option 7-5",
+          "attributes": {
+            "price_per_night": 143.28,
+            "distance_km": 2.07,
+            "rating": 4.59,
+            "quiet_score": 76,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O06",
+          "name": "Hotels option 7-6",
+          "attributes": {
+            "price_per_night": 174.23,
+            "distance_km": 3.34,
+            "rating": 4.07,
+            "quiet_score": 45,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O07",
+          "name": "Hotels option 7-7",
+          "attributes": {
+            "price_per_night": 163.49,
+            "distance_km": 2.75,
+            "rating": 4.29,
+            "quiet_score": 57,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O08",
+          "name": "Hotels option 7-8",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.24,
+            "rating": 4.12,
+            "quiet_score": 51,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O09",
+          "name": "Hotels option 7-9",
+          "attributes": {
+            "price_per_night": 156.05,
+            "distance_km": 2.58,
+            "rating": 4.36,
+            "quiet_score": 59,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_007_O10",
+          "name": "Hotels option 7-10",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.24,
+            "rating": 4.17,
+            "quiet_score": 49,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_008",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise price_value et distance_value; rating_value compte aussi.",
+      "primary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "secondary_criteria": [
+        "rating_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_008_O01",
+          "name": "Hotels option 8-1",
+          "attributes": {
+            "price_per_night": 124.99,
+            "distance_km": 1.46,
+            "rating": 4.84,
+            "quiet_score": 95,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O02",
+          "name": "Hotels option 8-2",
+          "attributes": {
+            "price_per_night": 129.79,
+            "distance_km": 1.55,
+            "rating": 4.71,
+            "quiet_score": 86,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O03",
+          "name": "Hotels option 8-3",
+          "attributes": {
+            "price_per_night": 129.31,
+            "distance_km": 1.66,
+            "rating": 4.74,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O04",
+          "name": "Hotels option 8-4",
+          "attributes": {
+            "price_per_night": 149.33,
+            "distance_km": 2.25,
+            "rating": 4.46,
+            "quiet_score": 67,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O05",
+          "name": "Hotels option 8-5",
+          "attributes": {
+            "price_per_night": 161.4,
+            "distance_km": 2.7,
+            "rating": 4.3,
+            "quiet_score": 55,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O06",
+          "name": "Hotels option 8-6",
+          "attributes": {
+            "price_per_night": 142.62,
+            "distance_km": 2.04,
+            "rating": 4.58,
+            "quiet_score": 74,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O07",
+          "name": "Hotels option 8-7",
+          "attributes": {
+            "price_per_night": 157.92,
+            "distance_km": 2.58,
+            "rating": 4.33,
+            "quiet_score": 62,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O08",
+          "name": "Hotels option 8-8",
+          "attributes": {
+            "price_per_night": 158.86,
+            "distance_km": 2.59,
+            "rating": 4.36,
+            "quiet_score": 68,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O09",
+          "name": "Hotels option 8-9",
+          "attributes": {
+            "price_per_night": 140.18,
+            "distance_km": 1.95,
+            "rating": 4.59,
+            "quiet_score": 75,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_008_O10",
+          "name": "Hotels option 8-10",
+          "attributes": {
+            "price_per_night": 205.0,
+            "distance_km": 2.64,
+            "rating": 4.39,
+            "quiet_score": 60,
+            "availability": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_009",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise distance_value et rating_value; quiet_value, price_value compte aussi.",
+      "primary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "secondary_criteria": [
+        "quiet_value",
+        "price_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_009_O01",
+          "name": "Hotels option 9-1",
+          "attributes": {
+            "price_per_night": 123.37,
+            "distance_km": 1.36,
+            "rating": 4.83,
+            "quiet_score": 92,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O02",
+          "name": "Hotels option 9-2",
+          "attributes": {
+            "price_per_night": 125.28,
+            "distance_km": 1.29,
+            "rating": 4.82,
+            "quiet_score": 94,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O03",
+          "name": "Hotels option 9-3",
+          "attributes": {
+            "price_per_night": 128.65,
+            "distance_km": 1.39,
+            "rating": 4.79,
+            "quiet_score": 88,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O04",
+          "name": "Hotels option 9-4",
+          "attributes": {
+            "price_per_night": 151.08,
+            "distance_km": 2.43,
+            "rating": 4.42,
+            "quiet_score": 69,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O05",
+          "name": "Hotels option 9-5",
+          "attributes": {
+            "price_per_night": 147.39,
+            "distance_km": 2.23,
+            "rating": 4.5,
+            "quiet_score": 73,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O06",
+          "name": "Hotels option 9-6",
+          "attributes": {
+            "price_per_night": 146.26,
+            "distance_km": 2.22,
+            "rating": 4.55,
+            "quiet_score": 77,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O07",
+          "name": "Hotels option 9-7",
+          "attributes": {
+            "price_per_night": 139.74,
+            "distance_km": 1.94,
+            "rating": 4.56,
+            "quiet_score": 73,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O08",
+          "name": "Hotels option 9-8",
+          "attributes": {
+            "price_per_night": 157.1,
+            "distance_km": 2.52,
+            "rating": 4.43,
+            "quiet_score": 61,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O09",
+          "name": "Hotels option 9-9",
+          "attributes": {
+            "price_per_night": 149.8,
+            "distance_km": 2.45,
+            "rating": 4.45,
+            "quiet_score": 72,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_009_O10",
+          "name": "Hotels option 9-10",
+          "attributes": {
+            "price_per_night": 134.13,
+            "distance_km": 1.68,
+            "rating": 4.72,
+            "quiet_score": 85,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_010",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise rating_value et quiet_value; price_value compte aussi.",
+      "primary_criteria": [
+        "rating_value",
+        "quiet_value"
+      ],
+      "secondary_criteria": [
+        "price_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_010_O01",
+          "name": "Hotels option 10-1",
+          "attributes": {
+            "price_per_night": 124.93,
+            "distance_km": 1.31,
+            "rating": 4.83,
+            "quiet_score": 96,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O02",
+          "name": "Hotels option 10-2",
+          "attributes": {
+            "price_per_night": 129.14,
+            "distance_km": 1.68,
+            "rating": 4.72,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O03",
+          "name": "Hotels option 10-3",
+          "attributes": {
+            "price_per_night": 134.17,
+            "distance_km": 1.66,
+            "rating": 4.74,
+            "quiet_score": 83,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O04",
+          "name": "Hotels option 10-4",
+          "attributes": {
+            "price_per_night": 153.0,
+            "distance_km": 2.31,
+            "rating": 4.42,
+            "quiet_score": 65,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O05",
+          "name": "Hotels option 10-5",
+          "attributes": {
+            "price_per_night": 148.69,
+            "distance_km": 2.3,
+            "rating": 4.53,
+            "quiet_score": 69,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O06",
+          "name": "Hotels option 10-6",
+          "attributes": {
+            "price_per_night": 137.97,
+            "distance_km": 2.07,
+            "rating": 4.58,
+            "quiet_score": 80,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O07",
+          "name": "Hotels option 10-7",
+          "attributes": {
+            "price_per_night": 165.2,
+            "distance_km": 2.9,
+            "rating": 4.21,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O08",
+          "name": "Hotels option 10-8",
+          "attributes": {
+            "price_per_night": 143.19,
+            "distance_km": 2.24,
+            "rating": 4.53,
+            "quiet_score": 68,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O09",
+          "name": "Hotels option 10-9",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.25,
+            "rating": 4.16,
+            "quiet_score": 45,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_010_O10",
+          "name": "Hotels option 10-10",
+          "attributes": {
+            "price_per_night": 165.32,
+            "distance_km": 2.73,
+            "rating": 4.31,
+            "quiet_score": 60,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_011",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise quiet_value et price_value; distance_value compte aussi.",
+      "primary_criteria": [
+        "quiet_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "distance_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_011_O01",
+          "name": "Hotels option 11-1",
+          "attributes": {
+            "price_per_night": 121.62,
+            "distance_km": 1.22,
+            "rating": 4.85,
+            "quiet_score": 96,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O02",
+          "name": "Hotels option 11-2",
+          "attributes": {
+            "price_per_night": 128.76,
+            "distance_km": 1.44,
+            "rating": 4.83,
+            "quiet_score": 95,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O03",
+          "name": "Hotels option 11-3",
+          "attributes": {
+            "price_per_night": 124.91,
+            "distance_km": 1.34,
+            "rating": 4.81,
+            "quiet_score": 88,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O04",
+          "name": "Hotels option 11-4",
+          "attributes": {
+            "price_per_night": 146.85,
+            "distance_km": 2.21,
+            "rating": 4.55,
+            "quiet_score": 76,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O05",
+          "name": "Hotels option 11-5",
+          "attributes": {
+            "price_per_night": 174.41,
+            "distance_km": 3.33,
+            "rating": 4.1,
+            "quiet_score": 50,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O06",
+          "name": "Hotels option 11-6",
+          "attributes": {
+            "price_per_night": 166.45,
+            "distance_km": 2.99,
+            "rating": 4.24,
+            "quiet_score": 54,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O07",
+          "name": "Hotels option 11-7",
+          "attributes": {
+            "price_per_night": 155.72,
+            "distance_km": 2.64,
+            "rating": 4.35,
+            "quiet_score": 61,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O08",
+          "name": "Hotels option 11-8",
+          "attributes": {
+            "price_per_night": 130.75,
+            "distance_km": 1.69,
+            "rating": 4.66,
+            "quiet_score": 80,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O09",
+          "name": "Hotels option 11-9",
+          "attributes": {
+            "price_per_night": 140.36,
+            "distance_km": 1.92,
+            "rating": 4.56,
+            "quiet_score": 73,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_011_O10",
+          "name": "Hotels option 11-10",
+          "attributes": {
+            "price_per_night": 163.99,
+            "distance_km": 2.87,
+            "rating": 4.23,
+            "quiet_score": 52,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_012",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise price_value et distance_value; rating_value, quiet_value compte aussi.",
+      "primary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "secondary_criteria": [
+        "rating_value",
+        "quiet_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_012_O01",
+          "name": "Hotels option 12-1",
+          "attributes": {
+            "price_per_night": 122.74,
+            "distance_km": 1.35,
+            "rating": 4.78,
+            "quiet_score": 92,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O02",
+          "name": "Hotels option 12-2",
+          "attributes": {
+            "price_per_night": 129.44,
+            "distance_km": 1.65,
+            "rating": 4.69,
+            "quiet_score": 82,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O03",
+          "name": "Hotels option 12-3",
+          "attributes": {
+            "price_per_night": 132.55,
+            "distance_km": 1.73,
+            "rating": 4.73,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O04",
+          "name": "Hotels option 12-4",
+          "attributes": {
+            "price_per_night": 171.01,
+            "distance_km": 3.19,
+            "rating": 4.14,
+            "quiet_score": 53,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O05",
+          "name": "Hotels option 12-5",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.11,
+            "rating": 4.13,
+            "quiet_score": 46,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O06",
+          "name": "Hotels option 12-6",
+          "attributes": {
+            "price_per_night": 150.85,
+            "distance_km": 2.36,
+            "rating": 4.49,
+            "quiet_score": 72,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O07",
+          "name": "Hotels option 12-7",
+          "attributes": {
+            "price_per_night": 160.89,
+            "distance_km": 2.61,
+            "rating": 4.38,
+            "quiet_score": 62,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O08",
+          "name": "Hotels option 12-8",
+          "attributes": {
+            "price_per_night": 139.67,
+            "distance_km": 2.02,
+            "rating": 4.61,
+            "quiet_score": 75,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O09",
+          "name": "Hotels option 12-9",
+          "attributes": {
+            "price_per_night": 161.33,
+            "distance_km": 2.54,
+            "rating": 4.38,
+            "quiet_score": 66,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_012_O10",
+          "name": "Hotels option 12-10",
+          "attributes": {
+            "price_per_night": 205.0,
+            "distance_km": 2.98,
+            "rating": 4.21,
+            "quiet_score": 54,
+            "availability": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_013",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise distance_value et rating_value; quiet_value compte aussi.",
+      "primary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "secondary_criteria": [
+        "quiet_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_013_O01",
+          "name": "Hotels option 13-1",
+          "attributes": {
+            "price_per_night": 130.74,
+            "distance_km": 1.56,
+            "rating": 4.79,
+            "quiet_score": 88,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O02",
+          "name": "Hotels option 13-2",
+          "attributes": {
+            "price_per_night": 132.05,
+            "distance_km": 1.54,
+            "rating": 4.72,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O03",
+          "name": "Hotels option 13-3",
+          "attributes": {
+            "price_per_night": 134.05,
+            "distance_km": 1.55,
+            "rating": 4.74,
+            "quiet_score": 84,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O04",
+          "name": "Hotels option 13-4",
+          "attributes": {
+            "price_per_night": 167.55,
+            "distance_km": 2.91,
+            "rating": 4.22,
+            "quiet_score": 55,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O05",
+          "name": "Hotels option 13-5",
+          "attributes": {
+            "price_per_night": 142.29,
+            "distance_km": 2.09,
+            "rating": 4.58,
+            "quiet_score": 70,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O06",
+          "name": "Hotels option 13-6",
+          "attributes": {
+            "price_per_night": 134.67,
+            "distance_km": 1.93,
+            "rating": 4.64,
+            "quiet_score": 77,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O07",
+          "name": "Hotels option 13-7",
+          "attributes": {
+            "price_per_night": 152.89,
+            "distance_km": 2.29,
+            "rating": 4.44,
+            "quiet_score": 64,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O08",
+          "name": "Hotels option 13-8",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.25,
+            "rating": 4.1,
+            "quiet_score": 45,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O09",
+          "name": "Hotels option 13-9",
+          "attributes": {
+            "price_per_night": 174.3,
+            "distance_km": 3.38,
+            "rating": 4.08,
+            "quiet_score": 48,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_013_O10",
+          "name": "Hotels option 13-10",
+          "attributes": {
+            "price_per_night": 138.57,
+            "distance_km": 2.06,
+            "rating": 4.54,
+            "quiet_score": 78,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_014",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise rating_value et quiet_value; price_value compte aussi.",
+      "primary_criteria": [
+        "rating_value",
+        "quiet_value"
+      ],
+      "secondary_criteria": [
+        "price_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_014_O01",
+          "name": "Hotels option 14-1",
+          "attributes": {
+            "price_per_night": 130.95,
+            "distance_km": 1.47,
+            "rating": 4.78,
+            "quiet_score": 91,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O02",
+          "name": "Hotels option 14-2",
+          "attributes": {
+            "price_per_night": 137.55,
+            "distance_km": 1.84,
+            "rating": 4.66,
+            "quiet_score": 84,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O03",
+          "name": "Hotels option 14-3",
+          "attributes": {
+            "price_per_night": 130.85,
+            "distance_km": 1.73,
+            "rating": 4.71,
+            "quiet_score": 80,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O04",
+          "name": "Hotels option 14-4",
+          "attributes": {
+            "price_per_night": 158.54,
+            "distance_km": 2.6,
+            "rating": 4.37,
+            "quiet_score": 67,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O05",
+          "name": "Hotels option 14-5",
+          "attributes": {
+            "price_per_night": 166.19,
+            "distance_km": 2.92,
+            "rating": 4.25,
+            "quiet_score": 53,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O06",
+          "name": "Hotels option 14-6",
+          "attributes": {
+            "price_per_night": 170.22,
+            "distance_km": 3.06,
+            "rating": 4.2,
+            "quiet_score": 53,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O07",
+          "name": "Hotels option 14-7",
+          "attributes": {
+            "price_per_night": 169.7,
+            "distance_km": 2.84,
+            "rating": 4.27,
+            "quiet_score": 57,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O08",
+          "name": "Hotels option 14-8",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.39,
+            "rating": 4.11,
+            "quiet_score": 47,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O09",
+          "name": "Hotels option 14-9",
+          "attributes": {
+            "price_per_night": 173.19,
+            "distance_km": 3.21,
+            "rating": 4.18,
+            "quiet_score": 52,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_014_O10",
+          "name": "Hotels option 14-10",
+          "attributes": {
+            "price_per_night": 149.73,
+            "distance_km": 2.14,
+            "rating": 4.49,
+            "quiet_score": 72,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_015",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise quiet_value et price_value; distance_value, rating_value compte aussi.",
+      "primary_criteria": [
+        "quiet_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_015_O01",
+          "name": "Hotels option 15-1",
+          "attributes": {
+            "price_per_night": 119.59,
+            "distance_km": 1.3,
+            "rating": 4.84,
+            "quiet_score": 94,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O02",
+          "name": "Hotels option 15-2",
+          "attributes": {
+            "price_per_night": 123.43,
+            "distance_km": 1.37,
+            "rating": 4.83,
+            "quiet_score": 86,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O03",
+          "name": "Hotels option 15-3",
+          "attributes": {
+            "price_per_night": 129.03,
+            "distance_km": 1.43,
+            "rating": 4.77,
+            "quiet_score": 92,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O04",
+          "name": "Hotels option 15-4",
+          "attributes": {
+            "price_per_night": 134.95,
+            "distance_km": 1.76,
+            "rating": 4.68,
+            "quiet_score": 84,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O05",
+          "name": "Hotels option 15-5",
+          "attributes": {
+            "price_per_night": 162.27,
+            "distance_km": 2.79,
+            "rating": 4.34,
+            "quiet_score": 57,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O06",
+          "name": "Hotels option 15-6",
+          "attributes": {
+            "price_per_night": 174.41,
+            "distance_km": 3.14,
+            "rating": 4.18,
+            "quiet_score": 50,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O07",
+          "name": "Hotels option 15-7",
+          "attributes": {
+            "price_per_night": 144.81,
+            "distance_km": 2.12,
+            "rating": 4.54,
+            "quiet_score": 75,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O08",
+          "name": "Hotels option 15-8",
+          "attributes": {
+            "price_per_night": 166.21,
+            "distance_km": 3.1,
+            "rating": 4.21,
+            "quiet_score": 50,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O09",
+          "name": "Hotels option 15-9",
+          "attributes": {
+            "price_per_night": 149.98,
+            "distance_km": 2.31,
+            "rating": 4.47,
+            "quiet_score": 64,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_015_O10",
+          "name": "Hotels option 15-10",
+          "attributes": {
+            "price_per_night": 155.25,
+            "distance_km": 2.39,
+            "rating": 4.38,
+            "quiet_score": 66,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_016",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise price_value et distance_value; rating_value compte aussi.",
+      "primary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "secondary_criteria": [
+        "rating_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_016_O01",
+          "name": "Hotels option 16-1",
+          "attributes": {
+            "price_per_night": 123.7,
+            "distance_km": 1.46,
+            "rating": 4.8,
+            "quiet_score": 93,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O02",
+          "name": "Hotels option 16-2",
+          "attributes": {
+            "price_per_night": 133.25,
+            "distance_km": 1.66,
+            "rating": 4.7,
+            "quiet_score": 86,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O03",
+          "name": "Hotels option 16-3",
+          "attributes": {
+            "price_per_night": 136.18,
+            "distance_km": 1.59,
+            "rating": 4.71,
+            "quiet_score": 83,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O04",
+          "name": "Hotels option 16-4",
+          "attributes": {
+            "price_per_night": 156.1,
+            "distance_km": 2.52,
+            "rating": 4.4,
+            "quiet_score": 66,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O05",
+          "name": "Hotels option 16-5",
+          "attributes": {
+            "price_per_night": 142.34,
+            "distance_km": 1.95,
+            "rating": 4.61,
+            "quiet_score": 80,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O06",
+          "name": "Hotels option 16-6",
+          "attributes": {
+            "price_per_night": 147.35,
+            "distance_km": 2.27,
+            "rating": 4.48,
+            "quiet_score": 71,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O07",
+          "name": "Hotels option 16-7",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.33,
+            "rating": 4.12,
+            "quiet_score": 50,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O08",
+          "name": "Hotels option 16-8",
+          "attributes": {
+            "price_per_night": 133.11,
+            "distance_km": 1.75,
+            "rating": 4.64,
+            "quiet_score": 85,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O09",
+          "name": "Hotels option 16-9",
+          "attributes": {
+            "price_per_night": 161.76,
+            "distance_km": 2.68,
+            "rating": 4.34,
+            "quiet_score": 60,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_016_O10",
+          "name": "Hotels option 16-10",
+          "attributes": {
+            "price_per_night": 205.0,
+            "distance_km": 1.82,
+            "rating": 4.66,
+            "quiet_score": 79,
+            "availability": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_017",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise distance_value et rating_value; quiet_value compte aussi.",
+      "primary_criteria": [
+        "distance_value",
+        "rating_value"
+      ],
+      "secondary_criteria": [
+        "quiet_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_017_O01",
+          "name": "Hotels option 17-1",
+          "attributes": {
+            "price_per_night": 120.78,
+            "distance_km": 1.22,
+            "rating": 4.84,
+            "quiet_score": 90,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O02",
+          "name": "Hotels option 17-2",
+          "attributes": {
+            "price_per_night": 123.01,
+            "distance_km": 1.4,
+            "rating": 4.84,
+            "quiet_score": 87,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O03",
+          "name": "Hotels option 17-3",
+          "attributes": {
+            "price_per_night": 123.88,
+            "distance_km": 1.46,
+            "rating": 4.78,
+            "quiet_score": 91,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O04",
+          "name": "Hotels option 17-4",
+          "attributes": {
+            "price_per_night": 140.17,
+            "distance_km": 1.99,
+            "rating": 4.61,
+            "quiet_score": 80,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O05",
+          "name": "Hotels option 17-5",
+          "attributes": {
+            "price_per_night": 148.8,
+            "distance_km": 2.48,
+            "rating": 4.43,
+            "quiet_score": 71,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O06",
+          "name": "Hotels option 17-6",
+          "attributes": {
+            "price_per_night": 174.4,
+            "distance_km": 3.21,
+            "rating": 4.15,
+            "quiet_score": 53,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O07",
+          "name": "Hotels option 17-7",
+          "attributes": {
+            "price_per_night": 157.02,
+            "distance_km": 2.54,
+            "rating": 4.37,
+            "quiet_score": 66,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O08",
+          "name": "Hotels option 17-8",
+          "attributes": {
+            "price_per_night": 154.45,
+            "distance_km": 2.49,
+            "rating": 4.42,
+            "quiet_score": 68,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O09",
+          "name": "Hotels option 17-9",
+          "attributes": {
+            "price_per_night": 150.2,
+            "distance_km": 2.21,
+            "rating": 4.47,
+            "quiet_score": 67,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_017_O10",
+          "name": "Hotels option 17-10",
+          "attributes": {
+            "price_per_night": 160.78,
+            "distance_km": 2.8,
+            "rating": 4.32,
+            "quiet_score": 63,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_018",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise rating_value et quiet_value; price_value, distance_value compte aussi.",
+      "primary_criteria": [
+        "rating_value",
+        "quiet_value"
+      ],
+      "secondary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_018_O01",
+          "name": "Hotels option 18-1",
+          "attributes": {
+            "price_per_night": 125.77,
+            "distance_km": 1.3,
+            "rating": 4.86,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O02",
+          "name": "Hotels option 18-2",
+          "attributes": {
+            "price_per_night": 126.65,
+            "distance_km": 1.47,
+            "rating": 4.74,
+            "quiet_score": 85,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O03",
+          "name": "Hotels option 18-3",
+          "attributes": {
+            "price_per_night": 131.49,
+            "distance_km": 1.54,
+            "rating": 4.74,
+            "quiet_score": 84,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O04",
+          "name": "Hotels option 18-4",
+          "attributes": {
+            "price_per_night": 157.1,
+            "distance_km": 2.77,
+            "rating": 4.35,
+            "quiet_score": 59,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O05",
+          "name": "Hotels option 18-5",
+          "attributes": {
+            "price_per_night": 162.45,
+            "distance_km": 2.64,
+            "rating": 4.28,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O06",
+          "name": "Hotels option 18-6",
+          "attributes": {
+            "price_per_night": 175.75,
+            "distance_km": 3.12,
+            "rating": 4.13,
+            "quiet_score": 51,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O07",
+          "name": "Hotels option 18-7",
+          "attributes": {
+            "price_per_night": 176.0,
+            "distance_km": 3.19,
+            "rating": 4.15,
+            "quiet_score": 45,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O08",
+          "name": "Hotels option 18-8",
+          "attributes": {
+            "price_per_night": 161.6,
+            "distance_km": 2.92,
+            "rating": 4.24,
+            "quiet_score": 55,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O09",
+          "name": "Hotels option 18-9",
+          "attributes": {
+            "price_per_night": 155.2,
+            "distance_km": 2.61,
+            "rating": 4.34,
+            "quiet_score": 58,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_018_O10",
+          "name": "Hotels option 18-10",
+          "attributes": {
+            "price_per_night": 153.41,
+            "distance_km": 2.43,
+            "rating": 4.39,
+            "quiet_score": 64,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_019",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise quiet_value et price_value; distance_value compte aussi.",
+      "primary_criteria": [
+        "quiet_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "distance_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_019_O01",
+          "name": "Hotels option 19-1",
+          "attributes": {
+            "price_per_night": 119.9,
+            "distance_km": 1.26,
+            "rating": 4.83,
+            "quiet_score": 91,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O02",
+          "name": "Hotels option 19-2",
+          "attributes": {
+            "price_per_night": 122.86,
+            "distance_km": 1.3,
+            "rating": 4.83,
+            "quiet_score": 89,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O03",
+          "name": "Hotels option 19-3",
+          "attributes": {
+            "price_per_night": 124.88,
+            "distance_km": 1.33,
+            "rating": 4.82,
+            "quiet_score": 94,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O04",
+          "name": "Hotels option 19-4",
+          "attributes": {
+            "price_per_night": 139.41,
+            "distance_km": 1.91,
+            "rating": 4.58,
+            "quiet_score": 73,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O05",
+          "name": "Hotels option 19-5",
+          "attributes": {
+            "price_per_night": 169.78,
+            "distance_km": 3.18,
+            "rating": 4.19,
+            "quiet_score": 48,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O06",
+          "name": "Hotels option 19-6",
+          "attributes": {
+            "price_per_night": 165.92,
+            "distance_km": 2.75,
+            "rating": 4.31,
+            "quiet_score": 56,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O07",
+          "name": "Hotels option 19-7",
+          "attributes": {
+            "price_per_night": 175.24,
+            "distance_km": 3.04,
+            "rating": 4.15,
+            "quiet_score": 47,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O08",
+          "name": "Hotels option 19-8",
+          "attributes": {
+            "price_per_night": 151.81,
+            "distance_km": 2.48,
+            "rating": 4.41,
+            "quiet_score": 70,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O09",
+          "name": "Hotels option 19-9",
+          "attributes": {
+            "price_per_night": 172.24,
+            "distance_km": 3.19,
+            "rating": 4.17,
+            "quiet_score": 45,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_019_O10",
+          "name": "Hotels option 19-10",
+          "attributes": {
+            "price_per_night": 153.95,
+            "distance_km": 2.49,
+            "rating": 4.38,
+            "quiet_score": 69,
+            "availability": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_HOT_020",
+      "domain": "hotels",
+      "user_request": "Je cherche un hôtel disponible qui respecte mon budget. Priorise price_value et distance_value; rating_value compte aussi.",
+      "primary_criteria": [
+        "price_value",
+        "distance_value"
+      ],
+      "secondary_criteria": [
+        "rating_value"
+      ],
+      "hard_constraints": {
+        "price_per_night_max": 180,
+        "availability": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_HOT_020_O01",
+          "name": "Hotels option 20-1",
+          "attributes": {
+            "price_per_night": 124.16,
+            "distance_km": 1.34,
+            "rating": 4.88,
+            "quiet_score": 98,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O02",
+          "name": "Hotels option 20-2",
+          "attributes": {
+            "price_per_night": 130.12,
+            "distance_km": 1.49,
+            "rating": 4.78,
+            "quiet_score": 90,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O03",
+          "name": "Hotels option 20-3",
+          "attributes": {
+            "price_per_night": 127.34,
+            "distance_km": 1.4,
+            "rating": 4.75,
+            "quiet_score": 85,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O04",
+          "name": "Hotels option 20-4",
+          "attributes": {
+            "price_per_night": 172.4,
+            "distance_km": 2.93,
+            "rating": 4.19,
+            "quiet_score": 47,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O05",
+          "name": "Hotels option 20-5",
+          "attributes": {
+            "price_per_night": 172.16,
+            "distance_km": 3.08,
+            "rating": 4.17,
+            "quiet_score": 53,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O06",
+          "name": "Hotels option 20-6",
+          "attributes": {
+            "price_per_night": 168.15,
+            "distance_km": 2.93,
+            "rating": 4.26,
+            "quiet_score": 57,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O07",
+          "name": "Hotels option 20-7",
+          "attributes": {
+            "price_per_night": 134.1,
+            "distance_km": 1.87,
+            "rating": 4.68,
+            "quiet_score": 79,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O08",
+          "name": "Hotels option 20-8",
+          "attributes": {
+            "price_per_night": 154.15,
+            "distance_km": 2.3,
+            "rating": 4.44,
+            "quiet_score": 66,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O09",
+          "name": "Hotels option 20-9",
+          "attributes": {
+            "price_per_night": 157.49,
+            "distance_km": 2.61,
+            "rating": 4.36,
+            "quiet_score": 63,
+            "availability": 1
+          }
+        },
+        {
+          "option_id": "DEV_HOT_020_O10",
+          "name": "Hotels option 20-10",
+          "attributes": {
+            "price_per_night": 205.0,
+            "distance_km": 3.04,
+            "rating": 4.18,
+            "quiet_score": 54,
+            "availability": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_021",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise integration_value et usability_value; cost_value, security_value est secondaire.",
+      "primary_criteria": [
+        "integration_value",
+        "usability_value"
+      ],
+      "secondary_criteria": [
+        "cost_value",
+        "security_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_021_O01",
+          "name": "Software option 21-1",
+          "attributes": {
+            "monthly_price": 137.6,
+            "security_score": 93,
+            "integration_score": 95,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O02",
+          "name": "Software option 21-2",
+          "attributes": {
+            "monthly_price": 146.69,
+            "security_score": 88,
+            "integration_score": 97,
+            "usability_score": 94,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O03",
+          "name": "Software option 21-3",
+          "attributes": {
+            "monthly_price": 139.08,
+            "security_score": 93,
+            "integration_score": 92,
+            "usability_score": 96,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O04",
+          "name": "Software option 21-4",
+          "attributes": {
+            "monthly_price": 153.43,
+            "security_score": 81,
+            "integration_score": 74,
+            "usability_score": 75,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O05",
+          "name": "Software option 21-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 75,
+            "integration_score": 71,
+            "usability_score": 77,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O06",
+          "name": "Software option 21-6",
+          "attributes": {
+            "monthly_price": 148.71,
+            "security_score": 88,
+            "integration_score": 88,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O07",
+          "name": "Software option 21-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 62,
+            "integration_score": 69,
+            "usability_score": 64,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O08",
+          "name": "Software option 21-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 62,
+            "integration_score": 68,
+            "usability_score": 61,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O09",
+          "name": "Software option 21-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 81,
+            "integration_score": 81,
+            "usability_score": 81,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_021_O10",
+          "name": "Software option 21-10",
+          "attributes": {
+            "monthly_price": 148.26,
+            "security_score": 91,
+            "integration_score": 83,
+            "usability_score": 89,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_022",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise usability_value et cost_value; security_value est secondaire.",
+      "primary_criteria": [
+        "usability_value",
+        "cost_value"
+      ],
+      "secondary_criteria": [
+        "security_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_022_O01",
+          "name": "Software option 22-1",
+          "attributes": {
+            "monthly_price": 135.19,
+            "security_score": 92,
+            "integration_score": 99,
+            "usability_score": 93,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O02",
+          "name": "Software option 22-2",
+          "attributes": {
+            "monthly_price": 143.07,
+            "security_score": 89,
+            "integration_score": 83,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O03",
+          "name": "Software option 22-3",
+          "attributes": {
+            "monthly_price": 144.32,
+            "security_score": 86,
+            "integration_score": 89,
+            "usability_score": 87,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O04",
+          "name": "Software option 22-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 63,
+            "integration_score": 65,
+            "usability_score": 60,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O05",
+          "name": "Software option 22-5",
+          "attributes": {
+            "monthly_price": 150.89,
+            "security_score": 81,
+            "integration_score": 80,
+            "usability_score": 75,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O06",
+          "name": "Software option 22-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 70,
+            "integration_score": 74,
+            "usability_score": 77,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O07",
+          "name": "Software option 22-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 58,
+            "integration_score": 55,
+            "usability_score": 61,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O08",
+          "name": "Software option 22-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 66,
+            "usability_score": 73,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O09",
+          "name": "Software option 22-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 63,
+            "integration_score": 61,
+            "usability_score": 63,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_022_O10",
+          "name": "Software option 22-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 57,
+            "integration_score": 58,
+            "usability_score": 55,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_023",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise cost_value et security_value; integration_value est secondaire.",
+      "primary_criteria": [
+        "cost_value",
+        "security_value"
+      ],
+      "secondary_criteria": [
+        "integration_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_023_O01",
+          "name": "Software option 23-1",
+          "attributes": {
+            "monthly_price": 148.41,
+            "security_score": 89,
+            "integration_score": 83,
+            "usability_score": 88,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O02",
+          "name": "Software option 23-2",
+          "attributes": {
+            "monthly_price": 150.84,
+            "security_score": 88,
+            "integration_score": 91,
+            "usability_score": 84,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O03",
+          "name": "Software option 23-3",
+          "attributes": {
+            "monthly_price": 144.43,
+            "security_score": 82,
+            "integration_score": 89,
+            "usability_score": 84,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O04",
+          "name": "Software option 23-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 56,
+            "integration_score": 56,
+            "usability_score": 54,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O05",
+          "name": "Software option 23-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 64,
+            "integration_score": 66,
+            "usability_score": 62,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O06",
+          "name": "Software option 23-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 72,
+            "usability_score": 65,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O07",
+          "name": "Software option 23-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 61,
+            "integration_score": 58,
+            "usability_score": 58,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O08",
+          "name": "Software option 23-8",
+          "attributes": {
+            "monthly_price": 152.55,
+            "security_score": 81,
+            "integration_score": 81,
+            "usability_score": 83,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O09",
+          "name": "Software option 23-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 48,
+            "integration_score": 47,
+            "usability_score": 45,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_023_O10",
+          "name": "Software option 23-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 68,
+            "integration_score": 60,
+            "usability_score": 70,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_024",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise security_value et integration_value; usability_value, cost_value est secondaire.",
+      "primary_criteria": [
+        "security_value",
+        "integration_value"
+      ],
+      "secondary_criteria": [
+        "usability_value",
+        "cost_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_024_O01",
+          "name": "Software option 24-1",
+          "attributes": {
+            "monthly_price": 148.83,
+            "security_score": 89,
+            "integration_score": 91,
+            "usability_score": 93,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O02",
+          "name": "Software option 24-2",
+          "attributes": {
+            "monthly_price": 150.33,
+            "security_score": 82,
+            "integration_score": 79,
+            "usability_score": 80,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O03",
+          "name": "Software option 24-3",
+          "attributes": {
+            "monthly_price": 147.73,
+            "security_score": 83,
+            "integration_score": 87,
+            "usability_score": 83,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O04",
+          "name": "Software option 24-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 73,
+            "usability_score": 66,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O05",
+          "name": "Software option 24-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 69,
+            "integration_score": 72,
+            "usability_score": 66,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O06",
+          "name": "Software option 24-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 47,
+            "integration_score": 49,
+            "usability_score": 46,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O07",
+          "name": "Software option 24-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 69,
+            "usability_score": 73,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O08",
+          "name": "Software option 24-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 75,
+            "integration_score": 69,
+            "usability_score": 74,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O09",
+          "name": "Software option 24-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 70,
+            "integration_score": 67,
+            "usability_score": 74,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_024_O10",
+          "name": "Software option 24-10",
+          "attributes": {
+            "monthly_price": 190.0,
+            "security_score": 57,
+            "integration_score": 56,
+            "usability_score": 56,
+            "compliance_certified": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_025",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise integration_value et usability_value; cost_value est secondaire.",
+      "primary_criteria": [
+        "integration_value",
+        "usability_value"
+      ],
+      "secondary_criteria": [
+        "cost_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_025_O01",
+          "name": "Software option 25-1",
+          "attributes": {
+            "monthly_price": 142.56,
+            "security_score": 93,
+            "integration_score": 95,
+            "usability_score": 91,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O02",
+          "name": "Software option 25-2",
+          "attributes": {
+            "monthly_price": 142.71,
+            "security_score": 96,
+            "integration_score": 90,
+            "usability_score": 91,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O03",
+          "name": "Software option 25-3",
+          "attributes": {
+            "monthly_price": 144.6,
+            "security_score": 90,
+            "integration_score": 96,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O04",
+          "name": "Software option 25-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 59,
+            "integration_score": 52,
+            "usability_score": 53,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O05",
+          "name": "Software option 25-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 56,
+            "integration_score": 52,
+            "usability_score": 56,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O06",
+          "name": "Software option 25-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 75,
+            "integration_score": 67,
+            "usability_score": 76,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O07",
+          "name": "Software option 25-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 61,
+            "integration_score": 61,
+            "usability_score": 58,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O08",
+          "name": "Software option 25-8",
+          "attributes": {
+            "monthly_price": 148.32,
+            "security_score": 90,
+            "integration_score": 82,
+            "usability_score": 89,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O09",
+          "name": "Software option 25-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 69,
+            "usability_score": 67,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_025_O10",
+          "name": "Software option 25-10",
+          "attributes": {
+            "monthly_price": 147.89,
+            "security_score": 87,
+            "integration_score": 92,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_026",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise usability_value et cost_value; security_value est secondaire.",
+      "primary_criteria": [
+        "usability_value",
+        "cost_value"
+      ],
+      "secondary_criteria": [
+        "security_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_026_O01",
+          "name": "Software option 26-1",
+          "attributes": {
+            "monthly_price": 141.63,
+            "security_score": 97,
+            "integration_score": 89,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O02",
+          "name": "Software option 26-2",
+          "attributes": {
+            "monthly_price": 144.29,
+            "security_score": 90,
+            "integration_score": 83,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O03",
+          "name": "Software option 26-3",
+          "attributes": {
+            "monthly_price": 149.24,
+            "security_score": 85,
+            "integration_score": 92,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O04",
+          "name": "Software option 26-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 59,
+            "integration_score": 67,
+            "usability_score": 64,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O05",
+          "name": "Software option 26-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 50,
+            "integration_score": 57,
+            "usability_score": 52,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O06",
+          "name": "Software option 26-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 57,
+            "integration_score": 54,
+            "usability_score": 54,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O07",
+          "name": "Software option 26-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 47,
+            "integration_score": 45,
+            "usability_score": 52,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O08",
+          "name": "Software option 26-8",
+          "attributes": {
+            "monthly_price": 145.65,
+            "security_score": 85,
+            "integration_score": 81,
+            "usability_score": 82,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O09",
+          "name": "Software option 26-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 58,
+            "integration_score": 55,
+            "usability_score": 61,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_026_O10",
+          "name": "Software option 26-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 47,
+            "integration_score": 45,
+            "usability_score": 45,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_027",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise cost_value et security_value; integration_value, usability_value est secondaire.",
+      "primary_criteria": [
+        "cost_value",
+        "security_value"
+      ],
+      "secondary_criteria": [
+        "integration_value",
+        "usability_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_027_O01",
+          "name": "Software option 27-1",
+          "attributes": {
+            "monthly_price": 140.64,
+            "security_score": 93,
+            "integration_score": 87,
+            "usability_score": 91,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O02",
+          "name": "Software option 27-2",
+          "attributes": {
+            "monthly_price": 144.74,
+            "security_score": 89,
+            "integration_score": 89,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O03",
+          "name": "Software option 27-3",
+          "attributes": {
+            "monthly_price": 142.54,
+            "security_score": 91,
+            "integration_score": 87,
+            "usability_score": 89,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O04",
+          "name": "Software option 27-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 77,
+            "integration_score": 79,
+            "usability_score": 78,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O05",
+          "name": "Software option 27-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 55,
+            "integration_score": 48,
+            "usability_score": 50,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O06",
+          "name": "Software option 27-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 45,
+            "integration_score": 50,
+            "usability_score": 45,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O07",
+          "name": "Software option 27-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 68,
+            "integration_score": 60,
+            "usability_score": 60,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O08",
+          "name": "Software option 27-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 66,
+            "integration_score": 64,
+            "usability_score": 69,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O09",
+          "name": "Software option 27-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 71,
+            "integration_score": 79,
+            "usability_score": 78,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_027_O10",
+          "name": "Software option 27-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 73,
+            "integration_score": 78,
+            "usability_score": 72,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_028",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise security_value et integration_value; usability_value est secondaire.",
+      "primary_criteria": [
+        "security_value",
+        "integration_value"
+      ],
+      "secondary_criteria": [
+        "usability_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_028_O01",
+          "name": "Software option 28-1",
+          "attributes": {
+            "monthly_price": 143.23,
+            "security_score": 89,
+            "integration_score": 90,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O02",
+          "name": "Software option 28-2",
+          "attributes": {
+            "monthly_price": 144.18,
+            "security_score": 88,
+            "integration_score": 89,
+            "usability_score": 86,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O03",
+          "name": "Software option 28-3",
+          "attributes": {
+            "monthly_price": 151.05,
+            "security_score": 90,
+            "integration_score": 84,
+            "usability_score": 82,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O04",
+          "name": "Software option 28-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 67,
+            "integration_score": 71,
+            "usability_score": 63,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O05",
+          "name": "Software option 28-5",
+          "attributes": {
+            "monthly_price": 153.34,
+            "security_score": 78,
+            "integration_score": 82,
+            "usability_score": 82,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O06",
+          "name": "Software option 28-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 46,
+            "integration_score": 45,
+            "usability_score": 46,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O07",
+          "name": "Software option 28-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 61,
+            "integration_score": 60,
+            "usability_score": 65,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O08",
+          "name": "Software option 28-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 70,
+            "usability_score": 74,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O09",
+          "name": "Software option 28-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 73,
+            "usability_score": 69,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_028_O10",
+          "name": "Software option 28-10",
+          "attributes": {
+            "monthly_price": 190.0,
+            "security_score": 80,
+            "integration_score": 81,
+            "usability_score": 80,
+            "compliance_certified": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_029",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise integration_value et usability_value; cost_value est secondaire.",
+      "primary_criteria": [
+        "integration_value",
+        "usability_value"
+      ],
+      "secondary_criteria": [
+        "cost_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_029_O01",
+          "name": "Software option 29-1",
+          "attributes": {
+            "monthly_price": 138.51,
+            "security_score": 99,
+            "integration_score": 96,
+            "usability_score": 95,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O02",
+          "name": "Software option 29-2",
+          "attributes": {
+            "monthly_price": 138.66,
+            "security_score": 91,
+            "integration_score": 92,
+            "usability_score": 93,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O03",
+          "name": "Software option 29-3",
+          "attributes": {
+            "monthly_price": 144.56,
+            "security_score": 90,
+            "integration_score": 93,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O04",
+          "name": "Software option 29-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 45,
+            "integration_score": 45,
+            "usability_score": 47,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O05",
+          "name": "Software option 29-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 71,
+            "integration_score": 66,
+            "usability_score": 75,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O06",
+          "name": "Software option 29-6",
+          "attributes": {
+            "monthly_price": 148.95,
+            "security_score": 86,
+            "integration_score": 85,
+            "usability_score": 81,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O07",
+          "name": "Software option 29-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 66,
+            "integration_score": 70,
+            "usability_score": 66,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O08",
+          "name": "Software option 29-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 57,
+            "integration_score": 63,
+            "usability_score": 55,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O09",
+          "name": "Software option 29-9",
+          "attributes": {
+            "monthly_price": 145.35,
+            "security_score": 87,
+            "integration_score": 92,
+            "usability_score": 88,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_029_O10",
+          "name": "Software option 29-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 80,
+            "integration_score": 78,
+            "usability_score": 73,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_030",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise usability_value et cost_value; security_value, integration_value est secondaire.",
+      "primary_criteria": [
+        "usability_value",
+        "cost_value"
+      ],
+      "secondary_criteria": [
+        "security_value",
+        "integration_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_030_O01",
+          "name": "Software option 30-1",
+          "attributes": {
+            "monthly_price": 143.4,
+            "security_score": 91,
+            "integration_score": 85,
+            "usability_score": 84,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O02",
+          "name": "Software option 30-2",
+          "attributes": {
+            "monthly_price": 146.16,
+            "security_score": 81,
+            "integration_score": 85,
+            "usability_score": 84,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O03",
+          "name": "Software option 30-3",
+          "attributes": {
+            "monthly_price": 153.28,
+            "security_score": 85,
+            "integration_score": 80,
+            "usability_score": 82,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O04",
+          "name": "Software option 30-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 56,
+            "integration_score": 52,
+            "usability_score": 59,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O05",
+          "name": "Software option 30-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 50,
+            "integration_score": 45,
+            "usability_score": 50,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O06",
+          "name": "Software option 30-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 55,
+            "integration_score": 57,
+            "usability_score": 58,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O07",
+          "name": "Software option 30-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 58,
+            "integration_score": 61,
+            "usability_score": 56,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O08",
+          "name": "Software option 30-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 54,
+            "integration_score": 50,
+            "usability_score": 47,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O09",
+          "name": "Software option 30-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 53,
+            "integration_score": 55,
+            "usability_score": 55,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_030_O10",
+          "name": "Software option 30-10",
+          "attributes": {
+            "monthly_price": 155.75,
+            "security_score": 74,
+            "integration_score": 75,
+            "usability_score": 76,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_031",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise cost_value et security_value; integration_value est secondaire.",
+      "primary_criteria": [
+        "cost_value",
+        "security_value"
+      ],
+      "secondary_criteria": [
+        "integration_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_031_O01",
+          "name": "Software option 31-1",
+          "attributes": {
+            "monthly_price": 136.96,
+            "security_score": 90,
+            "integration_score": 99,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O02",
+          "name": "Software option 31-2",
+          "attributes": {
+            "monthly_price": 143.38,
+            "security_score": 94,
+            "integration_score": 89,
+            "usability_score": 96,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O03",
+          "name": "Software option 31-3",
+          "attributes": {
+            "monthly_price": 140.39,
+            "security_score": 88,
+            "integration_score": 87,
+            "usability_score": 95,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O04",
+          "name": "Software option 31-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 57,
+            "integration_score": 53,
+            "usability_score": 63,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O05",
+          "name": "Software option 31-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 58,
+            "integration_score": 53,
+            "usability_score": 54,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O06",
+          "name": "Software option 31-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 50,
+            "integration_score": 58,
+            "usability_score": 52,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O07",
+          "name": "Software option 31-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 70,
+            "integration_score": 77,
+            "usability_score": 74,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O08",
+          "name": "Software option 31-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 52,
+            "integration_score": 58,
+            "usability_score": 56,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O09",
+          "name": "Software option 31-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 45,
+            "integration_score": 45,
+            "usability_score": 51,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_031_O10",
+          "name": "Software option 31-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 72,
+            "integration_score": 77,
+            "usability_score": 74,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_032",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise security_value et integration_value; usability_value est secondaire.",
+      "primary_criteria": [
+        "security_value",
+        "integration_value"
+      ],
+      "secondary_criteria": [
+        "usability_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_032_O01",
+          "name": "Software option 32-1",
+          "attributes": {
+            "monthly_price": 141.91,
+            "security_score": 87,
+            "integration_score": 88,
+            "usability_score": 87,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O02",
+          "name": "Software option 32-2",
+          "attributes": {
+            "monthly_price": 151.57,
+            "security_score": 86,
+            "integration_score": 85,
+            "usability_score": 79,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O03",
+          "name": "Software option 32-3",
+          "attributes": {
+            "monthly_price": 146.55,
+            "security_score": 83,
+            "integration_score": 81,
+            "usability_score": 88,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O04",
+          "name": "Software option 32-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 56,
+            "integration_score": 52,
+            "usability_score": 57,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O05",
+          "name": "Software option 32-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 56,
+            "integration_score": 60,
+            "usability_score": 52,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O06",
+          "name": "Software option 32-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 45,
+            "integration_score": 47,
+            "usability_score": 46,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O07",
+          "name": "Software option 32-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 65,
+            "integration_score": 66,
+            "usability_score": 66,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O08",
+          "name": "Software option 32-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 81,
+            "integration_score": 76,
+            "usability_score": 77,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O09",
+          "name": "Software option 32-9",
+          "attributes": {
+            "monthly_price": 153.35,
+            "security_score": 77,
+            "integration_score": 81,
+            "usability_score": 78,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_032_O10",
+          "name": "Software option 32-10",
+          "attributes": {
+            "monthly_price": 190.0,
+            "security_score": 78,
+            "integration_score": 72,
+            "usability_score": 79,
+            "compliance_certified": 0
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_033",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise integration_value et usability_value; cost_value, security_value est secondaire.",
+      "primary_criteria": [
+        "integration_value",
+        "usability_value"
+      ],
+      "secondary_criteria": [
+        "cost_value",
+        "security_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_033_O01",
+          "name": "Software option 33-1",
+          "attributes": {
+            "monthly_price": 143.04,
+            "security_score": 88,
+            "integration_score": 92,
+            "usability_score": 92,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O02",
+          "name": "Software option 33-2",
+          "attributes": {
+            "monthly_price": 143.57,
+            "security_score": 90,
+            "integration_score": 94,
+            "usability_score": 94,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O03",
+          "name": "Software option 33-3",
+          "attributes": {
+            "monthly_price": 141.1,
+            "security_score": 88,
+            "integration_score": 94,
+            "usability_score": 84,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O04",
+          "name": "Software option 33-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 47,
+            "integration_score": 52,
+            "usability_score": 51,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O05",
+          "name": "Software option 33-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 52,
+            "integration_score": 54,
+            "usability_score": 48,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O06",
+          "name": "Software option 33-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 56,
+            "integration_score": 54,
+            "usability_score": 58,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O07",
+          "name": "Software option 33-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 53,
+            "integration_score": 63,
+            "usability_score": 62,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O08",
+          "name": "Software option 33-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 73,
+            "integration_score": 70,
+            "usability_score": 69,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O09",
+          "name": "Software option 33-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 64,
+            "integration_score": 67,
+            "usability_score": 65,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_033_O10",
+          "name": "Software option 33-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 68,
+            "integration_score": 61,
+            "usability_score": 60,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_034",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise usability_value et cost_value; security_value est secondaire.",
+      "primary_criteria": [
+        "usability_value",
+        "cost_value"
+      ],
+      "secondary_criteria": [
+        "security_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_034_O01",
+          "name": "Software option 34-1",
+          "attributes": {
+            "monthly_price": 143.69,
+            "security_score": 94,
+            "integration_score": 92,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O02",
+          "name": "Software option 34-2",
+          "attributes": {
+            "monthly_price": 147.97,
+            "security_score": 83,
+            "integration_score": 89,
+            "usability_score": 87,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O03",
+          "name": "Software option 34-3",
+          "attributes": {
+            "monthly_price": 145.71,
+            "security_score": 86,
+            "integration_score": 84,
+            "usability_score": 90,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O04",
+          "name": "Software option 34-4",
+          "attributes": {
+            "monthly_price": 146.12,
+            "security_score": 82,
+            "integration_score": 85,
+            "usability_score": 81,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O05",
+          "name": "Software option 34-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 59,
+            "integration_score": 55,
+            "usability_score": 55,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O06",
+          "name": "Software option 34-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 48,
+            "integration_score": 53,
+            "usability_score": 48,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O07",
+          "name": "Software option 34-7",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 57,
+            "integration_score": 57,
+            "usability_score": 58,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O08",
+          "name": "Software option 34-8",
+          "attributes": {
+            "monthly_price": 148.58,
+            "security_score": 84,
+            "integration_score": 79,
+            "usability_score": 85,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O09",
+          "name": "Software option 34-9",
+          "attributes": {
+            "monthly_price": 154.45,
+            "security_score": 81,
+            "integration_score": 81,
+            "usability_score": 79,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_034_O10",
+          "name": "Software option 34-10",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 50,
+            "integration_score": 45,
+            "usability_score": 45,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_SFT_035",
+      "domain": "software",
+      "user_request": "Je dois choisir un logiciel professionnel conforme. Priorise cost_value et security_value; integration_value est secondaire.",
+      "primary_criteria": [
+        "cost_value",
+        "security_value"
+      ],
+      "secondary_criteria": [
+        "integration_value"
+      ],
+      "hard_constraints": {
+        "monthly_price_max": 160,
+        "compliance_certified": 1
+      },
+      "options": [
+        {
+          "option_id": "DEV_SFT_035_O01",
+          "name": "Software option 35-1",
+          "attributes": {
+            "monthly_price": 138.15,
+            "security_score": 92,
+            "integration_score": 99,
+            "usability_score": 97,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O02",
+          "name": "Software option 35-2",
+          "attributes": {
+            "monthly_price": 141.29,
+            "security_score": 94,
+            "integration_score": 96,
+            "usability_score": 97,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O03",
+          "name": "Software option 35-3",
+          "attributes": {
+            "monthly_price": 143.13,
+            "security_score": 90,
+            "integration_score": 88,
+            "usability_score": 89,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O04",
+          "name": "Software option 35-4",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 59,
+            "integration_score": 63,
+            "usability_score": 66,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O05",
+          "name": "Software option 35-5",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 50,
+            "integration_score": 59,
+            "usability_score": 53,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O06",
+          "name": "Software option 35-6",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 45,
+            "integration_score": 45,
+            "usability_score": 48,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O07",
+          "name": "Software option 35-7",
+          "attributes": {
+            "monthly_price": 155.32,
+            "security_score": 76,
+            "integration_score": 75,
+            "usability_score": 78,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O08",
+          "name": "Software option 35-8",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 50,
+            "integration_score": 47,
+            "usability_score": 52,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O09",
+          "name": "Software option 35-9",
+          "attributes": {
+            "monthly_price": 156.0,
+            "security_score": 49,
+            "integration_score": 58,
+            "usability_score": 53,
+            "compliance_certified": 1
+          }
+        },
+        {
+          "option_id": "DEV_SFT_035_O10",
+          "name": "Software option 35-10",
+          "attributes": {
+            "monthly_price": 150.41,
+            "security_score": 76,
+            "integration_score": 72,
+            "usability_score": 82,
+            "compliance_certified": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_036",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise performance_value et reliability_value; battery_value, price_value compte ensuite.",
+      "primary_criteria": [
+        "performance_value",
+        "reliability_value"
+      ],
+      "secondary_criteria": [
+        "battery_value",
+        "price_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_036_O01",
+          "name": "Electronics option 36-1",
+          "attributes": {
+            "device_price": 810.7,
+            "performance_score": 93,
+            "reliability_score": 97,
+            "battery_hours": 11.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O02",
+          "name": "Electronics option 36-2",
+          "attributes": {
+            "device_price": 852.79,
+            "performance_score": 81,
+            "reliability_score": 84,
+            "battery_hours": 10.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O03",
+          "name": "Electronics option 36-3",
+          "attributes": {
+            "device_price": 855.43,
+            "performance_score": 83,
+            "reliability_score": 86,
+            "battery_hours": 11.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O04",
+          "name": "Electronics option 36-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 45,
+            "reliability_score": 48,
+            "battery_hours": 6.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O05",
+          "name": "Electronics option 36-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 75,
+            "reliability_score": 83,
+            "battery_hours": 9.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O06",
+          "name": "Electronics option 36-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 52,
+            "reliability_score": 60,
+            "battery_hours": 6.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O07",
+          "name": "Electronics option 36-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 52,
+            "reliability_score": 57,
+            "battery_hours": 6.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O08",
+          "name": "Electronics option 36-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 53,
+            "reliability_score": 49,
+            "battery_hours": 6.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O09",
+          "name": "Electronics option 36-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 55,
+            "reliability_score": 58,
+            "battery_hours": 7.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_036_O10",
+          "name": "Electronics option 36-10",
+          "attributes": {
+            "device_price": 980.0,
+            "performance_score": 50,
+            "reliability_score": 57,
+            "battery_hours": 6.5,
+            "warranty_years": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_037",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise reliability_value et battery_value; price_value compte ensuite.",
+      "primary_criteria": [
+        "reliability_value",
+        "battery_value"
+      ],
+      "secondary_criteria": [
+        "price_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_037_O01",
+          "name": "Electronics option 37-1",
+          "attributes": {
+            "device_price": 833.17,
+            "performance_score": 89,
+            "reliability_score": 91,
+            "battery_hours": 10.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O02",
+          "name": "Electronics option 37-2",
+          "attributes": {
+            "device_price": 842.09,
+            "performance_score": 85,
+            "reliability_score": 89,
+            "battery_hours": 10.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O03",
+          "name": "Electronics option 37-3",
+          "attributes": {
+            "device_price": 852.97,
+            "performance_score": 84,
+            "reliability_score": 80,
+            "battery_hours": 10.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O04",
+          "name": "Electronics option 37-4",
+          "attributes": {
+            "device_price": 879.91,
+            "performance_score": 76,
+            "reliability_score": 81,
+            "battery_hours": 9.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O05",
+          "name": "Electronics option 37-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 81,
+            "reliability_score": 84,
+            "battery_hours": 10.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O06",
+          "name": "Electronics option 37-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 77,
+            "reliability_score": 72,
+            "battery_hours": 9.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O07",
+          "name": "Electronics option 37-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 53,
+            "reliability_score": 53,
+            "battery_hours": 6.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O08",
+          "name": "Electronics option 37-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 68,
+            "reliability_score": 68,
+            "battery_hours": 9.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O09",
+          "name": "Electronics option 37-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 77,
+            "reliability_score": 72,
+            "battery_hours": 9.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_037_O10",
+          "name": "Electronics option 37-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 45,
+            "reliability_score": 45,
+            "battery_hours": 6.1,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_038",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise battery_value et price_value; performance_value compte ensuite.",
+      "primary_criteria": [
+        "battery_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "performance_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_038_O01",
+          "name": "Electronics option 38-1",
+          "attributes": {
+            "device_price": 835.07,
+            "performance_score": 94,
+            "reliability_score": 88,
+            "battery_hours": 11.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O02",
+          "name": "Electronics option 38-2",
+          "attributes": {
+            "device_price": 857.74,
+            "performance_score": 83,
+            "reliability_score": 81,
+            "battery_hours": 10.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O03",
+          "name": "Electronics option 38-3",
+          "attributes": {
+            "device_price": 849.52,
+            "performance_score": 87,
+            "reliability_score": 86,
+            "battery_hours": 10.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O04",
+          "name": "Electronics option 38-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 77,
+            "reliability_score": 78,
+            "battery_hours": 9.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O05",
+          "name": "Electronics option 38-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 57,
+            "reliability_score": 53,
+            "battery_hours": 6.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O06",
+          "name": "Electronics option 38-6",
+          "attributes": {
+            "device_price": 876.5,
+            "performance_score": 75,
+            "reliability_score": 77,
+            "battery_hours": 9.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O07",
+          "name": "Electronics option 38-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 60,
+            "reliability_score": 58,
+            "battery_hours": 7.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O08",
+          "name": "Electronics option 38-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 70,
+            "reliability_score": 71,
+            "battery_hours": 8.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O09",
+          "name": "Electronics option 38-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 79,
+            "reliability_score": 75,
+            "battery_hours": 9.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_038_O10",
+          "name": "Electronics option 38-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 76,
+            "reliability_score": 72,
+            "battery_hours": 9.9,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_039",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise price_value et performance_value; reliability_value, battery_value compte ensuite.",
+      "primary_criteria": [
+        "price_value",
+        "performance_value"
+      ],
+      "secondary_criteria": [
+        "reliability_value",
+        "battery_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_039_O01",
+          "name": "Electronics option 39-1",
+          "attributes": {
+            "device_price": 841.83,
+            "performance_score": 86,
+            "reliability_score": 87,
+            "battery_hours": 11.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O02",
+          "name": "Electronics option 39-2",
+          "attributes": {
+            "device_price": 869.07,
+            "performance_score": 88,
+            "reliability_score": 81,
+            "battery_hours": 10.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O03",
+          "name": "Electronics option 39-3",
+          "attributes": {
+            "device_price": 852.83,
+            "performance_score": 86,
+            "reliability_score": 87,
+            "battery_hours": 10.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O04",
+          "name": "Electronics option 39-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 50,
+            "reliability_score": 52,
+            "battery_hours": 6.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O05",
+          "name": "Electronics option 39-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 79,
+            "reliability_score": 83,
+            "battery_hours": 9.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O06",
+          "name": "Electronics option 39-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 56,
+            "reliability_score": 54,
+            "battery_hours": 7.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O07",
+          "name": "Electronics option 39-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 75,
+            "reliability_score": 76,
+            "battery_hours": 9.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O08",
+          "name": "Electronics option 39-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 45,
+            "reliability_score": 49,
+            "battery_hours": 5.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O09",
+          "name": "Electronics option 39-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 62,
+            "reliability_score": 70,
+            "battery_hours": 8.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_039_O10",
+          "name": "Electronics option 39-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 56,
+            "reliability_score": 56,
+            "battery_hours": 7.5,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_040",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise performance_value et reliability_value; battery_value compte ensuite.",
+      "primary_criteria": [
+        "performance_value",
+        "reliability_value"
+      ],
+      "secondary_criteria": [
+        "battery_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_040_O01",
+          "name": "Electronics option 40-1",
+          "attributes": {
+            "device_price": 824.32,
+            "performance_score": 88,
+            "reliability_score": 89,
+            "battery_hours": 10.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O02",
+          "name": "Electronics option 40-2",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 84,
+            "reliability_score": 80,
+            "battery_hours": 10.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O03",
+          "name": "Electronics option 40-3",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 79,
+            "reliability_score": 80,
+            "battery_hours": 10.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O04",
+          "name": "Electronics option 40-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 55,
+            "reliability_score": 56,
+            "battery_hours": 7.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O05",
+          "name": "Electronics option 40-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 76,
+            "reliability_score": 74,
+            "battery_hours": 9.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O06",
+          "name": "Electronics option 40-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 55,
+            "reliability_score": 56,
+            "battery_hours": 6.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O07",
+          "name": "Electronics option 40-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 75,
+            "reliability_score": 80,
+            "battery_hours": 9.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O08",
+          "name": "Electronics option 40-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 65,
+            "reliability_score": 68,
+            "battery_hours": 7.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O09",
+          "name": "Electronics option 40-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 53,
+            "reliability_score": 50,
+            "battery_hours": 6.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_040_O10",
+          "name": "Electronics option 40-10",
+          "attributes": {
+            "device_price": 980.0,
+            "performance_score": 45,
+            "reliability_score": 46,
+            "battery_hours": 5.9,
+            "warranty_years": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_041",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise reliability_value et battery_value; price_value compte ensuite.",
+      "primary_criteria": [
+        "reliability_value",
+        "battery_value"
+      ],
+      "secondary_criteria": [
+        "price_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_041_O01",
+          "name": "Electronics option 41-1",
+          "attributes": {
+            "device_price": 839.17,
+            "performance_score": 90,
+            "reliability_score": 93,
+            "battery_hours": 11.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O02",
+          "name": "Electronics option 41-2",
+          "attributes": {
+            "device_price": 849.82,
+            "performance_score": 86,
+            "reliability_score": 89,
+            "battery_hours": 10.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O03",
+          "name": "Electronics option 41-3",
+          "attributes": {
+            "device_price": 867.81,
+            "performance_score": 87,
+            "reliability_score": 90,
+            "battery_hours": 10.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O04",
+          "name": "Electronics option 41-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 46,
+            "reliability_score": 52,
+            "battery_hours": 6.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O05",
+          "name": "Electronics option 41-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 61,
+            "reliability_score": 64,
+            "battery_hours": 8.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O06",
+          "name": "Electronics option 41-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 51,
+            "reliability_score": 49,
+            "battery_hours": 6.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O07",
+          "name": "Electronics option 41-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 69,
+            "reliability_score": 64,
+            "battery_hours": 8.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O08",
+          "name": "Electronics option 41-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 68,
+            "reliability_score": 75,
+            "battery_hours": 9.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O09",
+          "name": "Electronics option 41-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 58,
+            "reliability_score": 54,
+            "battery_hours": 7.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_041_O10",
+          "name": "Electronics option 41-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 57,
+            "reliability_score": 51,
+            "battery_hours": 7.1,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_042",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise battery_value et price_value; performance_value, reliability_value compte ensuite.",
+      "primary_criteria": [
+        "battery_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "performance_value",
+        "reliability_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_042_O01",
+          "name": "Electronics option 42-1",
+          "attributes": {
+            "device_price": 835.5,
+            "performance_score": 95,
+            "reliability_score": 100,
+            "battery_hours": 12.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O02",
+          "name": "Electronics option 42-2",
+          "attributes": {
+            "device_price": 838.41,
+            "performance_score": 85,
+            "reliability_score": 91,
+            "battery_hours": 11.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O03",
+          "name": "Electronics option 42-3",
+          "attributes": {
+            "device_price": 841.54,
+            "performance_score": 90,
+            "reliability_score": 87,
+            "battery_hours": 11.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O04",
+          "name": "Electronics option 42-4",
+          "attributes": {
+            "device_price": 866.04,
+            "performance_score": 82,
+            "reliability_score": 75,
+            "battery_hours": 10.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O05",
+          "name": "Electronics option 42-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 69,
+            "reliability_score": 73,
+            "battery_hours": 8.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O06",
+          "name": "Electronics option 42-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 49,
+            "reliability_score": 52,
+            "battery_hours": 7.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O07",
+          "name": "Electronics option 42-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 70,
+            "reliability_score": 76,
+            "battery_hours": 9.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O08",
+          "name": "Electronics option 42-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 58,
+            "reliability_score": 62,
+            "battery_hours": 7.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O09",
+          "name": "Electronics option 42-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 76,
+            "reliability_score": 71,
+            "battery_hours": 9.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_042_O10",
+          "name": "Electronics option 42-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 63,
+            "reliability_score": 57,
+            "battery_hours": 7.2,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_043",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise price_value et performance_value; reliability_value compte ensuite.",
+      "primary_criteria": [
+        "price_value",
+        "performance_value"
+      ],
+      "secondary_criteria": [
+        "reliability_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_043_O01",
+          "name": "Electronics option 43-1",
+          "attributes": {
+            "device_price": 833.56,
+            "performance_score": 85,
+            "reliability_score": 88,
+            "battery_hours": 11.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O02",
+          "name": "Electronics option 43-2",
+          "attributes": {
+            "device_price": 846.22,
+            "performance_score": 86,
+            "reliability_score": 84,
+            "battery_hours": 10.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O03",
+          "name": "Electronics option 43-3",
+          "attributes": {
+            "device_price": 867.55,
+            "performance_score": 83,
+            "reliability_score": 81,
+            "battery_hours": 10.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O04",
+          "name": "Electronics option 43-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 69,
+            "reliability_score": 67,
+            "battery_hours": 8.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O05",
+          "name": "Electronics option 43-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 52,
+            "reliability_score": 53,
+            "battery_hours": 6.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O06",
+          "name": "Electronics option 43-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 53,
+            "reliability_score": 52,
+            "battery_hours": 7.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O07",
+          "name": "Electronics option 43-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 50,
+            "reliability_score": 52,
+            "battery_hours": 6.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O08",
+          "name": "Electronics option 43-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 69,
+            "reliability_score": 71,
+            "battery_hours": 8.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O09",
+          "name": "Electronics option 43-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 61,
+            "reliability_score": 59,
+            "battery_hours": 7.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_043_O10",
+          "name": "Electronics option 43-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 76,
+            "reliability_score": 72,
+            "battery_hours": 8.7,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_044",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise performance_value et reliability_value; battery_value compte ensuite.",
+      "primary_criteria": [
+        "performance_value",
+        "reliability_value"
+      ],
+      "secondary_criteria": [
+        "battery_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_044_O01",
+          "name": "Electronics option 44-1",
+          "attributes": {
+            "device_price": 814.68,
+            "performance_score": 90,
+            "reliability_score": 87,
+            "battery_hours": 11.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O02",
+          "name": "Electronics option 44-2",
+          "attributes": {
+            "device_price": 848.13,
+            "performance_score": 80,
+            "reliability_score": 86,
+            "battery_hours": 10.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O03",
+          "name": "Electronics option 44-3",
+          "attributes": {
+            "device_price": 867.63,
+            "performance_score": 83,
+            "reliability_score": 85,
+            "battery_hours": 10.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O04",
+          "name": "Electronics option 44-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 48,
+            "reliability_score": 49,
+            "battery_hours": 5.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O05",
+          "name": "Electronics option 44-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 59,
+            "reliability_score": 62,
+            "battery_hours": 7.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O06",
+          "name": "Electronics option 44-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 55,
+            "reliability_score": 47,
+            "battery_hours": 6.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O07",
+          "name": "Electronics option 44-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 53,
+            "reliability_score": 46,
+            "battery_hours": 6.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O08",
+          "name": "Electronics option 44-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 76,
+            "reliability_score": 74,
+            "battery_hours": 10.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O09",
+          "name": "Electronics option 44-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 56,
+            "reliability_score": 50,
+            "battery_hours": 7.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_044_O10",
+          "name": "Electronics option 44-10",
+          "attributes": {
+            "device_price": 980.0,
+            "performance_score": 45,
+            "reliability_score": 50,
+            "battery_hours": 5.8,
+            "warranty_years": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_045",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise reliability_value et battery_value; price_value, performance_value compte ensuite.",
+      "primary_criteria": [
+        "reliability_value",
+        "battery_value"
+      ],
+      "secondary_criteria": [
+        "price_value",
+        "performance_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_045_O01",
+          "name": "Electronics option 45-1",
+          "attributes": {
+            "device_price": 847.99,
+            "performance_score": 86,
+            "reliability_score": 87,
+            "battery_hours": 11.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O02",
+          "name": "Electronics option 45-2",
+          "attributes": {
+            "device_price": 869.28,
+            "performance_score": 81,
+            "reliability_score": 89,
+            "battery_hours": 10.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O03",
+          "name": "Electronics option 45-3",
+          "attributes": {
+            "device_price": 866.38,
+            "performance_score": 83,
+            "reliability_score": 87,
+            "battery_hours": 10.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O04",
+          "name": "Electronics option 45-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 65,
+            "reliability_score": 59,
+            "battery_hours": 7.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O05",
+          "name": "Electronics option 45-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 63,
+            "reliability_score": 65,
+            "battery_hours": 8.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O06",
+          "name": "Electronics option 45-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 81,
+            "reliability_score": 81,
+            "battery_hours": 10.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O07",
+          "name": "Electronics option 45-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 64,
+            "reliability_score": 68,
+            "battery_hours": 8.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O08",
+          "name": "Electronics option 45-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 51,
+            "reliability_score": 50,
+            "battery_hours": 6.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O09",
+          "name": "Electronics option 45-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 48,
+            "reliability_score": 49,
+            "battery_hours": 6.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_045_O10",
+          "name": "Electronics option 45-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 71,
+            "reliability_score": 75,
+            "battery_hours": 9.5,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_046",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise battery_value et price_value; performance_value compte ensuite.",
+      "primary_criteria": [
+        "battery_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "performance_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_046_O01",
+          "name": "Electronics option 46-1",
+          "attributes": {
+            "device_price": 833.58,
+            "performance_score": 96,
+            "reliability_score": 95,
+            "battery_hours": 11.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O02",
+          "name": "Electronics option 46-2",
+          "attributes": {
+            "device_price": 869.5,
+            "performance_score": 85,
+            "reliability_score": 84,
+            "battery_hours": 10.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O03",
+          "name": "Electronics option 46-3",
+          "attributes": {
+            "device_price": 844.47,
+            "performance_score": 84,
+            "reliability_score": 88,
+            "battery_hours": 10.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O04",
+          "name": "Electronics option 46-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 48,
+            "reliability_score": 45,
+            "battery_hours": 5.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O05",
+          "name": "Electronics option 46-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 65,
+            "reliability_score": 61,
+            "battery_hours": 8.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O06",
+          "name": "Electronics option 46-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 58,
+            "reliability_score": 55,
+            "battery_hours": 7.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O07",
+          "name": "Electronics option 46-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 48,
+            "reliability_score": 47,
+            "battery_hours": 5.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O08",
+          "name": "Electronics option 46-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 45,
+            "reliability_score": 45,
+            "battery_hours": 5.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O09",
+          "name": "Electronics option 46-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 66,
+            "reliability_score": 66,
+            "battery_hours": 7.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_046_O10",
+          "name": "Electronics option 46-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 78,
+            "reliability_score": 78,
+            "battery_hours": 9.4,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_047",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise price_value et performance_value; reliability_value compte ensuite.",
+      "primary_criteria": [
+        "price_value",
+        "performance_value"
+      ],
+      "secondary_criteria": [
+        "reliability_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_047_O01",
+          "name": "Electronics option 47-1",
+          "attributes": {
+            "device_price": 830.92,
+            "performance_score": 95,
+            "reliability_score": 92,
+            "battery_hours": 12.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O02",
+          "name": "Electronics option 47-2",
+          "attributes": {
+            "device_price": 844.72,
+            "performance_score": 94,
+            "reliability_score": 91,
+            "battery_hours": 11.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O03",
+          "name": "Electronics option 47-3",
+          "attributes": {
+            "device_price": 821.71,
+            "performance_score": 93,
+            "reliability_score": 91,
+            "battery_hours": 10.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O04",
+          "name": "Electronics option 47-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 46,
+            "reliability_score": 52,
+            "battery_hours": 6.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O05",
+          "name": "Electronics option 47-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 71,
+            "reliability_score": 77,
+            "battery_hours": 9.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O06",
+          "name": "Electronics option 47-6",
+          "attributes": {
+            "device_price": 870.91,
+            "performance_score": 79,
+            "reliability_score": 84,
+            "battery_hours": 10.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O07",
+          "name": "Electronics option 47-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 64,
+            "reliability_score": 62,
+            "battery_hours": 7.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O08",
+          "name": "Electronics option 47-8",
+          "attributes": {
+            "device_price": 879.58,
+            "performance_score": 79,
+            "reliability_score": 75,
+            "battery_hours": 9.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O09",
+          "name": "Electronics option 47-9",
+          "attributes": {
+            "device_price": 861.04,
+            "performance_score": 89,
+            "reliability_score": 80,
+            "battery_hours": 10.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_047_O10",
+          "name": "Electronics option 47-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 45,
+            "reliability_score": 45,
+            "battery_hours": 6.0,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_048",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise performance_value et reliability_value; battery_value, price_value compte ensuite.",
+      "primary_criteria": [
+        "performance_value",
+        "reliability_value"
+      ],
+      "secondary_criteria": [
+        "battery_value",
+        "price_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_048_O01",
+          "name": "Electronics option 48-1",
+          "attributes": {
+            "device_price": 863.59,
+            "performance_score": 86,
+            "reliability_score": 93,
+            "battery_hours": 10.8,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O02",
+          "name": "Electronics option 48-2",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 77,
+            "reliability_score": 83,
+            "battery_hours": 9.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O03",
+          "name": "Electronics option 48-3",
+          "attributes": {
+            "device_price": 879.87,
+            "performance_score": 79,
+            "reliability_score": 80,
+            "battery_hours": 10.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O04",
+          "name": "Electronics option 48-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 67,
+            "reliability_score": 58,
+            "battery_hours": 8.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O05",
+          "name": "Electronics option 48-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 51,
+            "reliability_score": 48,
+            "battery_hours": 6.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O06",
+          "name": "Electronics option 48-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 62,
+            "reliability_score": 62,
+            "battery_hours": 7.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O07",
+          "name": "Electronics option 48-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 45,
+            "reliability_score": 54,
+            "battery_hours": 6.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O08",
+          "name": "Electronics option 48-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 61,
+            "reliability_score": 61,
+            "battery_hours": 7.0,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O09",
+          "name": "Electronics option 48-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 65,
+            "reliability_score": 64,
+            "battery_hours": 7.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_048_O10",
+          "name": "Electronics option 48-10",
+          "attributes": {
+            "device_price": 980.0,
+            "performance_score": 59,
+            "reliability_score": 59,
+            "battery_hours": 7.6,
+            "warranty_years": 1
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_049",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise reliability_value et battery_value; price_value compte ensuite.",
+      "primary_criteria": [
+        "reliability_value",
+        "battery_value"
+      ],
+      "secondary_criteria": [
+        "price_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_049_O01",
+          "name": "Electronics option 49-1",
+          "attributes": {
+            "device_price": 837.19,
+            "performance_score": 91,
+            "reliability_score": 94,
+            "battery_hours": 11.5,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O02",
+          "name": "Electronics option 49-2",
+          "attributes": {
+            "device_price": 858.3,
+            "performance_score": 84,
+            "reliability_score": 89,
+            "battery_hours": 11.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O03",
+          "name": "Electronics option 49-3",
+          "attributes": {
+            "device_price": 865.31,
+            "performance_score": 88,
+            "reliability_score": 90,
+            "battery_hours": 10.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O04",
+          "name": "Electronics option 49-4",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 48,
+            "reliability_score": 51,
+            "battery_hours": 6.3,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O05",
+          "name": "Electronics option 49-5",
+          "attributes": {
+            "device_price": 872.4,
+            "performance_score": 83,
+            "reliability_score": 83,
+            "battery_hours": 10.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O06",
+          "name": "Electronics option 49-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 69,
+            "reliability_score": 61,
+            "battery_hours": 8.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O07",
+          "name": "Electronics option 49-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 51,
+            "reliability_score": 45,
+            "battery_hours": 6.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O08",
+          "name": "Electronics option 49-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 52,
+            "reliability_score": 57,
+            "battery_hours": 7.2,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O09",
+          "name": "Electronics option 49-9",
+          "attributes": {
+            "device_price": 855.85,
+            "performance_score": 80,
+            "reliability_score": 82,
+            "battery_hours": 10.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_049_O10",
+          "name": "Electronics option 49-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 65,
+            "reliability_score": 66,
+            "battery_hours": 7.8,
+            "warranty_years": 2
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEV_ELC_050",
+      "domain": "electronics",
+      "user_request": "Je veux un produit électronique fiable qui respecte les contraintes. Priorise battery_value et price_value; performance_value compte ensuite.",
+      "primary_criteria": [
+        "battery_value",
+        "price_value"
+      ],
+      "secondary_criteria": [
+        "performance_value"
+      ],
+      "hard_constraints": {
+        "device_price_max": 900,
+        "warranty_years_min": 2
+      },
+      "options": [
+        {
+          "option_id": "DEV_ELC_050_O01",
+          "name": "Electronics option 50-1",
+          "attributes": {
+            "device_price": 847.22,
+            "performance_score": 95,
+            "reliability_score": 97,
+            "battery_hours": 11.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O02",
+          "name": "Electronics option 50-2",
+          "attributes": {
+            "device_price": 860.05,
+            "performance_score": 88,
+            "reliability_score": 80,
+            "battery_hours": 10.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O03",
+          "name": "Electronics option 50-3",
+          "attributes": {
+            "device_price": 854.71,
+            "performance_score": 86,
+            "reliability_score": 87,
+            "battery_hours": 10.4,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O04",
+          "name": "Electronics option 50-4",
+          "attributes": {
+            "device_price": 876.64,
+            "performance_score": 80,
+            "reliability_score": 79,
+            "battery_hours": 10.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O05",
+          "name": "Electronics option 50-5",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 63,
+            "reliability_score": 57,
+            "battery_hours": 8.1,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O06",
+          "name": "Electronics option 50-6",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 75,
+            "reliability_score": 73,
+            "battery_hours": 8.9,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O07",
+          "name": "Electronics option 50-7",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 67,
+            "reliability_score": 68,
+            "battery_hours": 7.7,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O08",
+          "name": "Electronics option 50-8",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 57,
+            "reliability_score": 59,
+            "battery_hours": 6.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O09",
+          "name": "Electronics option 50-9",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 68,
+            "reliability_score": 62,
+            "battery_hours": 8.6,
+            "warranty_years": 2
+          }
+        },
+        {
+          "option_id": "DEV_ELC_050_O10",
+          "name": "Electronics option 50-10",
+          "attributes": {
+            "device_price": 880.0,
+            "performance_score": 54,
+            "reliability_score": 57,
+            "battery_hours": 6.9,
+            "warranty_years": 2
+          }
+        }
+      ]
+    }
+  ]
+}
