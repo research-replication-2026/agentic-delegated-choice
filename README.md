@@ -1,5 +1,8 @@
 # agentic-opacity-delegated-choice
 
+> **Replication-scope notice (3 November 2026):** The files currently deposited here primarily reproduce an **earlier 2 × 2 experiment** (neutral/commercial × recommendation/action preparation). They do **not** yet provide the full N/S/I/C verbatim instructions, GPT/Claude requests, or results needed to reproduce the **revised 8,000-response _Electronic Markets_ manuscript**. See [the revised-study replication status and deposit checklist](docs/ELECTRONIC_MARKETS_8000_REPLICATION_STATUS.md). Do not cite the older [S1 experimental materials](docs/S1_experimental_materials.md) as the revised study's N/S/I/C prompts.
+
+
 # Who Decides When the Agent Chooses?
 
 Replication package for the academic article: **Who Decides When the Agent Chooses? Commercial Incentives and the Agentic Opacity of Delegated Choice**.
