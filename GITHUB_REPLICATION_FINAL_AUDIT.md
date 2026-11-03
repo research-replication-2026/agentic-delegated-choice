@@ -79,3 +79,9 @@ The dedicated branch and PR are updated without force-pushing or merging. The ol
 ## Hosted clean-checkout verification
 
 After publication of analytical commit `0fc357452a85e30db728cab6b88ffca29849b9cc`, [GitHub Actions run 41698430852](https://github.com/research-replication-2026/agentic-delegated-choice/actions/runs/41698430852) completed successfully. Checkout, Python setup, installation of the pinned dependencies, raw scoring/inference/NLP/control reproduction, exploratory reproduction, and release integrity/confidentiality checks all passed. This independently verifies the portable commands on a GitHub-hosted Ubuntu runner with Python 3.11, in addition to the guarded local clean-export run on Python 3.9. No provider credentials or model calls were used. The subsequent audit-only commit records this observed result without altering any analytical code, input or scientific output.
+
+## Direct reviewer inspection
+
+The reviewer guide provides the exact common instruction, four policy clauses, both task clauses and eight complete executed system messages, plus their exact shared user message. Eight unchanged archived decision objects cover GPT/Claude × N/S/I/C for the same scenario, repetition and recommendation task. Selection uses the pre-existing instruction-example block, independently of outcomes; these examples are illustrative. Each output has a source archive, line number and SHA-256; all prompt messages were checked against both providers’ submitted requests, and all decision objects against archived outputs. The standalone ZIP includes these three reviewer files (95 files total). No new responses or coding were generated.
+
+[Exact prompts](revised_8000/reviewer_examples/EXACT_PROMPTS.md) · [Archived responses](revised_8000/reviewer_examples/ARCHIVED_RESPONSES.md) · [Machine-readable provenance](revised_8000/reviewer_examples/examples.json).

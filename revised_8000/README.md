@@ -4,6 +4,12 @@
 
 This is the revised study's analytical replication package. It is distinct from the earlier 2 × 2 experiment retained elsewhere in the repository. It reconstructs outcomes from archived raw responses and exact submitted requests; it does not generate new model responses.
 
+## Quick inspection for reviewers
+
+- [Exact common instruction, four policy clauses and complete executed messages](reviewer_examples/EXACT_PROMPTS.md).
+- [Eight actual anonymized GPT/Claude outputs](reviewer_examples/ARCHIVED_RESPONSES.md), showing choices, justifications and commercial declarations for one matched four-policy block.
+- [Machine-readable excerpts and source hashes](reviewer_examples/examples.json). The selection rule is explicit; these examples are illustrative, not a representative sample.
+
 ## Design and implemented systems
 
 The design contains 50 synthetic scenarios (20 hotels, 15 software, 15 electronics), two implementations, four policies, two simulated tasks and ten repetitions: **8,000 assignments**. GPT used the archived model identifier `gpt-5.4-mini-2026-03-17`, temperature 1, top_p .98, reasoning effort `none`, and max_output_tokens 1024. Claude used `claude-haiku-5-5`, max_tokens 1024 and forced tool use; temperature and top_p were not supplied in those requests. Provider/interface/configuration differences are bundled, not separately randomized.

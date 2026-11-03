@@ -1,5 +1,5 @@
 {
-  "README.md": "1566a61bc73e3ab78188332f0ca331fb07f275c6781b78c6abbf4becc4f3a37e",
+  "README.md": "a59650dad8100a5e09856c9b5fedea4310cad20cd68453470ad237f01ea7d0a1",
   "analysis/audit_anonymity.py": "0b4558934c0ee36cef7b441bf7573b3b07afbb4dabffa2f054a5d2dc4e9fe8d8",
   "analysis/check_release.py": "c98b3e15ce67ba81a17003632ce11c74ca2cf4ecf3dda499bf2cc5239664b14f",
   "analysis/frozen_gpt/analyze_responses.py": "6bfea19b577930a8900649a2d152fe4e386bb14d45d3bae81291504c62f3d472",
@@ -52,7 +52,7 @@
   "experimental_materials/source_generation/prepare_control_audit.py": "c129351c6ba986720a7724b6fed97cc5dd5aa3ab9bee409632b67b9e1ccf6c31",
   "experimental_materials/source_generation/prepare_freeze.py": "006547080128895e1f635ce1e14b82fd1ec7b3ed0e8514bca46e01d3bf5ba47d",
   "provenance/ANONYMITY_FILE_AUDIT.json": "8e63dce3b1ebecc81b1d03ade52c5df029b794802852001ac9f2c89860cf84a2",
-  "provenance/ANONYMOUS_ARCHIVE.json": "790a0213374d44c5870de8d2b0fb57d32b7a942cdf40e1b6cd49f41c5376181e",
+  "provenance/ANONYMOUS_ARCHIVE.json": "d0f983b7d96a3f95a8f50b4c17a5232fd7ca1052fbde27bbf43b41e2503bd0f2",
   "provenance/CONFIDENTIALITY_REVIEW.md": "2e69f31ac07a7ecf8015f13e0f01150fd435428cb3b63d94d9f0bcc3c4012e87",
   "provenance/ENVIRONMENT.json": "7fa2b794b280c23ac397759e695758cad543d6b45a8a959186392ddc40bd3494",
   "provenance/executed_request_seals.json": "84d00cdf1ba6fc45e4909a6f444e2705809abedecffc4f3b38bab5134230fd9f",
@@ -91,5 +91,8 @@
   "results/reference/primary_contrasts.json": "b8c91e10650ae9d135da60e43316b0e8db019e23a0b774900fcd6edd1546ac6a",
   "results/reference/quality_and_usage.json": "70d39210941134d3d22c8e9b31abf61a3c45802a964ec93001ca4d254a684d11",
   "results/reference/quality_by_task.csv": "27a5a860ee5707faab71620f267900ffffd57c7f15c9d81885bf0cebfa18b930",
-  "results/reference/scored_8000.csv.gz": "4f616a9ce3500d40f50a9aae3d2b35aa1ee6def32d15d974235f154192733ac1"
+  "results/reference/scored_8000.csv.gz": "4f616a9ce3500d40f50a9aae3d2b35aa1ee6def32d15d974235f154192733ac1",
+  "reviewer_examples/ARCHIVED_RESPONSES.md": "672f0f94f3e1ca38e03852aba77f9c810908cf2bdb1069efca41016ab5f5c3a6",
+  "reviewer_examples/EXACT_PROMPTS.md": "2d8672940088d5a56c06d78b39cbbd98a0a0248e8b9896c47e3f419026aa5e78",
+  "reviewer_examples/examples.json": "704737c2aab0385eb86b4ae800237913fc2f5c1c16e5d47778f4df922e1b0b9e"
 }

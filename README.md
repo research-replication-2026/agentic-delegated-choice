@@ -4,6 +4,8 @@ Replication materials for **Who decides when the agent chooses? Platform commerc
 
 The revised manuscript is based on **8,000 archived responses: 4,000 GPT and 4,000 Claude**, across 50 synthetic scenarios, four policies (N/S/I/C), two simulated tasks and ten repetitions. **Use [revised_8000/](revised_8000/README.md) for this manuscript.** The older 2 × 2 experiment retained elsewhere is a separate study and must not be used as the revised four-policy protocol.
 
+For reviewers: [exact common instruction and four policies](revised_8000/reviewer_examples/EXACT_PROMPTS.md) · [eight matched archived responses, including choices, rationales and commercial declarations](revised_8000/reviewer_examples/ARCHIVED_RESPONSES.md).
+
 ## Revised study: reproduce archived analyses
 
 The package includes exact executed requests and original response envelopes, scenarios and assignment mappings, frozen NLP v2.2.0, deidentified existing human codings, original frozen inference code, portable offline adapters, scientific reference outputs and hash/provenance checks.
