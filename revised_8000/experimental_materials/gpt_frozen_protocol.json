@@ -1,0 +1,51 @@
+{
+  "protocol_version": "EM_control_2026-10-21_v2",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "n_requests": 4000,
+  "n_scenarios": 50,
+  "repetitions": 10,
+  "arms": [
+    "N",
+    "S",
+    "I",
+    "C"
+  ],
+  "action_levels": [
+    "low",
+    "high"
+  ],
+  "primary_contrasts": [
+    "C-S",
+    "C-I",
+    "I-S",
+    "N-S"
+  ],
+  "family_alpha": 0.05,
+  "primary_test": "p=max(p_equal_tailed_scenario_pairs_bootstrap_t,p_t49); Holm across four contrasts",
+  "multiplicity": "Holm across four contrasts",
+  "bootstrap_scenarios": 49999,
+  "bootstrap_seed": 2026102102,
+  "simultaneous_ci_level": 0.9875,
+  "secondary_interactions": true,
+  "max_output_tokens": 1024,
+  "output_cap_status": "FIXED_1024_CANDIDATE_NO_SPENDING_AUTHORIZATION",
+  "temperature": 1,
+  "top_p": 0.98,
+  "reasoning": {
+    "effort": "none"
+  },
+  "max_attempts_per_record": 1,
+  "analysis_missingness": "all assigned; readable selection primary; missing-outcome bounds and descriptive valid cases; no complete-outcome claim if missing",
+  "budget_usd_ex_tax": 15,
+  "regional_multiplier_max": 1.1,
+  "input_token_guard_per_record": 1600,
+  "batch_input_per_million": 0.375,
+  "batch_output_per_million": 2.25,
+  "frozen_date": "2026-10-21",
+  "previous_execution_seal_sha256": "26b61ee0f668430f2c0fb3daefc56d996f0f91ff13343f1f451fb5cecb9c029f",
+  "primary_ci": "envelope of equal-tailed scenario bootstrap-t and t49; 95% and Bonferroni 98.75%",
+  "sensitivity_test": "equal-tailed scenario pairs bootstrap-t alone, separate Holm family of four",
+  "no_distribution_free_finite_sample_guarantee": true,
+  "new_observed_model_outcomes": 0,
+  "submission_authorized": false
+}

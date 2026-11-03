@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "unchanged_archived_analysis": true,
+  "reference_tables_verified": 25,
+  "tables": [
+    {
+      "table": "Adjusted_associations.csv",
+      "rows": 12,
+      "columns": 5,
+      "status": "PASS"
+    },
+    {
+      "table": "Commission_source_check.csv",
+      "rows": 12,
+      "columns": 4,
+      "status": "PASS"
+    },
+    {
+      "table": "Conformity_sensitivity.csv",
+      "rows": 15,
+      "columns": 9,
+      "status": "PASS"
+    },
+    {
+      "table": "Decomposition.csv",
+      "rows": 3,
+      "columns": 2,
+      "status": "PASS"
+    },
+    {
+      "table": "Design_support.csv",
+      "rows": 6,
+      "columns": 3,
+      "status": "PASS"
+    },
+    {
+      "table": "Eligibility.csv",
+      "rows": 5,
+      "columns": 4,
+      "status": "PASS"
+    },
+    {
+      "table": "Frozen_CI_reproduction.csv",
+      "rows": 3,
+      "columns": 9,
+      "status": "PASS"
+    },
+    {
+      "table": "Leave_one_scenario_out.csv",
+      "rows": 150,
+      "columns": 3,
+      "status": "PASS"
+    },
+    {
+      "table": "Model_level_differences.csv",
+      "rows": 4,
+      "columns": 7,
+      "status": "PASS"
+    },
+    {
+      "table": "Moderator_tests.csv",
+      "rows": 15,
+      "columns": 7,
+      "status": "PASS"
+    },
+    {
+      "table": "Paired_transitions.csv",
+      "rows": 488,
+      "columns": 7,
+      "status": "PASS"
+    },
+    {
+      "table": "Policy_rates.csv",
+      "rows": 8,
+      "columns": 13,
+      "status": "PASS"
+    },
+    {
+      "table": "Position_robustness.csv",
+      "rows": 12,
+      "columns": 9,
+      "status": "PASS"
+    },
+    {
+      "table": "Rationale_by_choice.csv",
+      "rows": 108,
+      "columns": 7,
+      "status": "PASS"
+    },
+    {
+      "table": "Rationale_contrasts.csv",
+      "rows": 18,
+      "columns": 8,
+      "status": "PASS"
+    },
+    {
+      "table": "Rationale_descriptives.csv",
+      "rows": 48,
+      "columns": 6,
+      "status": "PASS"
+    },
+    {
+      "table": "Rationale_examples.csv",
+      "rows": 67,
+      "columns": 8,
+      "status": "PASS"
+    },
+    {
+      "table": "Rationale_flags_response.csv",
+      "rows": 8000,
+      "columns": 15,
+      "status": "PASS"
+    },
+    {
+      "table": "Read_me.csv",
+      "rows": 13,
+      "columns": 2,
+      "status": "PASS"
+    },
+    {
+      "table": "Request_settings.csv",
+      "rows": 2,
+      "columns": 3,
+      "status": "PASS"
+    },
+    {
+      "table": "Scenario_effects.csv",
+      "rows": 50,
+      "columns": 6,
+      "status": "PASS"
+    },
+    {
+      "table": "Scenario_policy_rates.csv",
+      "rows": 400,
+      "columns": 9,
+      "status": "PASS"
+    },
+    {
+      "table": "Subgroup_effects.csv",
+      "rows": 60,
+      "columns": 11,
+      "status": "PASS"
+    },
+    {
+      "table": "Technical_by_policy.csv",
+      "rows": 8,
+      "columns": 11,
+      "status": "PASS"
+    },
+    {
+      "table": "Technical_by_response.csv",
+      "rows": 8000,
+      "columns": 12,
+      "status": "PASS"
+    }
+  ],
+  "exploratory_test_families": {
+    "moderator_omnibus": 15,
+    "subgroups": 60,
+    "rationale": 18,
+    "conformity": 12
+  },
+  "scientific_figures_regenerated": 6,
+  "source_files_modified": false,
+  "network_calls": 0,
+  "model_calls": 0
+}

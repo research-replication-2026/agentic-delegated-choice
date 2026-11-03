@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "verdict": "COMPLET",
+  "scope": "Offline analytical replication of the revised 8000-response experiment and existing coding control; no new generation or claims about unmeasured consumer exposure",
+  "pinned_input_files": 99,
+  "source_manifest_rows": 80,
+  "release_file_count_before_this_report": 149,
+  "total_bytes": 9856526,
+  "raw_responses": 8000,
+  "recognized_selections": 7995,
+  "matched_main_numeric_rows": 24,
+  "economic_comparisons": 144,
+  "exploratory_tables": 25,
+  "initial_coding_agreement": "392/400",
+  "cohen_kappa": 0.9647840824052472,
+  "final_NLP_agreement": "388/400",
+  "model_API_calls": 0,
+  "network_calls_during_reproduction": 0
+}

@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "scope": "uploaded local coder workbooks: all ZIP parts, UTF-8/UTF-16 payloads, visible/hidden cells, Office identity properties, comments/links, known personal identity terms and label equivalence",
+  "files": [
+    {
+      "file": "Codage_independant_Codeur_A.xlsx",
+      "sha256": "2ce0448d51d384abd9be1c9e4eb453ad77f85f9ff06f1ef49904f88721232e1b",
+      "sheets": 2,
+      "response_rows": 50,
+      "labels": 400,
+      "labels_matching_published_csv": 400,
+      "identity_properties": {
+        "lastModifiedBy": "empty"
+      },
+      "creator_property_absent": true,
+      "cell_comments": 0,
+      "optional_comment_cells_filled": 0,
+      "hidden_sheets": 0,
+      "hidden_rows": 0,
+      "hidden_columns": 0,
+      "hyperlinks": 0,
+      "external_workbook_links": 0,
+      "defined_names": 0,
+      "formula_cells": 0,
+      "print_settings": [
+        {
+          "part": "xl/printerSettings/printerSettings1.bin",
+          "size": 220,
+          "nonzero_bytes": 39,
+          "readable_strings_present": true,
+          "printer_device_name_empty": true
+        },
+        {
+          "part": "xl/printerSettings/printerSettings2.bin",
+          "size": 220,
+          "nonzero_bytes": 39,
+          "readable_strings_present": true,
+          "printer_device_name_empty": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "file": "Codage_independant_Codeur_B.xlsx",
+      "sha256": "c037a81d3bc872c7e8a4e8f6d2c4d4ce0881a22842665aa65e93abbdd7d87c15",
+      "sheets": 2,
+      "response_rows": 50,
+      "labels": 400,
+      "labels_matching_published_csv": 400,
+      "identity_properties": {
+        "lastModifiedBy": "empty"
+      },
+      "creator_property_absent": true,
+      "cell_comments": 0,
+      "optional_comment_cells_filled": 0,
+      "hidden_sheets": 0,
+      "hidden_rows": 0,
+      "hidden_columns": 0,
+      "hyperlinks": 0,
+      "external_workbook_links": 0,
+      "defined_names": 0,
+      "formula_cells": 0,
+      "print_settings": [
+        {
+          "part": "xl/printerSettings/printerSettings1.bin",
+          "size": 220,
+          "nonzero_bytes": 39,
+          "readable_strings_present": true,
+          "printer_device_name_empty": true
+        },
+        {
+          "part": "xl/printerSettings/printerSettings2.bin",
+          "size": 220,
+          "nonzero_bytes": 39,
+          "readable_strings_present": true,
+          "printer_device_name_empty": true
+        }
+      ],
+      "findings": []
+    }
+  ],
+  "initial_agreements": 392,
+  "total_labels": 400,
+  "agreement_pct": 98.0,
+  "cohen_kappa": 0.9647840824052472,
+  "scientific_labels_changed": false,
+  "original_uploads_modified": false,
+  "limits": "Automated and structural checks cannot guarantee absence of every possible indirect identifier. Synthetic response/option IDs retained.",
+  "publication_role": "Anonymized A/B workbooks are the public workbook versions; exact CSV label projections remain for offline scripts."
+}

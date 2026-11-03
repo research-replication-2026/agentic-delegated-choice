@@ -1,0 +1,58 @@
+[
+  {
+    "implementation": "GPT",
+    "batch": 1,
+    "archived_payload_sha256": "cd0f07dc26fa31db39441ec3b22731535b961b1e7f26b6c10d4abb1fe52830d2",
+    "matches_dated_frozen_manifest": true
+  },
+  {
+    "implementation": "Claude",
+    "batch": 1,
+    "archived_payload_sha256": "9f5ec67c81af51afc31012c5f441b2fc8dac8f273373fccdaca204d0a9e879a5",
+    "submitted_canonical_payload_sha256": "9429d36e7c4aafdc9cc81278138a070dd8d37359cc12adb3b12f3ed40e54fd63",
+    "ledger_state": "retrieved",
+    "submitted_payload_hash_verified": true
+  },
+  {
+    "implementation": "GPT",
+    "batch": 2,
+    "archived_payload_sha256": "4c1d5cc9faf368b25246f3a46eeadebbb688895aade4b742cf389e5da828102e",
+    "matches_dated_frozen_manifest": true
+  },
+  {
+    "implementation": "Claude",
+    "batch": 2,
+    "archived_payload_sha256": "c05c1f2d8a0e30cdc3571d657ceaa9ddc35e941f312e4e0821529b4137c32986",
+    "submitted_canonical_payload_sha256": "f2210bfe94a8b30d76fe86bdacb3b004bbfd4cd74f3909c88070cb05fb8654e8",
+    "ledger_state": "retrieved",
+    "submitted_payload_hash_verified": true
+  },
+  {
+    "implementation": "GPT",
+    "batch": 3,
+    "archived_payload_sha256": "7a57abc764abba4b2673376b051a8925594114b8fa06213975974a1c4acbdb97",
+    "matches_dated_frozen_manifest": true
+  },
+  {
+    "implementation": "Claude",
+    "batch": 3,
+    "archived_payload_sha256": "9dfff66dd175716dcf0839a5b551eaaa8c52b6264be25b67ffa1a05db89edca4",
+    "submitted_canonical_payload_sha256": "bcf019b9a44f6b50ccf1c98b3fffd49769b1436811196786ca99923c688ebed0",
+    "ledger_state": "retrieved",
+    "submitted_payload_hash_verified": true
+  },
+  {
+    "implementation": "GPT",
+    "batch": 4,
+    "archived_payload_sha256": "8785c97820b7096c95f1778875844617e065b03e139b98eea8b615f37a5a5110",
+    "matches_dated_frozen_manifest": true
+  },
+  {
+    "implementation": "Claude",
+    "batch": 4,
+    "archived_payload_sha256": "cca0ccc9a0e07c0314d24efb42d10096701b0ec04f037a1d126eea4aa853b2ae",
+    "submitted_canonical_payload_sha256": "a456a6d47350a874f0aa2dc743e2f0b35fec1be3579cab99ac4cdc3586082329",
+    "ledger_state": "retrieved",
+    "submitted_payload_hash_verified": true
+  }
+]

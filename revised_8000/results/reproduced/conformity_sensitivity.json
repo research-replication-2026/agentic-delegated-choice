@@ -1,0 +1,142 @@
+{
+  "GPT": [
+    {
+      "contrast": "C-S",
+      "missing_outcomes": 13,
+      "assigned_difference_bounds": [
+        0.076,
+        0.08900000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        0.046,
+        0.11900000000000001
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": 0.08085380116959064
+    },
+    {
+      "contrast": "C-I",
+      "missing_outcomes": 12,
+      "assigned_difference_bounds": [
+        0.11900000000000001,
+        0.131
+      ],
+      "bounds_outer_bootstrap95": [
+        0.086,
+        0.17
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": 0.12293567251461988
+    },
+    {
+      "contrast": "I-S",
+      "missing_outcomes": 11,
+      "assigned_difference_bounds": [
+        -0.04800000000000001,
+        -0.037000000000000005
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.09,
+        -0.0030000000000000014
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": -0.04278362573099415
+    },
+    {
+      "contrast": "N-S",
+      "missing_outcomes": 13,
+      "assigned_difference_bounds": [
+        -0.0019999999999999987,
+        0.011000000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.015000000000000003,
+        0.024000000000000004
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": 0.003052631578947368
+    }
+  ],
+  "Claude": [
+    {
+      "contrast": "C-S",
+      "missing_outcomes": 339,
+      "assigned_difference_bounds": [
+        -0.28300000000000003,
+        0.05600000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.33899999999999997,
+        0.09300000000000001
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": -0.057111693002559874
+    },
+    {
+      "contrast": "C-I",
+      "missing_outcomes": 212,
+      "assigned_difference_bounds": [
+        -0.11200000000000002,
+        0.10000000000000002
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.14799999999999996,
+        0.132
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": 0.01366243105020195
+    },
+    {
+      "contrast": "I-S",
+      "missing_outcomes": 367,
+      "assigned_difference_bounds": [
+        -0.29100000000000004,
+        0.07600000000000001
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.34299999999999997,
+        0.11
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": -0.06358164547870432
+    },
+    {
+      "contrast": "N-S",
+      "missing_outcomes": 459,
+      "assigned_difference_bounds": [
+        -0.233,
+        0.226
+      ],
+      "bounds_outer_bootstrap95": [
+        -0.28,
+        0.266
+      ],
+      "estimate": null,
+      "p_raw": null,
+      "p_holm": null,
+      "status": "not_point_identified_missing_outcomes",
+      "descriptive_available_pair_scenario_average": -0.005368071471012648
+    }
+  ]
+}

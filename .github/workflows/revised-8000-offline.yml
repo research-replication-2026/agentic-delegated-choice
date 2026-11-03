@@ -1,0 +1,28 @@
+name: Revised 8000 offline replication
+on:
+  pull_request:
+    paths:
+      - 'revised_8000/**'
+      - '.github/workflows/revised-8000-offline.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: revised_8000/analysis/requirements.txt
+      - name: Install analytical dependencies
+        run: python -m pip install -r revised_8000/analysis/requirements.txt
+      - name: Reproduce raw scoring, inference, NLP and existing coding control
+        run: python -B revised_8000/analysis/reproduce.py
+      - name: Reproduce archived exploratory analyses
+        run: python -B revised_8000/analysis/reproduce_mechanisms.py
+      - name: Verify release integrity and confidential-data exclusions
+        run: python -B revised_8000/analysis/check_release.py

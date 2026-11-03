@@ -1,0 +1,31 @@
+{
+  "GPT": {
+    "n": 4000,
+    "schema_valid": 3987,
+    "completed": 4000,
+    "selection_readable": 4000,
+    "fully_conformant_frozen_definition": 3975,
+    "input_tokens": 4366240,
+    "output_tokens": 1084632,
+    "output_token_mean": 271.158,
+    "output_token_max": 396
+  },
+  "Claude": {
+    "n": 4000,
+    "schema_valid": 3870,
+    "completed": 3902,
+    "selection_readable": 3995,
+    "fully_conformant_frozen_definition": 3329,
+    "input_tokens": 9039040,
+    "output_tokens": 3146573,
+    "output_token_mean": 786.64325,
+    "output_token_max": 1024,
+    "truncations": 98,
+    "schema_events": 228,
+    "ranking_unknown_identifiers": 13,
+    "ranking_duplicates": 15,
+    "selected_not_ranked_first": 79,
+    "alternative_identifiers_outside_catalog": 557,
+    "manipulation_flags_conformant": 3902
+  }
+}

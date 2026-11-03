@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "physical_working_files_scanned": 470,
+  "scope": "working files, gzip/Office archives, PDF text/author metadata, image metadata and reachable Git history",
+  "counts": {
+    "working_payloads_including_decompressed": 681,
+    "office_or_zip_archives": 24,
+    "gzip_archives": 119,
+    "images": 30,
+    "pdf_documents": 21,
+    "additional_historical_payloads": 8
+  },
+  "metadata_checks": {
+    "office_identity_properties": 5,
+    "images_with_only_generic_software_metadata": 30
+  },
+  "private_identity_terms_checked": true,
+  "private_identity_values_not_published": true,
+  "reachable_commits_checked": 6,
+  "commit_identity_categories": [
+    "neutral",
+    "platform_alias"
+  ],
+  "findings": [],
+  "platform_limit": "GitHub account/actor aliases, repository ownership, external copies, cached history and cross-repository linkability are not removed by file anonymization. No absolute non-reidentification guarantee is made."
+}
